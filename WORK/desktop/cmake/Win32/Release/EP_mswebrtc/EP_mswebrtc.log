@@ -1,0 +1,263 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_mswebrtc'
+  No download step for 'EP_mswebrtc'
+  No update step for 'EP_mswebrtc'
+  No patch step for 'EP_mswebrtc'
+  Performing configure step for 'EP_mswebrtc'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc/EP_mswebrtc-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is mswebrtc-1.1.1
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc
+  Forcing build for 'EP_mswebrtc'
+  Performing build step for 'EP_mswebrtc'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:11:26.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "mswebrtc.dir\Release\".
+    Creating directory "mswebrtc.dir\Release\mswebrtc.tlog\".
+  InitializeBuildStatus:
+    Creating "mswebrtc.dir\Release\mswebrtc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include" /I\include /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D WEBRTC_WIN /D "CMAKE_INTDIR=\"Release\"" /D mswebrtc_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mswebrtc.dir\Release\\" /Fd"mswebrtc.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\mswebrtc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\fft4g.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\ring_buffer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\real_fft.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar_fast_q12.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_bit_reverse.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_init.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\splitting_filter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt_floor.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\levinson_durbin.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_scaling_square.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_fractional.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\downsample_fast.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ma_fast_q12.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_corr_to_refl_coef.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_correlation.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\refl_coef_to_lpc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\dot_product_with_scale.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\copy_set_operations.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\cross_correlation.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\ilbc_specific_functions.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_fft.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_48khz.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\energy.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_hanning_window.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\randomization_functions.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\vector_scaling_operations.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2_internal.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\lpc_to_refl_coef.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\min_max_operations.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\division_operations.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\aec.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_resampler.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator_wrapper.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core_sse2.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft_sse2.c"
+    mswebrtc.c
+    fft4g.c
+    ring_buffer.c
+    spl_sqrt.c
+    real_fft.c
+    filter_ar_fast_q12.c
+    complex_bit_reverse.c
+    spl_init.c
+    splitting_filter.c
+    spl_sqrt_floor.c
+    levinson_durbin.c
+    filter_ar.c
+    get_scaling_square.c
+    resample_fractional.c
+    resample.c
+    downsample_fast.c
+    filter_ma_fast_q12.c
+    auto_corr_to_refl_coef.c
+    auto_correlation.c
+    refl_coef_to_lpc.c
+    dot_product_with_scale.c
+    copy_set_operations.c
+    cross_correlation.c
+    sqrt_of_one_minus_x_squared.c
+    ilbc_specific_functions.c
+    resample_by_2.c
+    complex_fft.c
+    resample_48khz.c
+    energy.c
+    get_hanning_window.c
+    randomization_functions.c
+    vector_scaling_operations.c
+    resample_by_2_internal.c
+    lpc_to_refl_coef.c
+    min_max_operations.c
+    division_operations.c
+    aec.c
+    aec_core.c
+    aec_rdft.c
+    aec_resampler.c
+    echo_cancellation.c
+    delay_estimator.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.c(878): warning C4244: '=': conversion from 'double' to 'short', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj]
+    delay_estimator_wrapper.c
+    aec_core_sse2.c
+    aec_rdft_sse2.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include" /I\include /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D WEBRTC_WIN /D "CMAKE_INTDIR=\"Release\"" /D mswebrtc_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mswebrtc.dir\Release\\" /Fd"mswebrtc.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\aec_splitting_filter.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\base\checks.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\audio_util.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\sparse_fir_filter.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\system_wrappers\source\cpu_features.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc"
+    aec_splitting_filter.cc
+    checks.cc
+    audio_util.cc
+    sparse_fir_filter.cc
+    cpu_features.cc
+    three_band_filter_bank.cc
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj]
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\Release\libmswebrtc.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mediastreamer.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\ortp.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/Release/libmswebrtc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/Release/mswebrtc.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL mswebrtc.dir\Release\mswebrtc.obj
+    mswebrtc.dir\Release\fft4g.obj
+    mswebrtc.dir\Release\ring_buffer.obj
+    mswebrtc.dir\Release\spl_sqrt.obj
+    mswebrtc.dir\Release\real_fft.obj
+    mswebrtc.dir\Release\filter_ar_fast_q12.obj
+    mswebrtc.dir\Release\complex_bit_reverse.obj
+    mswebrtc.dir\Release\spl_init.obj
+    mswebrtc.dir\Release\splitting_filter.obj
+    mswebrtc.dir\Release\spl_sqrt_floor.obj
+    mswebrtc.dir\Release\levinson_durbin.obj
+    mswebrtc.dir\Release\filter_ar.obj
+    mswebrtc.dir\Release\get_scaling_square.obj
+    mswebrtc.dir\Release\resample_fractional.obj
+    mswebrtc.dir\Release\resample.obj
+    mswebrtc.dir\Release\downsample_fast.obj
+    mswebrtc.dir\Release\filter_ma_fast_q12.obj
+    mswebrtc.dir\Release\auto_corr_to_refl_coef.obj
+    mswebrtc.dir\Release\auto_correlation.obj
+    mswebrtc.dir\Release\refl_coef_to_lpc.obj
+    mswebrtc.dir\Release\dot_product_with_scale.obj
+    mswebrtc.dir\Release\copy_set_operations.obj
+    mswebrtc.dir\Release\cross_correlation.obj
+    mswebrtc.dir\Release\sqrt_of_one_minus_x_squared.obj
+    mswebrtc.dir\Release\ilbc_specific_functions.obj
+    mswebrtc.dir\Release\resample_by_2.obj
+    mswebrtc.dir\Release\complex_fft.obj
+    mswebrtc.dir\Release\resample_48khz.obj
+    mswebrtc.dir\Release\energy.obj
+    mswebrtc.dir\Release\get_hanning_window.obj
+    mswebrtc.dir\Release\randomization_functions.obj
+    mswebrtc.dir\Release\vector_scaling_operations.obj
+    mswebrtc.dir\Release\resample_by_2_internal.obj
+    mswebrtc.dir\Release\lpc_to_refl_coef.obj
+    mswebrtc.dir\Release\min_max_operations.obj
+    mswebrtc.dir\Release\division_operations.obj
+    mswebrtc.dir\Release\aec.obj
+    mswebrtc.dir\Release\aec_splitting_filter.obj
+    mswebrtc.dir\Release\aec_core.obj
+    mswebrtc.dir\Release\aec_rdft.obj
+    mswebrtc.dir\Release\aec_resampler.obj
+    mswebrtc.dir\Release\echo_cancellation.obj
+    mswebrtc.dir\Release\checks.obj
+    mswebrtc.dir\Release\audio_util.obj
+    mswebrtc.dir\Release\sparse_fir_filter.obj
+    mswebrtc.dir\Release\cpu_features.obj
+    mswebrtc.dir\Release\three_band_filter_bank.obj
+    mswebrtc.dir\Release\delay_estimator.obj
+    mswebrtc.dir\Release\delay_estimator_wrapper.obj
+    mswebrtc.dir\Release\aec_core_sse2.obj
+    mswebrtc.dir\Release\aec_rdft_sse2.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/Release/mswebrtc.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/Release/mswebrtc.exp
+    mswebrtc.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\Release\libmswebrtc.dll
+  FinalizeBuildStatus:
+    Deleting file "mswebrtc.dir\Release\mswebrtc.tlog\unsuccessfulbuild".
+    Touching "mswebrtc.dir\Release\mswebrtc.tlog\mswebrtc.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.c(878): warning C4244: '=': conversion from 'double' to 'short', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj]
+  
+      2 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:08.95
+  Performing install step for 'EP_mswebrtc'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:11:35.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "mswebrtc.dir\Release\mswebrtc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mswebrtc.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\Release\libmswebrtc.dll
+  FinalizeBuildStatus:
+    Deleting file "mswebrtc.dir\Release\mswebrtc.tlog\unsuccessfulbuild".
+    Touching "mswebrtc.dir\Release\mswebrtc.tlog\mswebrtc.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\mswebrtc.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/mediastreamer/plugins/libmswebrtc.dll
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.03
+  Completed 'EP_mswebrtc'

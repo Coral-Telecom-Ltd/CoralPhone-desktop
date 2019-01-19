@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\containers\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\logging\logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\vconnect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\vfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\crypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\mbedtls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\containers\map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\conversion\charconv_encoding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\exception.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\regex.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\conversion\charconv_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\ecc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\charconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\exception.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\vconnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\vfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include\bctoolbox\tester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3916A0E9-FECE-37BE-AED4-56DC8985B85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F6A89BEC-E799-3718-B790-372C1C0744E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

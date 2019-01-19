@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\libxsd\CMakeFiles\b0352cb01ebba18210bd8f4c3b241e51\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{416B80B3-A5F4-3AA4-AC1A-29075DE33443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

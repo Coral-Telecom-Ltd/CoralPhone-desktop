@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/backends/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/cmake/modules/FindSQLite3.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake

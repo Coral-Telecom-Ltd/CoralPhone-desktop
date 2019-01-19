@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroskamain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroskablock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroska_sem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\array.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\bufstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\memstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\streams.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\tools.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\md5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\parser2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\strtab.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\strtypes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\dataheap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\hotkey.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\nodelookup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\urlpart.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\node.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\nodetree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\str.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\charconvert_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\date_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\file_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\ccsystem_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\multithread_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\str_win32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\stream_stdio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlmain.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlelement.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlmaster.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlbinary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlstring.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlnumber.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlcrc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmldate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlvoid.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{393F4F8E-7787-3C93-AED8-2718CF06904D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{DFE1C505-25C3-3139-B30F-C642B7B7DBE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{08963898-A89F-3407-8D2E-AE2CCEDCA709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

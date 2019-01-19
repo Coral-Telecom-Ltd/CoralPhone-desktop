@@ -1,0 +1,15 @@
+# Target labels
+ EP_bcunit
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_bcunit
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_bcunit.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_bcunit-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/0638cbdea09ed6091eeb6023164bdd3f/EP_bcunit-force_build.rule

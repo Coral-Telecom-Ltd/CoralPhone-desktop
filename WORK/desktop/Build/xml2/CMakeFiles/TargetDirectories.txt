@@ -1,0 +1,4 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/xml2.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/ZERO_CHECK.dir

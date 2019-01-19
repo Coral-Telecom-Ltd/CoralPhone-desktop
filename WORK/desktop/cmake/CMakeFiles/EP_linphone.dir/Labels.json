@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_linphone"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_linphone.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_linphone-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-build.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/40976f192517cb1c2ffba9f35c75cd28/EP_linphone-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_linphone" ],
+		"name" : "EP_linphone"
+	}
+}

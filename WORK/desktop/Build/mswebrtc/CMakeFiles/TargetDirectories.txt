@@ -1,0 +1,7 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/mswebrtc.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/build/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc/build/CMakeFiles/INSTALL.dir

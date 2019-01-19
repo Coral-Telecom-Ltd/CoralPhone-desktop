@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{562C667C-16E6-38FC-938C-C41F0C1CEF80}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>mbedcrypto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mbedcrypto.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mbedcrypto</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mbedcrypto.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mbedcrypto</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">mbedcrypto.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">mbedcrypto</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">mbedcrypto.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">mbedcrypto</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;kernel32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Debug/mbedcrypto.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedcrypto.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Debug/mbedcrypto.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;MBEDTLS_PLATFORM_SNPRINTF_MACRO=_snprintf;MBEDTLS_EXPORTS;CMAKE_INTDIR="Release";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;MBEDTLS_PLATFORM_SNPRINTF_MACRO=_snprintf;MBEDTLS_EXPORTS;CMAKE_INTDIR=\"Release\";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;kernel32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedcrypto.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;kernel32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/MinSizeRel/mbedcrypto.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedcrypto.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/MinSizeRel/mbedcrypto.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";mbedcrypto_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;kernel32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/RelWithDebInfo/mbedcrypto.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedcrypto.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/RelWithDebInfo/mbedcrypto.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\aes.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\aesni.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\arc4.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\asn1parse.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\asn1write.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\base64.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\bignum.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\blowfish.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\camellia.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ccm.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cipher.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cipher_wrap.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cmac.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ctr_drbg.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\des.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\dhm.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecdh.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecdsa.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecjpake.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecp.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecp_curves.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\entropy.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\entropy_poll.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\error.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\gcm.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\havege.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\hmac_drbg.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md2.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md4.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md5.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md_wrap.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\memory_buffer_alloc.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\oid.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\padlock.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pem.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pk.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pk_wrap.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkcs12.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkcs5.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkparse.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkwrite.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\platform.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ripemd160.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\rsa.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha1.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha256.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha512.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\threading.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\timing.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\version.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\version_features.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\xtea.c"  />
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\mbedcrypto.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ZERO_CHECK.vcxproj">
+      <Project>{35ED07A7-B6DA-3D55-A7E3-67C49036BCB0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

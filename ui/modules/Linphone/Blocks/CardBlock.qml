@@ -7,7 +7,7 @@ import Linphone.Styles 1.0
 
 Column {
   default property alias _content: content.data
-  property alias icon: coral.icon
+  property alias icon: icon.icon
   property alias title: title.text
   property alias description: description.text
 

@@ -1,0 +1,15 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/include/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/include/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/bctoolbox.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/bctoolbox-tester.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/CMakeFiles/bctoolbox_tester_exe.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/build/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/build/CMakeFiles/INSTALL.dir

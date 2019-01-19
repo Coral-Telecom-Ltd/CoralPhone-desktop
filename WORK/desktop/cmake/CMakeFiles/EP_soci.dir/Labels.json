@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_soci"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_soci.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_soci-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-build.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f9c568f17bc4d5c394a3e6d9a21c2fc/EP_soci-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_soci" ],
+		"name" : "EP_soci"
+	}
+}

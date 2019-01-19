@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\mswebrtc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\fft4g.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\ring_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\real_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar_fast_q12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_bit_reverse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\splitting_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt_floor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\levinson_durbin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_scaling_square.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_fractional.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\downsample_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ma_fast_q12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_corr_to_refl_coef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_correlation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\refl_coef_to_lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\dot_product_with_scale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\copy_set_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\cross_correlation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\ilbc_specific_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_48khz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\energy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_hanning_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\randomization_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\vector_scaling_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\lpc_to_refl_coef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\min_max_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\division_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\aec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\aec_splitting_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_resampler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\base\checks.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\audio_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\sparse_fir_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\system_wrappers\source\cpu_features.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator_wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mswebrtc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{24DE95D3-020B-312C-BD62-BA6B6995BE8D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

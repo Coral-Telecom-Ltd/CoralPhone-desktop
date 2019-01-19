@@ -1,0 +1,63 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_ffmpeg"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_ffmpeg.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_ffmpeg-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-build.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-postinstall.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/a7fb3b420ac5745c7fc77d147ad9a1f5/EP_ffmpeg-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_ffmpeg" ],
+		"name" : "EP_ffmpeg"
+	}
+}

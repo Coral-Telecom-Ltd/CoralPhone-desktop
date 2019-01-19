@@ -1,0 +1,11 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/include/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/include/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/CMakeFiles/ortp.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/build/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/build/CMakeFiles/INSTALL.dir

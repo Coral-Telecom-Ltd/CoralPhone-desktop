@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_addressing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_communication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_explanatory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_geographical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_organizational.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_rfc6474.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_calendar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_identification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_params.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_security.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\vcard_grammar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\vcard_grammar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23BEA15D-1ABC-3A30-B305-0A96326254DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

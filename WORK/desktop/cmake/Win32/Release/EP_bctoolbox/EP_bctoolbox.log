@@ -1,0 +1,310 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_bctoolbox'
+  No download step for 'EP_bctoolbox'
+  No update step for 'EP_bctoolbox'
+  No patch step for 'EP_bctoolbox'
+  Performing configure step for 'EP_bctoolbox'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_bctoolbox/EP_bctoolbox-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for mbedtls_ssl_init
+  -- Looking for mbedtls_ssl_init - found
+  -- Looking for mbedtls_ssl_get_dtls_srtp_protection_profile
+  -- Looking for mbedtls_ssl_get_dtls_srtp_protection_profile - found
+  -- Found MbedTLS: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Using mbedTLS
+  -- DTLS SRTP available
+  -- Looking for CU_get_suite
+  -- Looking for CU_get_suite - found
+  -- Looking for CU_curses_run_tests
+  -- Looking for CU_curses_run_tests - not found
+  -- Looking for CU_set_trace_handler
+  -- Looking for CU_set_trace_handler - found
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Looking for clock_gettime in rt
+  -- Looking for clock_gettime in rt - not found
+  -- Looking for dladdr in dl
+  -- Looking for dladdr in dl - not found
+  -- Looking for execinfo.h
+  -- Looking for execinfo.h - not found
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is bctoolbox-0.6.0
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox
+  Forcing build for 'EP_bctoolbox'
+  Performing build step for 'EP_bctoolbox'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:56:40.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bctoolbox.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\".
+    Creating directory "bctoolbox.dir\Release\bctoolbox.tlog\".
+  InitializeBuildStatus:
+    Creating "bctoolbox.dir\Release\bctoolbox.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bctoolbox/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BCTBX_EXPORTS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D bctoolbox_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bctoolbox.dir\Release\\" /Fd"bctoolbox.dir\Release\vc140.pdb" /Gd /TC /wd4996 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\containers\list.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\logging\logging.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\parser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\port.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\vconnect.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\vfs.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\crypto.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\mbedtls.c"
+    list.c
+    logging.c
+    parser.c
+    port.c
+    vconnect.c
+    vfs.c
+    crypto.c
+    mbedtls.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BCTBX_EXPORTS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D bctoolbox_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bctoolbox.dir\Release\\" /Fd"bctoolbox.dir\Release\vc140.pdb" /Gd /TP /wd4996 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\containers\map.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\conversion\charconv_encoding.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\exception.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\utils\regex.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\conversion\charconv_windows.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\crypto\ecc.cc"
+    map.cc
+    charconv_encoding.cc
+    exception.cc
+    regex.cc
+    charconv_windows.cc
+    ecc.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Winmm.lib Ws2_32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedtls.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedx509.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedcrypto.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL bctoolbox.dir\Release\list.obj
+    bctoolbox.dir\Release\logging.obj
+    bctoolbox.dir\Release\parser.obj
+    bctoolbox.dir\Release\port.obj
+    bctoolbox.dir\Release\vconnect.obj
+    bctoolbox.dir\Release\vfs.obj
+    bctoolbox.dir\Release\crypto.obj
+    bctoolbox.dir\Release\mbedtls.obj
+    bctoolbox.dir\Release\map.obj
+    bctoolbox.dir\Release\charconv_encoding.obj
+    bctoolbox.dir\Release\exception.obj
+    bctoolbox.dir\Release\regex.obj
+    bctoolbox.dir\Release\charconv_windows.obj
+    bctoolbox.dir\Release\ecc.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox.exp
+    bctoolbox.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox.dll
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox.dir\Release\bctoolbox.tlog\unsuccessfulbuild".
+    Touching "bctoolbox.dir\Release\bctoolbox.tlog\bctoolbox.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox-tester.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bctoolbox-tester.dir\Release\".
+    Creating directory "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\".
+  InitializeBuildStatus:
+    Creating "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bctoolbox/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BCTBX_EXPORTS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D bctoolbox_tester_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bctoolbox-tester.dir\Release\\" /Fd"bctoolbox-tester.dir\Release\vc140.pdb" /Gd /TC /wd4996 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src\tester.c"
+    tester.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox-tester.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Release\bctoolbox.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bcunit.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox-tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox-tester.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL "bctoolbox-tester.dir\Release\tester.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox-tester.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/src/Release/bctoolbox-tester.exp
+    bctoolbox-tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox-tester.dll
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\unsuccessfulbuild".
+    Touching "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\bctoolbox-tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox-tester.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\bctoolbox_tester_exe.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bctoolbox_tester_exe.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\Release\".
+    Creating directory "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\".
+  InitializeBuildStatus:
+    Creating "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bctoolbox/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bctoolbox_tester_exe.dir\Release\\" /Fd"bctoolbox_tester_exe.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\tester\bctoolbox_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\tester\port.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\tester\parser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\tester\crypto.c"
+    bctoolbox_tester.c
+    port.c
+    parser.c
+    crypto.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bctoolbox_tester_exe.dir\Release\\" /Fd"bctoolbox_tester_exe.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bctoolbox\tester\containers.cc"
+    containers.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\Release\bctoolbox_tester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\bctoolbox.lib "..\src\Release\bctoolbox-tester.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedtls.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedx509.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mbedcrypto.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/Release/bctoolbox_tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/tester/Release/bctoolbox_tester.lib" /MACHINE:X86 /SAFESEH   /machine:X86 bctoolbox_tester_exe.dir\Release\bctoolbox_tester.obj
+    bctoolbox_tester_exe.dir\Release\containers.obj
+    bctoolbox_tester_exe.dir\Release\port.obj
+    bctoolbox_tester_exe.dir\Release\parser.obj
+    bctoolbox_tester_exe.dir\Release\crypto.obj
+    bctoolbox_tester_exe.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\Release\bctoolbox_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\unsuccessfulbuild".
+    Touching "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\bctoolbox_tester_exe.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\bctoolbox_tester_exe.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bctoolbox/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bctoolbox/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:17.27
+  Performing install step for 'EP_bctoolbox'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:56:57.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bctoolbox.dir\Release\bctoolbox.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bctoolbox.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox.dll
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox.dir\Release\bctoolbox.tlog\unsuccessfulbuild".
+    Touching "bctoolbox.dir\Release\bctoolbox.tlog\bctoolbox.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox-tester.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bctoolbox-tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\Release\bctoolbox-tester.dll
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\unsuccessfulbuild".
+    Touching "bctoolbox-tester.dir\Release\bctoolbox-tester.tlog\bctoolbox-tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\src\bctoolbox-tester.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\bctoolbox_tester_exe.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bctoolbox_tester_exe.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\Release\bctoolbox_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\unsuccessfulbuild".
+    Touching "bctoolbox_tester_exe.dir\Release\bctoolbo.96529599.tlog\bctoolbox_tester_exe.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\tester\bctoolbox_tester_exe.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/pkgconfig/bctoolbox.pc
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/pkgconfig/bctoolbox-tester.pc
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcToolboxTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcToolboxTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcToolboxConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcToolboxConfigVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcToolboxCMakeUtils.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/BcGitVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bctoolbox/cmake/gitversion.h.in
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/charconv.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/compiler.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/defs.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/exception.hh
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/list.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/logging.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/map.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/parser.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/port.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/regex.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/vconnect.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/vfs.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/crypto.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bctoolbox/tester.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/bctoolbox.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/bctoolbox.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/bctoolbox-tester.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/bctoolbox-tester.dll
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bctoolbox\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.10
+  Completed 'EP_bctoolbox'

@@ -1,0 +1,328 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_turbo-jpeg'
+  No download step for 'EP_turbo-jpeg'
+  No update step for 'EP_turbo-jpeg'
+  No patch step for 'EP_turbo-jpeg'
+  Performing configure step for 'EP_turbo-jpeg'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_turbo-jpeg/EP_turbo-jpeg-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of size_t
+  -- Check size of size_t - done
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  -- Looking for locale.h
+  -- Looking for locale.h - found
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/turbo-jpeg
+  Forcing build for 'EP_turbo-jpeg'
+  Performing build step for 'EP_turbo-jpeg'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:58:01.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/turbo-jpeg/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "turbojpeg-static.dir\Release\".
+    Creating directory "turbojpeg-static.dir\Release\turbojpeg-static.tlog\".
+  InitializeBuildStatus:
+    Creating "turbojpeg-static.dir\Release\turbojpeg-static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/libjpeg-turbo/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/turbo-jpeg/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"turbojpeg-static.dir\Release\\" /Fd"turbojpeg-static.dir\Release\turbojpeg-static.pdb" /Gd /TC /analyze- /errorReport:queue   -fPIC "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcapimin.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcapistd.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jccoefct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jccolor.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcdctmgr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jchuff.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcinit.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcmainct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcmarker.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcmaster.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcomapi.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcparam.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcphuff.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcprepct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jcsample.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jctrans.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdapimin.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdapistd.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdatadst.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdatasrc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdcoefct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdcolor.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jddctmgr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdhuff.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdinput.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdmainct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdmarker.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdmaster.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdmerge.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdphuff.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdpostct.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdsample.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdtrans.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jerror.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jfdctflt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jfdctfst.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jfdctint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jidctflt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jidctfst.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jidctint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jidctred.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jquant1.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jquant2.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jutils.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jmemmgr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jmemnobs.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jsimd_none.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\transupp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdatadst-tj.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\jdatasrc-tj.c"
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    jcapimin.c
+    jcapistd.c
+    jccoefct.c
+    jccolor.c
+    jcdctmgr.c
+    jchuff.c
+    jcinit.c
+    jcmainct.c
+    jcmarker.c
+    jcmaster.c
+    jcomapi.c
+    jcparam.c
+    jcphuff.c
+    jcprepct.c
+    jcsample.c
+    jctrans.c
+    jdapimin.c
+    jdapistd.c
+    jdatadst.c
+    jdatasrc.c
+    jdcoefct.c
+    jdcolor.c
+    jddctmgr.c
+    jdhuff.c
+    jdinput.c
+    jdmainct.c
+    jdmarker.c
+    jdmaster.c
+    jdmerge.c
+    jdphuff.c
+    jdpostct.c
+    jdsample.c
+    jdtrans.c
+    jerror.c
+    jfdctflt.c
+    jfdctfst.c
+    jfdctint.c
+    jidctflt.c
+    jidctfst.c
+    jidctint.c
+    jidctred.c
+    jquant1.c
+    jquant2.c
+    jutils.c
+    jmemmgr.c
+    jmemnobs.c
+    jsimd_none.c
+    turbojpeg.c
+    transupp.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(798): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(799): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(800): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(919): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(920): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(921): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1115): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1116): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1117): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1392): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1393): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1394): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1591): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1592): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1593): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1768): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1769): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1770): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2029): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    jdatadst-tj.c
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2030): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2031): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1354): note: see declaration of 'putenv'
+    jdatasrc-tj.c
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\Release\turbojpeg-static.lib" /NOLOGO   /machine:X86 "turbojpeg-static.dir\Release\jcapimin.obj"
+    "turbojpeg-static.dir\Release\jcapistd.obj"
+    "turbojpeg-static.dir\Release\jccoefct.obj"
+    "turbojpeg-static.dir\Release\jccolor.obj"
+    "turbojpeg-static.dir\Release\jcdctmgr.obj"
+    "turbojpeg-static.dir\Release\jchuff.obj"
+    "turbojpeg-static.dir\Release\jcinit.obj"
+    "turbojpeg-static.dir\Release\jcmainct.obj"
+    "turbojpeg-static.dir\Release\jcmarker.obj"
+    "turbojpeg-static.dir\Release\jcmaster.obj"
+    "turbojpeg-static.dir\Release\jcomapi.obj"
+    "turbojpeg-static.dir\Release\jcparam.obj"
+    "turbojpeg-static.dir\Release\jcphuff.obj"
+    "turbojpeg-static.dir\Release\jcprepct.obj"
+    "turbojpeg-static.dir\Release\jcsample.obj"
+    "turbojpeg-static.dir\Release\jctrans.obj"
+    "turbojpeg-static.dir\Release\jdapimin.obj"
+    "turbojpeg-static.dir\Release\jdapistd.obj"
+    "turbojpeg-static.dir\Release\jdatadst.obj"
+    "turbojpeg-static.dir\Release\jdatasrc.obj"
+    "turbojpeg-static.dir\Release\jdcoefct.obj"
+    "turbojpeg-static.dir\Release\jdcolor.obj"
+    "turbojpeg-static.dir\Release\jddctmgr.obj"
+    "turbojpeg-static.dir\Release\jdhuff.obj"
+    "turbojpeg-static.dir\Release\jdinput.obj"
+    "turbojpeg-static.dir\Release\jdmainct.obj"
+    "turbojpeg-static.dir\Release\jdmarker.obj"
+    "turbojpeg-static.dir\Release\jdmaster.obj"
+    "turbojpeg-static.dir\Release\jdmerge.obj"
+    "turbojpeg-static.dir\Release\jdphuff.obj"
+    "turbojpeg-static.dir\Release\jdpostct.obj"
+    "turbojpeg-static.dir\Release\jdsample.obj"
+    "turbojpeg-static.dir\Release\jdtrans.obj"
+    "turbojpeg-static.dir\Release\jerror.obj"
+    "turbojpeg-static.dir\Release\jfdctflt.obj"
+    "turbojpeg-static.dir\Release\jfdctfst.obj"
+    "turbojpeg-static.dir\Release\jfdctint.obj"
+    "turbojpeg-static.dir\Release\jidctflt.obj"
+    "turbojpeg-static.dir\Release\jidctfst.obj"
+    "turbojpeg-static.dir\Release\jidctint.obj"
+    "turbojpeg-static.dir\Release\jidctred.obj"
+    "turbojpeg-static.dir\Release\jquant1.obj"
+    "turbojpeg-static.dir\Release\jquant2.obj"
+    "turbojpeg-static.dir\Release\jutils.obj"
+    "turbojpeg-static.dir\Release\jmemmgr.obj"
+    "turbojpeg-static.dir\Release\jmemnobs.obj"
+    "turbojpeg-static.dir\Release\jsimd_none.obj"
+    "turbojpeg-static.dir\Release\turbojpeg.obj"
+    "turbojpeg-static.dir\Release\transupp.obj"
+    "turbojpeg-static.dir\Release\jdatadst-tj.obj"
+    "turbojpeg-static.dir\Release\jdatasrc-tj.obj"
+    turbojpeg-static.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\Release\turbojpeg-static.lib
+  FinalizeBuildStatus:
+    Deleting file "turbojpeg-static.dir\Release\turbojpeg-static.tlog\unsuccessfulbuild".
+    Touching "turbojpeg-static.dir\Release\turbojpeg-static.tlog\turbojpeg-static.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/libjpeg-turbo/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/turbo-jpeg/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fPIC' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(798): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(799): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(800): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(919): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(920): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(921): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1115): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1116): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1117): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1392): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1393): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1394): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1591): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1592): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1593): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1768): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1769): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(1770): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2029): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2030): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libjpeg-turbo\turbojpeg.c(2031): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj]
+  
+      24 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:09.07
+  Performing install step for 'EP_turbo-jpeg'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:58:10.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "turbojpeg-static.dir\Release\turbojpeg-static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    turbojpeg-static.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\Release\turbojpeg-static.lib
+  FinalizeBuildStatus:
+    Deleting file "turbojpeg-static.dir\Release\turbojpeg-static.tlog\unsuccessfulbuild".
+    Touching "turbojpeg-static.dir\Release\turbojpeg-static.tlog\turbojpeg-static.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\turbojpeg-static.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/turbojpeg-static.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/turbojpeg.h
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.24
+  Completed 'EP_turbo-jpeg'

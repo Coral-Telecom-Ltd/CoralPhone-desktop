@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\cipher.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\null_cipher.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes_icm.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\null_auth.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\sha1.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\hmac.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\auth.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\math\datatypes.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\math\stat.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\crypto_kernel.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\alloc.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\key.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\err.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\rdb.c">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\rdbx.c">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\ut_sim.c">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\srtp\srtp.c">
+      <Filter>srtpobj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\srtp\ekt.c">
+      <Filter>srtpobj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\srtp.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C66C517-5FA5-374E-AE25-FDBBCBAB6D11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3CC043AA-FA2C-3B83-B0D5-8139F33C7F65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ciphers">
+      <UniqueIdentifier>{1445EB29-CF85-35F0-A47B-01E7E98CC9A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes">
+      <UniqueIdentifier>{BFCFEE37-2EF9-3A45-B3C4-1D2221BB9DFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{F4D465B6-D00D-3C00-99CC-BE1DAB3A62DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{1F38AD55-9F86-31E6-B3C9-C6C684360A25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="replay">
+      <UniqueIdentifier>{644AEA8B-D791-38DA-824A-072509E16E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtpobj">
+      <UniqueIdentifier>{96ACDE46-E69B-3635-8273-B8A7A2ACA4F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

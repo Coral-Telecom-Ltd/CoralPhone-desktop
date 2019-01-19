@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{034F6058-E2B4-3CBD-ADD1-4DFCD3E05DAC}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ms2-voipdescs-header</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\ff580aeaae7672477b5627f1128ffc88\ms2-voipdescs-header.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/programs/awk.exe -DAWK_SCRIPTS_DIR="C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/ms_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c videofilters/turbojpegnowebcam.c videofilters/drawdib-display.c utils/ffmpeg-priv.c utils/ffmpeg-priv.h utils/swscale.h videofilters/videodec.c videofilters/videoenc.c videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/vp8.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/mkv_reader.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp videofilters/msdscap.cc videofilters/h264dec.cpp videofilters/mkv.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-encoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-decoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/rfc3984.cpp" -P C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/ff580aeaae7672477b5627f1128ffc88/ms2-voipdescs-header.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\ms2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/programs/awk.exe -DAWK_SCRIPTS_DIR="C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/ms_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c videofilters/turbojpegnowebcam.c videofilters/drawdib-display.c utils/ffmpeg-priv.c utils/ffmpeg-priv.h utils/swscale.h videofilters/videodec.c videofilters/videoenc.c videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/vp8.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/mkv_reader.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp videofilters/msdscap.cc videofilters/h264dec.cpp videofilters/mkv.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-encoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-decoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/rfc3984.cpp" -P C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/ff580aeaae7672477b5627f1128ffc88/ms2-voipdescs-header.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\ms2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/programs/awk.exe -DAWK_SCRIPTS_DIR="C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/ms_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c videofilters/turbojpegnowebcam.c videofilters/drawdib-display.c utils/ffmpeg-priv.c utils/ffmpeg-priv.h utils/swscale.h videofilters/videodec.c videofilters/videoenc.c videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/vp8.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/mkv_reader.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp videofilters/msdscap.cc videofilters/h264dec.cpp videofilters/mkv.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-encoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-decoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/rfc3984.cpp" -P C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/ff580aeaae7672477b5627f1128ffc88/ms2-voipdescs-header.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\ms2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/programs/awk.exe -DAWK_SCRIPTS_DIR="C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/ms_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c videofilters/turbojpegnowebcam.c videofilters/drawdib-display.c utils/ffmpeg-priv.c utils/ffmpeg-priv.h utils/swscale.h videofilters/videodec.c videofilters/videoenc.c videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/vp8.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/mkv_reader.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp videofilters/msdscap.cc videofilters/h264dec.cpp videofilters/mkv.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-encoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-decoder-filter.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h26x-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h264-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/h265-utils.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-packer.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/nal-unpacker.cpp C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/voip/h26x/rfc3984.cpp" -P C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/ff580aeaae7672477b5627f1128ffc88/ms2-voipdescs-header.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\ms2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\CMakeFiles\ms2-voipdescs-header" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ZERO_CHECK.vcxproj">
+      <Project>{EA8903FB-C4EF-3BC1-B7CA-E5371964AE01}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

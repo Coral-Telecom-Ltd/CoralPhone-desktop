@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DENABLE_UPDATE_CHECK=OFF;-DENABLE_SHARED=YES;-DENABLE_STATIC=NO;-C<TMP_DIR>/EP_linphoneqt-cache-$<CONFIG>.cmake;-GVisual Studio 14 2015;<SOURCE_DIR><SOURCE_SUBDIR>'

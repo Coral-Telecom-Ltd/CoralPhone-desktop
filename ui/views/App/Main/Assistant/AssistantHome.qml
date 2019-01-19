@@ -98,21 +98,21 @@ ColumnLayout {
     }
 
     model: ListModel {
-      Component.onCompleted: {
-        insert(0, {
-          $text: qsTr('createAppSipAccount'),
-          $view: SettingsModel.assistantSupportsPhoneNumbers
-            ? 'CreateAppSipAccount'
-            : 'CreateAppSipAccountWithEmail',
-          $viewType: 'CreateAppSipAccount'
-        })
-      }
+//      Component.onCompleted: {
+//        insert(0, {
+//          $text: qsTr('createAppSipAccount'),
+//          $view: SettingsModel.assistantSupportsPhoneNumbers
+//            ? 'CreateAppSipAccount'
+//            : 'CreateAppSipAccountWithEmail',
+//          $viewType: 'CreateAppSipAccount'
+//        })
+//      }
 
-      ListElement {
-        $text: qsTr('useAppSipAccount')
-        $view: 'UseAppSipAccount'
-        $viewType: 'UseAppSipAccount'
-      }
+//     ListElement {
+//        $text: qsTr('useAppSipAccount')
+//        $view: 'UseAppSipAccount'
+//        $viewType: 'UseAppSipAccount'
+//      }
 
       ListElement {
         $text: qsTr('useOtherSipAccount')
@@ -129,15 +129,15 @@ ColumnLayout {
 
     interactive: false
 
-    Connections {
-      target: SettingsModel
-      onAssistantSupportsPhoneNumbersChanged: buttons.model.setProperty(
-        0,
-        '$view',
-        SettingsModel.assistantSupportsPhoneNumbers ?
-          'CreateAppSipAccount' :
-          'CreateAppSipAccountWithEmail'
-      )
-    }
+//    Connections {
+//     target: SettingsModel
+//      onAssistantSupportsPhoneNumbersChanged: buttons.model.setProperty(
+//        0,
+//        '$view',
+//        SettingsModel.assistantSupportsPhoneNumbers ?
+//          'CreateAppSipAccount' :
+//          'CreateAppSipAccountWithEmail'
+//      )
+//    }
   }
 }

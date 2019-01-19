@@ -1,0 +1,1 @@
+cmd='C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/EP_ffmpeg_configure.bat'

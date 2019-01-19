@@ -1,0 +1,262 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_srtp'
+  No download step for 'EP_srtp'
+  No update step for 'EP_srtp'
+  No patch step for 'EP_srtp'
+  Performing configure step for 'EP_srtp'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_srtp/EP_srtp-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  -- Looking for byteswap.h
+  -- Looking for byteswap.h - not found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for inttypes.h
+  -- Looking for inttypes.h - found
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for machine/types.h
+  -- Looking for machine/types.h - not found
+  -- Looking for sys/int_types.h
+  -- Looking for sys/int_types.h - not found
+  -- Looking for sys/socket.h
+  -- Looking for sys/socket.h - not found
+  -- Looking for netinet/in.h
+  -- Looking for netinet/in.h - not found
+  -- Looking for arpa/inet.h
+  -- Looking for arpa/inet.h - not found
+  -- Looking for windows.h
+  -- Looking for windows.h - found
+  -- Looking for winsock2.h
+  -- Looking for winsock2.h - found
+  -- Looking for syslog.h
+  -- Looking for syslog.h - not found
+  -- Looking for inet_aton
+  -- Looking for inet_aton - not found
+  -- Looking for usleep
+  -- Looking for usleep - not found
+  -- Looking for sigaction
+  -- Looking for sigaction - not found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of uint8_t
+  -- Check size of uint8_t - done
+  -- Check size of uint16_t
+  -- Check size of uint16_t - done
+  -- Check size of uint32_t
+  -- Check size of uint32_t - done
+  -- Check size of uint64_t
+  -- Check size of uint64_t - done
+  -- Check size of unsigned long
+  -- Check size of unsigned long - done
+  -- Check size of unsigned long long
+  -- Check size of unsigned long long - done
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ENABLE_SHARED
+  
+  
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp
+  Forcing build for 'EP_srtp'
+  Performing build step for 'EP_srtp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:59:00.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/crypto/include/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\srtp.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "srtp.dir\Release\".
+    Creating directory "srtp.dir\Release\srtp.tlog\".
+  InitializeBuildStatus:
+    Creating "srtp.dir\Release\srtp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/srtp/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\MSVC" /nologo /W0 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H=1 /D "CMAKE_INTDIR=\"Release\"" /D srtp_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"srtp.dir\Release\\" /Fd"srtp.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue   -w "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\cipher.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\null_cipher.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes_icm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\null_auth.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\sha1.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\hmac.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\hash\auth.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\math\datatypes.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\math\stat.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\crypto_kernel.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\alloc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\key.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\kernel\err.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\rdb.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\rdbx.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\crypto\replay\ut_sim.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\srtp\srtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\srtp\srtp\ekt.c"
+    cipher.c
+    null_cipher.c
+    aes.c
+    aes_icm.c
+    null_auth.c
+    sha1.c
+    hmac.c
+    auth.c
+    datatypes.c
+    stat.c
+    crypto_kernel.c
+    alloc.c
+    key.c
+    err.c
+    rdb.c
+    rdbx.c
+    ut_sim.c
+    srtp.c
+    ekt.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\Release\srtp2.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /DEF:"C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/srtp/srtp.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/Release/srtp2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/Release/srtp2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL srtp.dir\Release\cipher.obj
+    srtp.dir\Release\null_cipher.obj
+    srtp.dir\Release\aes.obj
+    srtp.dir\Release\aes_icm.obj
+    srtp.dir\Release\null_auth.obj
+    srtp.dir\Release\sha1.obj
+    srtp.dir\Release\hmac.obj
+    srtp.dir\Release\auth.obj
+    srtp.dir\Release\datatypes.obj
+    srtp.dir\Release\stat.obj
+    srtp.dir\Release\crypto_kernel.obj
+    srtp.dir\Release\alloc.obj
+    srtp.dir\Release\key.obj
+    srtp.dir\Release\err.obj
+    srtp.dir\Release\rdb.obj
+    srtp.dir\Release\rdbx.obj
+    srtp.dir\Release\ut_sim.obj
+    srtp.dir\Release\srtp.obj
+    srtp.dir\Release\ekt.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/Release/srtp2.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/Release/srtp2.exp
+    srtp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\Release\srtp2.dll
+  FinalizeBuildStatus:
+    Deleting file "srtp.dir\Release\srtp.tlog\unsuccessfulbuild".
+    Touching "srtp.dir\Release\srtp.tlog\srtp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\srtp.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/srtp/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/srtp/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:08.05
+  Performing install step for 'EP_srtp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:59:09.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\srtp.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "srtp.dir\Release\srtp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    srtp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\Release\srtp2.dll
+  FinalizeBuildStatus:
+    Deleting file "srtp.dir\Release\srtp.tlog\unsuccessfulbuild".
+    Touching "srtp.dir\Release\srtp.tlog\srtp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\srtp.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/srtp2.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/srtp2.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/config.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/ekt.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/getopt_s.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/srtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/srtp_priv.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/ut_sim.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/aes.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/aes_gcm_ossl.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/aes_icm.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/aes_icm_ossl.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/alloc.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/auth.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/cipher.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/cipher_types.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/crypto_kernel.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/crypto_types.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/datatypes.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/err.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/hmac.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/integers.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/key.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/null_auth.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/null_cipher.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/rdb.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/rdbx.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/sha1.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/srtp2/stat.h
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\srtp\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.49
+  Completed 'EP_srtp'

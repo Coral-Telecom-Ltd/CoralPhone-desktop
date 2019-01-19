@@ -1,0 +1,545 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_bellesip'
+  No download step for 'EP_bellesip'
+  No update step for 'EP_bellesip'
+  No patch step for 'EP_bellesip'
+  Performing configure step for 'EP_bellesip'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_bellesip/EP_bellesip-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for dlopen in dl
+  -- Looking for dlopen in dl - not found
+  -- Looking for clock_gettime in rt
+  -- Looking for clock_gettime in rt - not found
+  -- Looking for res_ndestroy
+  -- Looking for res_ndestroy - not found
+  -- Performing Test HAVE_RES_GETSERVERS
+  -- Performing Test HAVE_RES_GETSERVERS - Failed
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Found ZLIB: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/zlib.lib (found version "1.2.8") 
+  -- Looking for arpa/nameser.h
+  -- Looking for arpa/nameser.h - not found
+  -- Looking for ctype.h
+  -- Looking for ctype.h - found
+  -- Looking for inttypes.h
+  -- Looking for inttypes.h - found
+  -- Looking for malloc.h
+  -- Looking for malloc.h - found
+  -- Looking for memory.h
+  -- Looking for memory.h - found
+  -- Looking for netdb.h
+  -- Looking for netdb.h - not found
+  -- Looking for netinet/in.h
+  -- Looking for netinet/in.h - not found
+  -- Looking for netinet/tcp.h
+  -- Looking for netinet/tcp.h - not found
+  -- Looking for socket.h
+  -- Looking for socket.h - not found
+  -- Looking for stdarg.h
+  -- Looking for stdarg.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  -- Looking for strings.h
+  -- Looking for strings.h - not found
+  -- Looking for string.h
+  -- Looking for string.h - found
+  -- Looking for sys/malloc.h
+  -- Looking for sys/malloc.h - not found
+  -- Looking for sys/socket.h
+  -- Looking for sys/socket.h - not found
+  -- Looking for sys/stat.h
+  -- Looking for sys/stat.h - found
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is belle-sip-1.6.3
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip
+  Forcing build for 'EP_bellesip'
+  Performing build step for 'EP_bellesip'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:07:11.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/antlr3c/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\bellesip.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bellesip.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\Release\".
+    Creating directory "bellesip.dir\Release\bellesip.tlog\".
+  InitializeBuildStatus:
+    Creating "bellesip.dir\Release\bellesip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\antlr3c" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D bellesip_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bellesip.dir\Release\\" /Fd"bellesip.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\auth_event.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\auth_helper.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sdp_impl.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_dict.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_headers_impl.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_loop.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_mdns_register.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_object.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_parameters.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_resolver.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_uri_impl.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\belle_sip_utils.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\bodyhandler.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\channel.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\clock_gettime.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\dialog.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\generic-uri.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\http-listener.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\http-message.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\http-provider.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\ict.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\ist.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\listeningpoint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\md5.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\message.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\nict.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\nist.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\port.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\provider.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\refresher.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\siplistener.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\sipstack.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transaction.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\stream_channel.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\stream_listeningpoint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\udp_channel.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\udp_listeningpoint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\tls_listeningpoint.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\transports\tls_channel.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\grammars\belle_sdpLexer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\grammars\belle_sip_messageLexer.c"
+    auth_event.c
+    auth_helper.c
+    belle_sdp_impl.c
+    belle_sip_dict.c
+    belle_sip_headers_impl.c
+    belle_sip_loop.c
+    belle_sip_mdns_register.c
+    belle_sip_object.c
+    belle_sip_parameters.c
+    belle_sip_resolver.c
+    belle_sip_uri_impl.c
+    belle_sip_utils.c
+    bodyhandler.c
+    channel.c
+    clock_gettime.c
+    dialog.c
+    generic-uri.c
+    http-listener.c
+    http-message.c
+    http-provider.c
+    ict.c
+    ist.c
+    listeningpoint.c
+    md5.c
+    message.c
+    nict.c
+    nist.c
+    port.c
+    provider.c
+    refresher.c
+    siplistener.c
+    sipstack.c
+    transaction.c
+    stream_channel.c
+    stream_listeningpoint.c
+    udp_channel.c
+    udp_listeningpoint.c
+    tls_listeningpoint.c
+    tls_channel.c
+    belle_sdpLexer.c
+    belle_sip_messageLexer.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\antlr3c" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D bellesip_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bellesip.dir\Release\\" /Fd"bellesip.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /wd4267 /wd4804 /wd4244 /wd4305 /wd4018 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\dns.c"
+    dns.c
+    no atomic_fetch_add available
+    no atomic_fetch_sub available
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\antlr3c" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D bellesip_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bellesip.dir\Release\\" /Fd"bellesip.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /wd4267 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\grammars\belle_sdpParser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\grammars\belle_sip_messageParser.c"
+    belle_sdpParser.c
+    belle_sip_messageParser.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\antlr3c" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D bellesip_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bellesip.dir\Release\\" /Fd"bellesip.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3baserecognizer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3basetree.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3basetreeadaptor.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3bitset.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3collections.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3commontoken.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3commontree.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3commontreeadaptor.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3commontreenodestream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3convertutf.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3cyclicdfa.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3debughandlers.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3encodings.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3exception.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3filestream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3inputstream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3intstream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3lexer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3parser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3rewritestreams.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3string.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3tokenstream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src\antlr3c\src\antlr3treeparser.c"
+    antlr3baserecognizer.c
+    antlr3basetree.c
+    antlr3basetreeadaptor.c
+    antlr3bitset.c
+    antlr3collections.c
+    antlr3commontoken.c
+    antlr3commontree.c
+    antlr3commontreeadaptor.c
+    antlr3commontreenodestream.c
+    antlr3convertutf.c
+    antlr3cyclicdfa.c
+    antlr3debughandlers.c
+    antlr3encodings.c
+    antlr3exception.c
+    antlr3filestream.c
+    antlr3inputstream.c
+    antlr3intstream.c
+    antlr3lexer.c
+    antlr3parser.c
+    antlr3rewritestreams.c
+    antlr3string.c
+    antlr3tokenstream.c
+    antlr3treeparser.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\Release\bellesip.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\zlib.lib" ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/Release/bellesip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/Release/bellesip.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL bellesip.dir\Release\auth_event.obj
+    bellesip.dir\Release\auth_helper.obj
+    bellesip.dir\Release\belle_sdp_impl.obj
+    bellesip.dir\Release\belle_sip_dict.obj
+    bellesip.dir\Release\belle_sip_headers_impl.obj
+    bellesip.dir\Release\belle_sip_loop.obj
+    bellesip.dir\Release\belle_sip_mdns_register.obj
+    bellesip.dir\Release\belle_sip_object.obj
+    bellesip.dir\Release\belle_sip_parameters.obj
+    bellesip.dir\Release\belle_sip_resolver.obj
+    bellesip.dir\Release\belle_sip_uri_impl.obj
+    bellesip.dir\Release\belle_sip_utils.obj
+    bellesip.dir\Release\bodyhandler.obj
+    bellesip.dir\Release\channel.obj
+    bellesip.dir\Release\clock_gettime.obj
+    bellesip.dir\Release\dialog.obj
+    bellesip.dir\Release\dns.obj
+    "bellesip.dir\Release\generic-uri.obj"
+    "bellesip.dir\Release\http-listener.obj"
+    "bellesip.dir\Release\http-message.obj"
+    "bellesip.dir\Release\http-provider.obj"
+    bellesip.dir\Release\ict.obj
+    bellesip.dir\Release\ist.obj
+    bellesip.dir\Release\listeningpoint.obj
+    bellesip.dir\Release\md5.obj
+    bellesip.dir\Release\message.obj
+    bellesip.dir\Release\nict.obj
+    bellesip.dir\Release\nist.obj
+    bellesip.dir\Release\port.obj
+    bellesip.dir\Release\provider.obj
+    bellesip.dir\Release\refresher.obj
+    bellesip.dir\Release\siplistener.obj
+    bellesip.dir\Release\sipstack.obj
+    bellesip.dir\Release\transaction.obj
+    bellesip.dir\Release\stream_channel.obj
+    bellesip.dir\Release\stream_listeningpoint.obj
+    bellesip.dir\Release\udp_channel.obj
+    bellesip.dir\Release\udp_listeningpoint.obj
+    bellesip.dir\Release\tls_listeningpoint.obj
+    bellesip.dir\Release\tls_channel.obj
+    bellesip.dir\Release\belle_sdpLexer.obj
+    bellesip.dir\Release\belle_sdpParser.obj
+    bellesip.dir\Release\belle_sip_messageLexer.obj
+    bellesip.dir\Release\belle_sip_messageParser.obj
+    bellesip.dir\Release\antlr3baserecognizer.obj
+    bellesip.dir\Release\antlr3basetree.obj
+    bellesip.dir\Release\antlr3basetreeadaptor.obj
+    bellesip.dir\Release\antlr3bitset.obj
+    bellesip.dir\Release\antlr3collections.obj
+    bellesip.dir\Release\antlr3commontoken.obj
+    bellesip.dir\Release\antlr3commontree.obj
+    bellesip.dir\Release\antlr3commontreeadaptor.obj
+    bellesip.dir\Release\antlr3commontreenodestream.obj
+    bellesip.dir\Release\antlr3convertutf.obj
+    bellesip.dir\Release\antlr3cyclicdfa.obj
+    bellesip.dir\Release\antlr3debughandlers.obj
+    bellesip.dir\Release\antlr3encodings.obj
+    bellesip.dir\Release\antlr3exception.obj
+    bellesip.dir\Release\antlr3filestream.obj
+    bellesip.dir\Release\antlr3inputstream.obj
+    bellesip.dir\Release\antlr3intstream.obj
+    bellesip.dir\Release\antlr3lexer.obj
+    bellesip.dir\Release\antlr3parser.obj
+    bellesip.dir\Release\antlr3rewritestreams.obj
+    bellesip.dir\Release\antlr3string.obj
+    bellesip.dir\Release\antlr3tokenstream.obj
+    bellesip.dir\Release\antlr3treeparser.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/Release/bellesip.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/src/Release/bellesip.exp
+    bellesip.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\Release\bellesip.dll
+  FinalizeBuildStatus:
+    Deleting file "bellesip.dir\Release\bellesip.tlog\unsuccessfulbuild".
+    Touching "bellesip.dir\Release\bellesip.tlog\bellesip.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\bellesip.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "belle_sip_object_describe.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\".
+    Creating directory "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\".
+  InitializeBuildStatus:
+    Creating "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belle_sip_object_describe.dir\Release\\" /Fd"belle_sip_object_describe.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\describe.c"
+    describe.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_object_describe.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ..\src\Release\bellesip.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_object_describe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_object_describe.lib" /MACHINE:X86 /SAFESEH   /machine:X86 belle_sip_object_describe.dir\Release\describe.obj
+    belle_sip_object_describe.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_object_describe.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\unsuccessfulbuild".
+    Touching "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\belle_sip_object_describe.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_parse.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belle_sip_parse.dir\Release\".
+    Creating directory "belle_sip_parse.dir\Release\belle_sip_parse.tlog\".
+  InitializeBuildStatus:
+    Creating "belle_sip_parse.dir\Release\belle_sip_parse.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belle_sip_parse.dir\Release\\" /Fd"belle_sip_parse.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\parse.c"
+    parse.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_parse.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ..\src\Release\bellesip.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_parse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_parse.lib" /MACHINE:X86 /SAFESEH   /machine:X86 belle_sip_parse.dir\Release\parse.obj
+    belle_sip_parse.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_parse.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_parse.dir\Release\belle_sip_parse.tlog\unsuccessfulbuild".
+    Touching "belle_sip_parse.dir\Release\belle_sip_parse.tlog\belle_sip_parse.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_parse.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_resolve.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belle_sip_resolve.dir\Release\".
+    Creating directory "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\".
+  InitializeBuildStatus:
+    Creating "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belle_sip_resolve.dir\Release\\" /Fd"belle_sip_resolve.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\resolve.c"
+    resolve.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_resolve.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ..\src\Release\bellesip.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_resolve.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_resolve.lib" /MACHINE:X86 /SAFESEH   /machine:X86 belle_sip_resolve.dir\Release\resolve.obj
+    belle_sip_resolve.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_resolve.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\unsuccessfulbuild".
+    Touching "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\belle_sip_resolve.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_resolve.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_tester.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belle_sip_tester.dir\Release\".
+    Creating directory "belle_sip_tester.dir\Release\belle_sip_tester.tlog\".
+  InitializeBuildStatus:
+    Creating "belle_sip_tester.dir\Release\belle_sip_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\include\MSVC" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELLESIP_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belle-sip\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belle_sip_tester.dir\Release\\" /Fd"belle_sip_tester.dir\Release\vc140.pdb" /Gd /TC /wd4068 /wd4129 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\auth_helper_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_generic_uri_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_http_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sdp_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_core_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_dialog_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_headers_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_message_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_refresher_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_register_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_resolver_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_uri_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\belle_sip_fast_uri_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belle-sip\tester\cast_test.c"
+    auth_helper_tester.c
+    belle_generic_uri_tester.c
+    belle_http_tester.c
+    belle_sdp_tester.c
+    belle_sip_core_tester.c
+    belle_sip_dialog_tester.c
+    belle_sip_headers_tester.c
+    belle_sip_message_tester.c
+    belle_sip_refresher_tester.c
+    belle_sip_register_tester.c
+    belle_sip_resolver_tester.c
+    belle_sip_tester.c
+    belle_sip_uri_tester.c
+    belle_sip_fast_uri_tester.c
+    cast_test.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_tester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Ws2_32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox-tester.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ..\src\Release\bellesip.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/tester/Release/belle_sip_tester.lib" /MACHINE:X86 /SAFESEH   /machine:X86 belle_sip_tester.dir\Release\auth_helper_tester.obj
+    belle_sip_tester.dir\Release\belle_generic_uri_tester.obj
+    belle_sip_tester.dir\Release\belle_http_tester.obj
+    belle_sip_tester.dir\Release\belle_sdp_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_core_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_dialog_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_headers_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_message_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_refresher_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_register_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_resolver_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_uri_tester.obj
+    belle_sip_tester.dir\Release\belle_sip_fast_uri_tester.obj
+    belle_sip_tester.dir\Release\cast_test.obj
+    belle_sip_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_tester.dir\Release\belle_sip_tester.tlog\unsuccessfulbuild".
+    Touching "belle_sip_tester.dir\Release\belle_sip_tester.tlog\belle_sip_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_tester.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belle-sip/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bellesip/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:53.62
+  Performing install step for 'EP_bellesip'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:08:04.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (4) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\bellesip.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bellesip.dir\Release\bellesip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bellesip.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\Release\bellesip.dll
+  FinalizeBuildStatus:
+    Deleting file "bellesip.dir\Release\bellesip.tlog\unsuccessfulbuild".
+    Touching "bellesip.dir\Release\bellesip.tlog\bellesip.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\src\bellesip.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belle_sip_object_describe.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_object_describe.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\unsuccessfulbuild".
+    Touching "belle_sip_object_describe.dir\Release\belle_si.8563CFD0.tlog\belle_sip_object_describe.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_object_describe.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_parse.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belle_sip_parse.dir\Release\belle_sip_parse.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belle_sip_parse.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_parse.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_parse.dir\Release\belle_sip_parse.tlog\unsuccessfulbuild".
+    Touching "belle_sip_parse.dir\Release\belle_sip_parse.tlog\belle_sip_parse.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_parse.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_resolve.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belle_sip_resolve.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_resolve.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\unsuccessfulbuild".
+    Touching "belle_sip_resolve.dir\Release\belle_si.2C879ED9.tlog\belle_sip_resolve.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_resolve.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_tester.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belle_sip_tester.dir\Release\belle_sip_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belle_sip_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\Release\belle_sip_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belle_sip_tester.dir\Release\belle_sip_tester.tlog\unsuccessfulbuild".
+    Touching "belle_sip_tester.dir\Release\belle_sip_tester.tlog\belle_sip_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\tester\belle_sip_tester.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/pkgconfig/belle-sip.pc
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/BelleSIP/cmake/BelleSIPTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/BelleSIP/cmake/BelleSIPTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/BelleSIP/cmake/BelleSIPConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/BelleSIP/cmake/BelleSIPConfigVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/auth-helper.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/belle-sdp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/belle-sip.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/bodyhandler.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/defs.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/dialog.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/dict.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/generic-uri.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/headers.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/http-listener.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/http-message.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/http-provider.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/list.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/listener.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/listeningpoint.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/mainloop.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/mdns_register.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/message.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/object.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/parameters.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/provider.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/refresher.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/resolver.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/sipstack.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/sip-uri.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/transaction.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/types.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/utils.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belle-sip/wakelock.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/bellesip.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/bellesip.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belle_sip_tester.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belle_sip_tester/tester_hosts
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bellesip\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.03
+  Completed 'EP_bellesip'

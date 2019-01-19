@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9DFA0BDA-BA7F-3402-8A07-08A2CC380D0B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>soci_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">soci_core.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">soci_core_4_0</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">soci_core.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">soci_core_4_0</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">soci_core.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">soci_core_4_0</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">soci_core.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">soci_core_4_0</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";SOCI_LIB_PREFIX="soci_";SOCI_LIB_SUFFIX=".dll";SOCI_DEBUG_POSTFIX="";CMAKE_INTDIR="Debug";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";SOCI_LIB_PREFIX=\"soci_\";SOCI_LIB_SUFFIX=\".dll\";SOCI_DEBUG_POSTFIX=\"\";CMAKE_INTDIR=\"Debug\";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Debug/soci_core_4_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/Debug/soci_core_4_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";SOCI_LIB_PREFIX="soci_";SOCI_LIB_SUFFIX=".dll";SOCI_DEBUG_POSTFIX="";CMAKE_INTDIR="Release";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";SOCI_LIB_PREFIX=\"soci_\";SOCI_LIB_SUFFIX=\".dll\";SOCI_DEBUG_POSTFIX=\"\";CMAKE_INTDIR=\"Release\";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_core_4_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/Release/soci_core_4_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";SOCI_LIB_PREFIX="soci_";SOCI_LIB_SUFFIX=".dll";SOCI_DEBUG_POSTFIX="";CMAKE_INTDIR="MinSizeRel";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";SOCI_LIB_PREFIX=\"soci_\";SOCI_LIB_SUFFIX=\".dll\";SOCI_DEBUG_POSTFIX=\"\";CMAKE_INTDIR=\"MinSizeRel\";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/MinSizeRel/soci_core_4_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/MinSizeRel/soci_core_4_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION="4_0";SOCI_LIB_PREFIX="soci_";SOCI_LIB_SUFFIX=".dll";SOCI_DEBUG_POSTFIX="";CMAKE_INTDIR="RelWithDebInfo";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;SOCI_ABI_VERSION=\"4_0\";SOCI_LIB_PREFIX=\"soci_\";SOCI_LIB_SUFFIX=\".dll\";SOCI_DEBUG_POSTFIX=\"\";CMAKE_INTDIR=\"RelWithDebInfo\";SOCI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/RelWithDebInfo/soci_core_4_0.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/RelWithDebInfo/soci_core_4_0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci_backends_config.h.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci_backends_config.h.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci_backends_config.h.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci_backends_config.h.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\backend-loader.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\bind-values.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\blob-exchange.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\blob.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\boost-fusion.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\boost-gregorian-date.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\boost-optional.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\boost-tuple.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\callbacks.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\column-info.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\connection-parameters.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\connection-pool.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\error.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\exchange-traits.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\into-type.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\into.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\logger.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\noreturn.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\once-temp-type.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\prepare-temp-type.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\procedure.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\query_transformation.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\ref-counted-prepare-info.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\ref-counted-statement.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\row-exchange.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\row.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\rowid-exchange.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\rowid.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\rowset.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\session.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\soci-backend.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\soci-platform.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\soci-simple.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\soci.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\statement.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\transaction.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\type-conversion-traits.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\type-conversion.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\type-holder.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\type-ptr.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\type-wrappers.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\unsigned-types.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\use-type.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\use.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\values-exchange.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\values.h" />
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\soci\version.h" />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\backend-loader.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\blob.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\common.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\connection-parameters.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\connection-pool.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\error.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\into-type.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\logger.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\once-temp-type.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\prepare-temp-type.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\procedure.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\ref-counted-prepare-info.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\ref-counted-statement.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\row.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\rowid.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\session.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci-simple.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\statement.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\transaction.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\use-type.cpp"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\values.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ZERO_CHECK.vcxproj">
+      <Project>{5BD0F833-55A1-3AC3-9447-7CC6D4522758}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

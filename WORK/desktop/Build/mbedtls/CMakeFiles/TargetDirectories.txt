@@ -1,0 +1,9 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/mbedcrypto.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/mbedx509.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/mbedtls.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/lib.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/include/CMakeFiles/INSTALL.dir

@@ -1,0 +1,4 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/opus.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/ZERO_CHECK.dir

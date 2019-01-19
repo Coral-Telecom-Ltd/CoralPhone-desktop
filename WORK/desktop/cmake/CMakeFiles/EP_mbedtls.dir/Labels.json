@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_mbedtls"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mbedtls.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mbedtls-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-build.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ac2c121ee25a0d35a3471b958948188a/EP_mbedtls-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_mbedtls" ],
+		"name" : "EP_mbedtls"
+	}
+}

@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_vpx"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_vpx.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_vpx-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-build.rule"
+		},
+		
+		{
+			"file" : "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/1f55e601f8412b72f106eba049d5cf0a/EP_vpx-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_vpx" ],
+		"name" : "EP_vpx"
+	}
+}

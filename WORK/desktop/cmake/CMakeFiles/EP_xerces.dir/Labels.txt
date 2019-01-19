@@ -1,0 +1,15 @@
+# Target labels
+ EP_xerces
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_xerces
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_xerces.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_xerces-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/dcec1ab21db941394e864c697aaebbbd/EP_xerces-force_build.rule

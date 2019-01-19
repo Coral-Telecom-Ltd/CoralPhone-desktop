@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\CMakeFiles\f23ce30175af5d6cf3fac9a11901c7fa\lib.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\CMakeFiles\lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0BB1A112-033B-3C4C-88F7-230A948B2626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

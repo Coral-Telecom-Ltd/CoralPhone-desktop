@@ -1,0 +1,7 @@
+# Xcode
+xcuserdata/
+
+# JetBrains
+.idea/
+
+minizip.spec

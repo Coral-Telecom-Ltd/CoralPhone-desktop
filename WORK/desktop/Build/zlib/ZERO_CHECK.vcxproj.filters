@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\zlib\CMakeFiles\1234ee50b2a6152e20547b2dbb741b30\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F4FF6E4-840F-39AD-B338-C3828D305BA9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

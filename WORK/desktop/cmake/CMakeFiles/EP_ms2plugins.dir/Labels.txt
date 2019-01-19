@@ -1,0 +1,15 @@
+# Target labels
+ EP_ms2plugins
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_ms2plugins
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_ms2plugins.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_ms2plugins-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/c239e15d8655eeab3d5902757c4b877a/EP_ms2plugins-force_build.rule

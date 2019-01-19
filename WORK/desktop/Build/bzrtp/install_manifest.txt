@@ -1,0 +1,7 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPTargets.cmake
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPTargets-release.cmake
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPConfig.cmake
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPConfigVersion.cmake
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bzrtp/bzrtp.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/bzrtp.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/bzrtp.dll

@@ -1,0 +1,423 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_mbedtls'
+  No download step for 'EP_mbedtls'
+  No update step for 'EP_mbedtls'
+  No patch step for 'EP_mbedtls'
+  Performing configure step for 'EP_mbedtls'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mbedtls/EP_mbedtls-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls
+  Forcing build for 'EP_mbedtls'
+  Performing build step for 'EP_mbedtls'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:55:20.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/include/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedcrypto.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "mbedcrypto.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\".
+    Creating directory "mbedcrypto.dir\Release\mbedcrypto.tlog\".
+  InitializeBuildStatus:
+    Creating "mbedcrypto.dir\Release\mbedcrypto.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include" /nologo /W0 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D MBEDTLS_PLATFORM_SNPRINTF_MACRO=_snprintf /D MBEDTLS_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D mbedcrypto_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"mbedcrypto.dir\Release\\" /Fd"mbedcrypto.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\aes.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\aesni.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\arc4.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\asn1parse.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\asn1write.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\base64.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\bignum.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\blowfish.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\camellia.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ccm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cipher.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cipher_wrap.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\cmac.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ctr_drbg.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\des.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\dhm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecdh.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecdsa.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecjpake.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ecp_curves.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\entropy.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\entropy_poll.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\error.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\gcm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\havege.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\hmac_drbg.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md2.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md4.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md5.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\md_wrap.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\memory_buffer_alloc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\oid.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\padlock.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pem.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pk.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pk_wrap.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkcs12.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkcs5.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkparse.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkwrite.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\platform.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ripemd160.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\rsa.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha1.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha256.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\sha512.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\threading.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\timing.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\version.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\version_features.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\xtea.c"
+    aes.c
+    aesni.c
+    arc4.c
+    asn1parse.c
+    asn1write.c
+    base64.c
+    bignum.c
+    blowfish.c
+    camellia.c
+    ccm.c
+    cipher.c
+    cipher_wrap.c
+    cmac.c
+    ctr_drbg.c
+    des.c
+    dhm.c
+    ecdh.c
+    ecdsa.c
+    ecjpake.c
+    ecp.c
+    ecp_curves.c
+    entropy.c
+    entropy_poll.c
+    error.c
+    gcm.c
+    havege.c
+    hmac_drbg.c
+    md.c
+    md2.c
+    md4.c
+    md5.c
+    md_wrap.c
+    memory_buffer_alloc.c
+    oid.c
+    padlock.c
+    pem.c
+    pk.c
+    pk_wrap.c
+    pkcs12.c
+    pkcs5.c
+    pkparse.c
+    pkwrite.c
+    platform.c
+    ripemd160.c
+    rsa.c
+    sha1.c
+    sha256.c
+    sha512.c
+    threading.c
+    timing.c
+    version.c
+    version_features.c
+    xtea.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedcrypto.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib kernel32.lib /DEF:"C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedcrypto.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL mbedcrypto.dir\Release\aes.obj
+    mbedcrypto.dir\Release\aesni.obj
+    mbedcrypto.dir\Release\arc4.obj
+    mbedcrypto.dir\Release\asn1parse.obj
+    mbedcrypto.dir\Release\asn1write.obj
+    mbedcrypto.dir\Release\base64.obj
+    mbedcrypto.dir\Release\bignum.obj
+    mbedcrypto.dir\Release\blowfish.obj
+    mbedcrypto.dir\Release\camellia.obj
+    mbedcrypto.dir\Release\ccm.obj
+    mbedcrypto.dir\Release\cipher.obj
+    mbedcrypto.dir\Release\cipher_wrap.obj
+    mbedcrypto.dir\Release\cmac.obj
+    mbedcrypto.dir\Release\ctr_drbg.obj
+    mbedcrypto.dir\Release\des.obj
+    mbedcrypto.dir\Release\dhm.obj
+    mbedcrypto.dir\Release\ecdh.obj
+    mbedcrypto.dir\Release\ecdsa.obj
+    mbedcrypto.dir\Release\ecjpake.obj
+    mbedcrypto.dir\Release\ecp.obj
+    mbedcrypto.dir\Release\ecp_curves.obj
+    mbedcrypto.dir\Release\entropy.obj
+    mbedcrypto.dir\Release\entropy_poll.obj
+    mbedcrypto.dir\Release\error.obj
+    mbedcrypto.dir\Release\gcm.obj
+    mbedcrypto.dir\Release\havege.obj
+    mbedcrypto.dir\Release\hmac_drbg.obj
+    mbedcrypto.dir\Release\md.obj
+    mbedcrypto.dir\Release\md2.obj
+    mbedcrypto.dir\Release\md4.obj
+    mbedcrypto.dir\Release\md5.obj
+    mbedcrypto.dir\Release\md_wrap.obj
+    mbedcrypto.dir\Release\memory_buffer_alloc.obj
+    mbedcrypto.dir\Release\oid.obj
+    mbedcrypto.dir\Release\padlock.obj
+    mbedcrypto.dir\Release\pem.obj
+    mbedcrypto.dir\Release\pk.obj
+    mbedcrypto.dir\Release\pk_wrap.obj
+    mbedcrypto.dir\Release\pkcs12.obj
+    mbedcrypto.dir\Release\pkcs5.obj
+    mbedcrypto.dir\Release\pkparse.obj
+    mbedcrypto.dir\Release\pkwrite.obj
+    mbedcrypto.dir\Release\platform.obj
+    mbedcrypto.dir\Release\ripemd160.obj
+    mbedcrypto.dir\Release\rsa.obj
+    mbedcrypto.dir\Release\sha1.obj
+    mbedcrypto.dir\Release\sha256.obj
+    mbedcrypto.dir\Release\sha512.obj
+    mbedcrypto.dir\Release\threading.obj
+    mbedcrypto.dir\Release\timing.obj
+    mbedcrypto.dir\Release\version.obj
+    mbedcrypto.dir\Release\version_features.obj
+    mbedcrypto.dir\Release\xtea.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedcrypto.exp
+    mbedcrypto.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedcrypto.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedcrypto.dir\Release\mbedcrypto.tlog\unsuccessfulbuild".
+    Touching "mbedcrypto.dir\Release\mbedcrypto.tlog\mbedcrypto.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedcrypto.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (4) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedx509.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "mbedx509.dir\Release\".
+    Creating directory "mbedx509.dir\Release\mbedx509.tlog\".
+  InitializeBuildStatus:
+    Creating "mbedx509.dir\Release\mbedx509.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include" /nologo /W0 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D MBEDTLS_PLATFORM_SNPRINTF_MACRO=_snprintf /D MBEDTLS_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D mbedx509_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"mbedx509.dir\Release\\" /Fd"mbedx509.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\certs.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\pkcs11.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509_create.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509_crl.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509_crt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509_csr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509write_crt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\x509write_csr.c"
+    certs.c
+    pkcs11.c
+    x509.c
+    x509_create.c
+    x509_crl.c
+    x509_crt.c
+    x509_csr.c
+    x509write_crt.c
+    x509write_csr.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedx509.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib kernel32.lib Release\mbedcrypto.lib ws2_32.lib kernel32.lib /DEF:"C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedx509.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedx509.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedx509.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL mbedx509.dir\Release\certs.obj
+    mbedx509.dir\Release\pkcs11.obj
+    mbedx509.dir\Release\x509.obj
+    mbedx509.dir\Release\x509_create.obj
+    mbedx509.dir\Release\x509_crl.obj
+    mbedx509.dir\Release\x509_crt.obj
+    mbedx509.dir\Release\x509_csr.obj
+    mbedx509.dir\Release\x509write_crt.obj
+    mbedx509.dir\Release\x509write_csr.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedx509.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedx509.exp
+    mbedx509.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedx509.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedx509.dir\Release\mbedx509.tlog\unsuccessfulbuild".
+    Touching "mbedx509.dir\Release\mbedx509.tlog\mbedx509.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedx509.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "mbedtls.dir\Release\".
+    Creating directory "mbedtls.dir\Release\mbedtls.tlog\".
+  InitializeBuildStatus:
+    Creating "mbedtls.dir\Release\mbedtls.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\include" /nologo /W0 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D MBEDTLS_PLATFORM_SNPRINTF_MACRO=_snprintf /D MBEDTLS_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D mbedtls_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"mbedtls.dir\Release\\" /Fd"mbedtls.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\debug.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\net_sockets.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_cache.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_ciphersuites.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_cli.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_cookie.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_srv.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_ticket.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\mbedtls\library\ssl_tls.c"
+    debug.c
+    net_sockets.c
+    ssl_cache.c
+    ssl_ciphersuites.c
+    ssl_cli.c
+    ssl_cookie.c
+    ssl_srv.c
+    ssl_ticket.c
+    ssl_tls.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedtls.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib kernel32.lib Release\mbedx509.lib Release\mbedcrypto.lib ws2_32.lib kernel32.lib /DEF:"C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/library/mbedtls.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedtls.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedtls.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL mbedtls.dir\Release\debug.obj
+    mbedtls.dir\Release\net_sockets.obj
+    mbedtls.dir\Release\ssl_cache.obj
+    mbedtls.dir\Release\ssl_ciphersuites.obj
+    mbedtls.dir\Release\ssl_cli.obj
+    mbedtls.dir\Release\ssl_cookie.obj
+    mbedtls.dir\Release\ssl_srv.obj
+    mbedtls.dir\Release\ssl_ticket.obj
+    mbedtls.dir\Release\ssl_tls.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedtls.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/library/Release/mbedtls.exp
+    mbedtls.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedtls.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedtls.dir\Release\mbedtls.tlog\unsuccessfulbuild".
+    Touching "mbedtls.dir\Release\mbedtls.tlog\mbedtls.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/mbedtls/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mbedtls/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:27.06
+  Performing install step for 'EP_mbedtls'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:55:48.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedcrypto.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "mbedcrypto.dir\Release\mbedcrypto.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mbedcrypto.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedcrypto.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedcrypto.dir\Release\mbedcrypto.tlog\unsuccessfulbuild".
+    Touching "mbedcrypto.dir\Release\mbedcrypto.tlog\mbedcrypto.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedcrypto.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (5) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (5) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedx509.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "mbedx509.dir\Release\mbedx509.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mbedx509.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedx509.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedx509.dir\Release\mbedx509.tlog\unsuccessfulbuild".
+    Touching "mbedx509.dir\Release\mbedx509.tlog\mbedx509.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedx509.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "mbedtls.dir\Release\mbedtls.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mbedtls.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\Release\mbedtls.dll
+  FinalizeBuildStatus:
+    Deleting file "mbedtls.dir\Release\mbedtls.tlog\unsuccessfulbuild".
+    Touching "mbedtls.dir\Release\mbedtls.tlog\mbedtls.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\library\mbedtls.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/mbedtls.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/mbedtls.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/mbedx509.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/mbedx509.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/mbedcrypto.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/mbedcrypto.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/aes.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/aesni.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/arc4.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/asn1.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/asn1write.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/base64.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/bignum.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/blowfish.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/bn_mul.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/camellia.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ccm.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/certs.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/check_config.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/cipher.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/cipher_internal.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/cmac.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/compat-1.3.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/config.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ctr_drbg.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/debug.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/des.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/dhm.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ecdh.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ecdsa.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ecjpake.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ecp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/entropy.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/entropy_poll.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/error.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/gcm.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/havege.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/hmac_drbg.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/md.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/md2.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/md4.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/md5.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/md_internal.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/memory_buffer_alloc.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/net.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/net_sockets.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/oid.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/padlock.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pem.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pk.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pk_internal.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pkcs11.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pkcs12.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/pkcs5.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/platform.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/platform_time.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ripemd160.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/rsa.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/sha1.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/sha256.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/sha512.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl_cache.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl_ciphersuites.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl_cookie.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl_internal.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/ssl_ticket.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/threading.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/timing.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/version.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/x509.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/x509_crl.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/x509_crt.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/x509_csr.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mbedtls/xtea.h
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mbedtls\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:03.50
+  Completed 'EP_mbedtls'

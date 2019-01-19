@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/Coral/Desktop/CoralPhone-desktop/submodules/externals/minizip/build/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/submodules/externals/minizip/build/rpm/minizip.spec.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.8/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.8/Templates/CPackConfig.cmake.in

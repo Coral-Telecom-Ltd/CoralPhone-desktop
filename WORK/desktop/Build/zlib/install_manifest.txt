@@ -1,0 +1,3 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/zlib.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/zconf.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/zlib.h

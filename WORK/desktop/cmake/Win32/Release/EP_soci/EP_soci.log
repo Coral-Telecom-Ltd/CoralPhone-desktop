@@ -1,0 +1,355 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_soci'
+  No download step for 'EP_soci'
+  No update step for 'EP_soci'
+  No patch step for 'EP_soci'
+  Performing configure step for 'EP_soci'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_soci/EP_soci-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for _M_AMD64
+  -- Looking for _M_AMD64 - not found
+  -- Looking for _M_IX86
+  -- Looking for _M_IX86 - found
+  -- Configuring SOCI: 
+  -- SOCI_VERSION                             = 4.0.0 
+  -- SOCI_ABI_VERSION                         = 4_0 
+  -- SOCI_SHARED                              = YES 
+  -- SOCI_STATIC                              = NO 
+  -- SOCI_TESTS                               = NO 
+  -- SOCI_ASAN                                = OFF 
+  -- SOCI_CXX_C11                             =  
+  -- LIB_SUFFIX                               =  
+  -- Looking for SOCI dependencies: 
+  -- CMAKE_THREAD_LIBS_INIT                   =  
+  -- MySQL: disabled, since WITH_MYSQL=OFF 
+  -- ODBC: disabled, since WITH_ODBC=OFF 
+  -- Oracle: disabled, since WITH_ORACLE=OFF 
+  -- PostgreSQL: disabled, since WITH_POSTGRESQL=OFF 
+  -- SQLite3: 
+  -- SQLITE3_INCLUDE_DIR                      = C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include 
+  -- SQLITE3_LIBRARIES                        = C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/sqlite3.lib 
+  -- Firebird: disabled, since WITH_FIREBIRD=OFF 
+  -- DB2: disabled, since WITH_DB2=OFF 
+  -- Configuring SOCI core library: 
+  -- SOCI_CORE_TARGET                         = soci_core 
+  -- SOCI_CORE_TARGET_OUTPUT_NAME             = soci_core_4_0 
+  -- SOCI_CORE_DEPS_LIBS                      =  
+  -- SOCI_CORE_INCLUDE_DIRS                   = C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/include C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/include C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/include/private C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core 
+  -- WITH_BOOST                               =  
+  -- COMPILE_DEFINITIONS                      = _CRT_SECURE_NO_DEPRECATE _CRT_SECURE_NO_WARNINGS _CRT_NONSTDC_NO_WARNING _SCL_SECURE_NO_WARNINGS SOCI_ABI_VERSION="4_0" SOCI_LIB_PREFIX="soci_" SOCI_LIB_SUFFIX=".dll" SOCI_DEBUG_POSTFIX="" 
+  -- 
+  -- Configuring SOCI backend libraries: 
+  -- SQLite3 - SOCI backend for SQLite 3 
+  -- SOCI_SQLITE3                             = ON 
+  -- SOCI_SQLITE3_TARGET                      = soci_sqlite3 
+  -- SOCI_SQLITE3_OUTPUT_NAME                 = soci_sqlite3_4_0 
+  -- SOCI_SQLITE3_COMPILE_DEFINITIONS         = _CRT_SECURE_NO_DEPRECATE _CRT_SECURE_NO_WARNINGS _CRT_NONSTDC_NO_WARNING _SCL_SECURE_NO_WARNINGS SOCI_ABI_VERSION="4_0" 
+  -- SOCI_SQLITE3_INCLUDE_DIRECTORIES         = C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/include C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/include C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/include/private C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/include/private C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include 
+  -- 
+  -- 
+  -- Package file name is SOCI-4.0.0
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci
+  Forcing build for 'EP_soci'
+  Performing build step for 'EP_soci'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:05:34.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/sqlite3/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "soci_core.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\".
+    Creating directory "soci_core.dir\Release\soci_core.tlog\".
+  InitializeBuildStatus:
+    Creating "soci_core.dir\Release\soci_core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/core/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include" /nologo /W4 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNING /D _SCL_SECURE_NO_WARNINGS /D "SOCI_ABI_VERSION=\"4_0\"" /D "SOCI_LIB_PREFIX=\"soci_\"" /D "SOCI_LIB_SUFFIX=\".dll\"" /D "SOCI_DEBUG_POSTFIX=\"\"" /D "CMAKE_INTDIR=\"Release\"" /D SOCI_DLL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"soci_core.dir\Release\\" /Fd"soci_core.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\backend-loader.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\blob.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\common.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\connection-parameters.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\connection-pool.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\error.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\into-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\logger.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\once-temp-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\prepare-temp-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\procedure.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\ref-counted-prepare-info.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\ref-counted-statement.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\row.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\rowid.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\session.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\soci-simple.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\statement.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\transaction.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\use-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\values.cpp"
+    backend-loader.cpp
+    blob.cpp
+    common.cpp
+    connection-parameters.cpp
+    connection-pool.cpp
+    error.cpp
+    into-type.cpp
+    logger.cpp
+    once-temp-type.cpp
+c:\users\coral\desktop\coralphone-desktop\linphone-sdk\external\soci\src\core\logger.cpp(50): warning C4702: unreachable code [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\linphone-sdk\external\soci\src\core\logger.cpp(57): warning C4702: unreachable code [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj]
+    prepare-temp-type.cpp
+    procedure.cpp
+    ref-counted-prepare-info.cpp
+    ref-counted-statement.cpp
+    row.cpp
+    rowid.cpp
+    session.cpp
+    soci-simple.cpp
+    statement.cpp
+    transaction.cpp
+    use-type.cpp
+    values.cpp
+  MakeDirsForLink:
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\lib\Release\".
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_core_4_0.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/Release/soci_core_4_0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_core_4_0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL "soci_core.dir\Release\backend-loader.obj"
+    soci_core.dir\Release\blob.obj
+    soci_core.dir\Release\common.obj
+    "soci_core.dir\Release\connection-parameters.obj"
+    "soci_core.dir\Release\connection-pool.obj"
+    soci_core.dir\Release\error.obj
+    "soci_core.dir\Release\into-type.obj"
+    soci_core.dir\Release\logger.obj
+    "soci_core.dir\Release\once-temp-type.obj"
+    "soci_core.dir\Release\prepare-temp-type.obj"
+    soci_core.dir\Release\procedure.obj
+    "soci_core.dir\Release\ref-counted-prepare-info.obj"
+    "soci_core.dir\Release\ref-counted-statement.obj"
+    soci_core.dir\Release\row.obj
+    soci_core.dir\Release\rowid.obj
+    soci_core.dir\Release\session.obj
+    "soci_core.dir\Release\soci-simple.obj"
+    soci_core.dir\Release\statement.obj
+    soci_core.dir\Release\transaction.obj
+    "soci_core.dir\Release\use-type.obj"
+    soci_core.dir\Release\values.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_core_4_0.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_core_4_0.exp
+    soci_core.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_core_4_0.dll
+  FinalizeBuildStatus:
+    Deleting file "soci_core.dir\Release\soci_core.tlog\unsuccessfulbuild".
+    Touching "soci_core.dir\Release\soci_core.tlog\soci_core.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\backends\sqlite3\soci_sqlite3.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "soci_sqlite3.dir\Release\".
+    Creating directory "soci_sqlite3.dir\Release\soci_sqlite3.tlog\".
+  InitializeBuildStatus:
+    Creating "soci_sqlite3.dir\Release\soci_sqlite3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/src/backends/sqlite3/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/sqlite3/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\include\private" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\core\..\..\include" /nologo /W4 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNING /D _SCL_SECURE_NO_WARNINGS /D "SOCI_ABI_VERSION=\"4_0\"" /D "CMAKE_INTDIR=\"Release\"" /D SOCI_DLL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"soci_sqlite3.dir\Release\\" /Fd"soci_sqlite3.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\blob.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\error.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\factory.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\row-id.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\session.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\standard-into-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\standard-use-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\statement.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\vector-into-type.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\soci\src\backends\sqlite3\vector-use-type.cpp"
+    blob.cpp
+    error.cpp
+    factory.cpp
+    row-id.cpp
+    session.cpp
+    standard-into-type.cpp
+    standard-use-type.cpp
+    statement.cpp
+    vector-into-type.cpp
+    vector-use-type.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_sqlite3_4_0.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\..\lib\Release\soci_core_4_0.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\sqlite3.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\sqlite3.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/bin/Release/soci_sqlite3_4_0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_sqlite3_4_0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL soci_sqlite3.dir\Release\blob.obj
+    soci_sqlite3.dir\Release\error.obj
+    soci_sqlite3.dir\Release\factory.obj
+    "soci_sqlite3.dir\Release\row-id.obj"
+    soci_sqlite3.dir\Release\session.obj
+    "soci_sqlite3.dir\Release\standard-into-type.obj"
+    "soci_sqlite3.dir\Release\standard-use-type.obj"
+    soci_sqlite3.dir\Release\statement.obj
+    "soci_sqlite3.dir\Release\vector-into-type.obj"
+    "soci_sqlite3.dir\Release\vector-use-type.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_sqlite3_4_0.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/lib/Release/soci_sqlite3_4_0.exp
+    soci_sqlite3.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_sqlite3_4_0.dll
+  FinalizeBuildStatus:
+    Deleting file "soci_sqlite3.dir\Release\soci_sqlite3.tlog\unsuccessfulbuild".
+    Touching "soci_sqlite3.dir\Release\soci_sqlite3.tlog\soci_sqlite3.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\backends\sqlite3\soci_sqlite3.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/soci/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+c:\users\coral\desktop\coralphone-desktop\linphone-sdk\external\soci\src\core\logger.cpp(50): warning C4702: unreachable code [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\linphone-sdk\external\soci\src\core\logger.cpp(57): warning C4702: unreachable code [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj]
+  
+      2 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:32.41
+  Performing install step for 'EP_soci'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:06:07.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "soci_core.dir\Release\soci_core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    soci_core.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_core_4_0.dll
+  FinalizeBuildStatus:
+    Deleting file "soci_core.dir\Release\soci_core.tlog\unsuccessfulbuild".
+    Touching "soci_core.dir\Release\soci_core.tlog\soci_core.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\core\soci_core.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\backends\sqlite3\soci_sqlite3.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "soci_sqlite3.dir\Release\soci_sqlite3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    soci_sqlite3.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\bin\Release\soci_sqlite3_4_0.dll
+  FinalizeBuildStatus:
+    Deleting file "soci_sqlite3.dir\Release\soci_sqlite3.tlog\unsuccessfulbuild".
+    Touching "soci_sqlite3.dir\Release\soci_sqlite3.tlog\soci_sqlite3.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\src\backends\sqlite3\soci_sqlite3.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/soci-config.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/backend-loader.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/bind-values.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/blob-exchange.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/blob.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/boost-fusion.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/boost-gregorian-date.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/boost-optional.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/boost-tuple.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/callbacks.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/column-info.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/connection-parameters.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/connection-pool.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/error.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/exchange-traits.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/into-type.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/into.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/logger.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/noreturn.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/once-temp-type.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/prepare-temp-type.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/procedure.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/query_transformation.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/ref-counted-prepare-info.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/ref-counted-statement.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/row-exchange.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/row.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/rowid-exchange.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/rowid.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/rowset.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/session.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/soci-backend.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/soci-platform.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/soci-simple.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/soci.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/statement.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/transaction.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/type-conversion-traits.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/type-conversion.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/type-holder.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/type-ptr.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/type-wrappers.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/unsigned-types.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/use-type.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/use.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/values-exchange.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/values.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/version.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/soci_core_4_0.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/soci_core_4_0.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/cmake/SOCI.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/cmake/SOCI-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/soci/sqlite3/soci-sqlite3.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/soci_sqlite3_4_0.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/soci_sqlite3_4_0.dll
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\soci\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.29
+  Completed 'EP_soci'

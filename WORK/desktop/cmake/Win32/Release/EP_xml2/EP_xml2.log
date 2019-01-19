@@ -1,0 +1,371 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_xml2'
+  No download step for 'EP_xml2'
+  No update step for 'EP_xml2'
+  No patch step for 'EP_xml2'
+  Performing configure step for 'EP_xml2'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_xml2/EP_xml2-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Looking for inttypes.h
+  -- Looking for inttypes.h - found
+  -- Looking for memory.h
+  -- Looking for memory.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  -- Looking for strings.h
+  -- Looking for strings.h - not found
+  -- Looking for string.h
+  -- Looking for string.h - found
+  -- Looking for sys/stat.h
+  -- Looking for sys/stat.h - found
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for poll.h
+  -- Looking for poll.h - not found
+  -- Looking for sys/poll.h
+  -- Looking for sys/poll.h - not found
+  -- Looking for sys/uio.h
+  -- Looking for sys/uio.h - not found
+  -- Looking for fcntl.h
+  -- Looking for fcntl.h - found
+  -- Looking for sys/time.h
+  -- Looking for sys/time.h - not found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  -- Looking for sys/shm.h
+  -- Looking for sys/shm.h - not found
+  -- Looking for windows.h
+  -- Looking for windows.h - found
+  -- Looking for dlfcn.h
+  -- Looking for dlfcn.h - not found
+  -- Looking for alloca.h
+  -- Looking for alloca.h - not found
+  -- Looking for ctype.h
+  -- Looking for ctype.h - found
+  -- Looking for dirent.h
+  -- Looking for dirent.h - not found
+  -- Looking for errno.h
+  -- Looking for errno.h - found
+  -- Looking for malloc.h
+  -- Looking for malloc.h - found
+  -- Looking for stdarg.h
+  -- Looking for stdarg.h - found
+  -- Looking for time.h
+  -- Looking for time.h - found
+  -- Looking for ansidecl.h
+  -- Looking for ansidecl.h - not found
+  -- Looking for ieeefp.h
+  -- Looking for ieeefp.h - not found
+  -- Looking for nan.h
+  -- Looking for nan.h - not found
+  -- Looking for math.h
+  -- Looking for math.h - found
+  -- Looking for limits.h
+  -- Looking for limits.h - found
+  -- Looking for fp_class.h
+  -- Looking for fp_class.h - not found
+  -- Looking for float.h
+  -- Looking for float.h - found
+  -- Looking for sys/socket.h
+  -- Looking for sys/socket.h - not found
+  -- Looking for netinet/in.h
+  -- Looking for netinet/in.h - not found
+  -- Looking for arpa/inet.h
+  -- Looking for arpa/inet.h - not found
+  -- Looking for netdb.h
+  -- Looking for netdb.h - not found
+  -- Looking for sys/select.h
+  -- Looking for sys/select.h - not found
+  -- Looking for sys/mman.h
+  -- Looking for sys/mman.h - not found
+  -- Looking for sys/timeb.h
+  -- Looking for sys/timeb.h - found
+  -- Looking for signal.h
+  -- Looking for signal.h - found
+  -- Looking for arpa/nameser.h
+  -- Looking for arpa/nameser.h - not found
+  -- Looking for resolv.h
+  -- Looking for resolv.h - not found
+  -- Looking for dl.h
+  -- Looking for dl.h - not found
+  -- Looking for va_copy
+  -- Looking for va_copy - found
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ENABLE_SHARED
+  
+  
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2
+  Forcing build for 'EP_xml2'
+  Performing build step for 'EP_xml2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:57:26.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\xml2.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "xml2.dir\Release\".
+    Creating directory "xml2.dir\Release\xml2.tlog\".
+  InitializeBuildStatus:
+    Creating "xml2.dir\Release\xml2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/libxml2/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\MSVC" /nologo /W0 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D xml2_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"xml2.dir\Release\\" /Fd"xml2.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\buf.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\c14n.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\catalog.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\chvalid.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\debugXML.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\dict.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\DOCBparser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\encoding.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\entities.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\error.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\globals.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\hash.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\HTMLparser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\HTMLtree.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\legacy.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\list.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\nanoftp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\nanohttp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\parser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\parserInternals.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\pattern.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\relaxng.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\SAX2.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\SAX.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\schematron.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\threads.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\tree.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\uri.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\valid.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xinclude.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xlink.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlIO.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlmemory.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlmodule.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlreader.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlregexp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlsave.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlschemas.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlschemastypes.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlstring.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlunicode.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xmlwriter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xpath.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xpointer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\external\libxml2\xzlib.c"
+    buf.c
+    c14n.c
+    catalog.c
+    chvalid.c
+    debugXML.c
+    dict.c
+    DOCBparser.c
+    encoding.c
+    entities.c
+    error.c
+    globals.c
+    hash.c
+    HTMLparser.c
+    HTMLtree.c
+    legacy.c
+    list.c
+    nanoftp.c
+    nanohttp.c
+    parser.c
+    parserInternals.c
+    pattern.c
+    relaxng.c
+    SAX2.c
+    SAX.c
+    schematron.c
+    threads.c
+    tree.c
+    uri.c
+    valid.c
+    xinclude.c
+    xlink.c
+    xmlIO.c
+    xmlmemory.c
+    xmlmodule.c
+    xmlreader.c
+    xmlregexp.c
+    xmlsave.c
+    xmlschemas.c
+    xmlschemastypes.c
+    xmlstring.c
+    xmlunicode.c
+    xmlwriter.c
+    xpath.c
+    xpointer.c
+    xzlib.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\Release\xml2.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/Release/xml2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/Release/xml2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL xml2.dir\Release\buf.obj
+    xml2.dir\Release\c14n.obj
+    xml2.dir\Release\catalog.obj
+    xml2.dir\Release\chvalid.obj
+    xml2.dir\Release\debugXML.obj
+    xml2.dir\Release\dict.obj
+    xml2.dir\Release\DOCBparser.obj
+    xml2.dir\Release\encoding.obj
+    xml2.dir\Release\entities.obj
+    xml2.dir\Release\error.obj
+    xml2.dir\Release\globals.obj
+    xml2.dir\Release\hash.obj
+    xml2.dir\Release\HTMLparser.obj
+    xml2.dir\Release\HTMLtree.obj
+    xml2.dir\Release\legacy.obj
+    xml2.dir\Release\list.obj
+    xml2.dir\Release\nanoftp.obj
+    xml2.dir\Release\nanohttp.obj
+    xml2.dir\Release\parser.obj
+    xml2.dir\Release\parserInternals.obj
+    xml2.dir\Release\pattern.obj
+    xml2.dir\Release\relaxng.obj
+    xml2.dir\Release\SAX2.obj
+    xml2.dir\Release\SAX.obj
+    xml2.dir\Release\schematron.obj
+    xml2.dir\Release\threads.obj
+    xml2.dir\Release\tree.obj
+    xml2.dir\Release\uri.obj
+    xml2.dir\Release\valid.obj
+    xml2.dir\Release\xinclude.obj
+    xml2.dir\Release\xlink.obj
+    xml2.dir\Release\xmlIO.obj
+    xml2.dir\Release\xmlmemory.obj
+    xml2.dir\Release\xmlmodule.obj
+    xml2.dir\Release\xmlreader.obj
+    xml2.dir\Release\xmlregexp.obj
+    xml2.dir\Release\xmlsave.obj
+    xml2.dir\Release\xmlschemas.obj
+    xml2.dir\Release\xmlschemastypes.obj
+    xml2.dir\Release\xmlstring.obj
+    xml2.dir\Release\xmlunicode.obj
+    xml2.dir\Release\xmlwriter.obj
+    xml2.dir\Release\xpath.obj
+    xml2.dir\Release\xpointer.obj
+    xml2.dir\Release\xzlib.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/Release/xml2.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/Release/xml2.exp
+    xml2.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\Release\xml2.dll
+  FinalizeBuildStatus:
+    Deleting file "xml2.dir\Release\xml2.tlog\unsuccessfulbuild".
+    Touching "xml2.dir\Release\xml2.tlog\xml2.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\xml2.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/external/libxml2/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xml2/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:11.61
+  Performing install step for 'EP_xml2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:57:38.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\xml2.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "xml2.dir\Release\xml2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    xml2.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\Release\xml2.dll
+  FinalizeBuildStatus:
+    Deleting file "xml2.dir\Release\xml2.tlog\unsuccessfulbuild".
+    Touching "xml2.dir\Release\xml2.tlog\xml2.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\xml2.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/xml2.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/xml2.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/DOCBparser.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/HTMLparser.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/HTMLtree.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/SAX.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/SAX2.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/c14n.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/catalog.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/chvalid.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/debugXML.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/dict.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/encoding.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/entities.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/globals.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/hash.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/list.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/nanoftp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/nanohttp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/parser.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/parserInternals.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/pattern.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/relaxng.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/schemasInternals.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/schematron.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/threads.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/tree.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/uri.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/valid.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xinclude.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xlink.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlIO.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlautomata.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlerror.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlexports.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlmemory.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlmodule.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlreader.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlregexp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlsave.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlschemas.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlschemastypes.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlstring.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlunicode.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlwin32version.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlwriter.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xpath.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xpathInternals.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xpointer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2/libxml/xmlversion.h
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xml2\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.98
+  Completed 'EP_xml2'

@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{71C7919F-65D8-384F-BC62-A80DEE97DC65}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bcmatroska2-static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bcmatroska2-static.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bcmatroska2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bcmatroska2-static.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bcmatroska2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bcmatroska2-static.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bcmatroska2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bcmatroska2-static.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bcmatroska2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -w</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -w</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -w</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -w</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EBML2_EXPORTS;MATROSKA2_EXPORTS;STR_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\corec;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\..\libebml2;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2 -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2 --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bcmatroska2/libmatroska2/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libmatroska2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroskamain.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroskablock.c"  />
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bcmatroska2\libmatroska2\matroska_sem.c"  />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\array.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\bufstream.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\memstream.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\streams.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\tools.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\md5.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\parser2.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\strtab.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\strtypes.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\dataheap.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\buffer.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\hotkey.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\nodelookup.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\urlpart.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\node.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\nodetree.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\str.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\charconvert_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\date_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\file_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\ccsystem_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\multithread_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\str_win32.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.dir\$(Configuration)\stream_stdio.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlmain.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlelement.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlmaster.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlbinary.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlstring.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlnumber.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlcrc.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmldate.obj" />
+    <Object Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.dir\$(Configuration)\ebmlvoid.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\ZERO_CHECK.vcxproj">
+      <Project>{7DFC307C-EB33-32A5-B433-41AAEE1C9C62}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\corec\corec\corec-objects.vcxproj">
+      <Project>{82C14EEE-68ED-38A8-ACBC-50ED4A491FC6}</Project>
+      <Name>corec-objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\matroska2\libebml2\ebml2-objects.vcxproj">
+      <Project>{1561DA25-1BAB-38C3-AD6E-CE1097C63C8A}</Project>
+      <Name>ebml2-objects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

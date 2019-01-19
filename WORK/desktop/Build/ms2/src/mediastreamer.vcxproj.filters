@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\eventqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mscommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msfactory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mssndcard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msticker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msvideopresets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mswebcam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mtu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msasync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\itc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\join.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\tee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\void.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\alaw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\audiomixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\chanadapt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\devices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\dtmfgen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\equalizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\flowcontrol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\g711.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\genericplc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msgenericplc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\l16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msfileplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msfilerec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\asyncrw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msg722.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msvaddtx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msvolume.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\tonedetector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\ulaw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\dtls_srtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\ms_srtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\zrtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\msrtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\audiodiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\dsptools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\g722_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\g722_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fftr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\pcap_sender.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\stream_regulator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\audioconference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\audiostream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bandwidthcontroller.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bitratecontrol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bitratedriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\ice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\mediastream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msiframerequestslimiter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msmediaplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvoip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\qosanalyzer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\qualityindicator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\rfc4103_source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\rfc4103_sink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\msudp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\rfc4103_textstream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\ringstream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\stun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\gsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\bv16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msopus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msresample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msspeex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\speexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\bits_rw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\extdisplay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\mire.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\nowebcam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\pixconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\sizeconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\layouts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvideo_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvideo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\video_preset_high_fps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\videostarter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\videostream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\turbojpegnowebcam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\drawdib-display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\ffmpeg-priv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\videodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\videoenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\turbojpegwriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\opengl_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\opengles_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\shader_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\generic_opengl_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\vp8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\vp8rtpfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\mkv_reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\filter-wrapper\decoding-filter-wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\filter-wrapper\encoding-filter-wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\msdscap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\h264dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\mkv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-encoder-filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-decoder-filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-nal-packer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-nal-unpacker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-nal-packer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-nal-unpacker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\nal-packer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\nal-unpacker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\rfc3984.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\allfilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\bitratecontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\bits_rw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\devices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\dsptools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\dtls_srtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\dtmfgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\flowcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\ice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mediastream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\ms_srtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msaudiomixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mschanadapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mscodecutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mscommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msconference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msequalizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mseventqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msextdisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msfileplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msfilerec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msgenericplc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msinterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msitc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msjava.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msjpegwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msogl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msogl_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msqrcodereader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msmediaplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msrtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mssndcard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mstee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msticker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mstonedetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msv4l.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msvaddtx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msvideoout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msvideopresets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msvolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mswebcam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\qualityindicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\rfc3984.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\stun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\upnp_igd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\x11_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\zrtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msrtt4103.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msasync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\msudp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include\mediastreamer2\mspcapfileplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\g711.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\genericplc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\asyncrw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\waveheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\_kiss_fft_guts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\g722.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fftr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\pcap_sender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\srtp_prefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\qosanalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\layouts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvideo_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\nowebcam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\rfc2429.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\ffmpeg-priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\swscale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\vp8rtpfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{26BFF4D9-2561-309F-913D-1C0D558269C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E2C604F4-4B8B-31D7-B0D2-8239A3E9A6B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

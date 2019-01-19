@@ -1,0 +1,4 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswasapi/CMakeFiles/mswasapi.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswasapi/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswasapi/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswasapi/CMakeFiles/ZERO_CHECK.dir

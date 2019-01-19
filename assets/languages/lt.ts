@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>NAUDOTI %1 PASKYRĄ</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>NAUDOTI SIP PASKYRĄ</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>Šis pagelbiklis padės jums sukonfigūruoti ir naudoti savo %1 paskyrą.</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>SUSIKURTI %1 PASKYRĄ</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@ Nesukonfigūruotas serverio url.</translation>
     <message>
         <source>inviteTitle</source>
         <translation>PAKVIESTI SAVO DRAUGUS</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>Susikurkite ar tvarkykite savo %1 paskyrą.</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>PASKYRŲ PAGELBIKLIS</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>PAGELBIKLIS</translation>
     </message>
     <message>
         <source>showTooltips</source>

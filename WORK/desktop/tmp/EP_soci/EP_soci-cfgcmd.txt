@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DSOCI_TESTS=NO;-DWITH_SQLITE3=YES;-DSOCI_SHARED=YES;-DSOCI_STATIC=NO;-C<TMP_DIR>/EP_soci-cache-$<CONFIG>.cmake;-GVisual Studio 14 2015;<SOURCE_DIR><SOURCE_SUBDIR>'

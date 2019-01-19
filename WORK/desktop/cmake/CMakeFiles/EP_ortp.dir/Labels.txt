@@ -1,0 +1,15 @@
+# Target labels
+ EP_ortp
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_ortp
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_ortp.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_ortp-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/d05f18cae9a638b0d58f4206f37c2659/EP_ortp-force_build.rule

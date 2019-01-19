@@ -5,6 +5,6 @@ import QtQml 2.2
 
 QtObject {
   property QtObject checkBox: QtObject {
-    property int width: 300
+    property int width: 0
   }
 }

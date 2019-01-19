@@ -82,7 +82,7 @@ DialogPlus {
         elide: Text.ElideRight
         font.pointSize: AboutStyle.copyrightBlock.url.pointSize
         linkColor: AboutStyle.copyrightBlock.url.color
-        text: '<a href="https://www.linphone.org">https://www.linphone.org</a>'
+        text: '<a href="http://www.coraltele.com">http://www.coraltele.com</a>'
 
         width: parent.width
 
@@ -106,7 +106,7 @@ DialogPlus {
 
         text: 'GNU General Public License V2\n\u00A9 2010-' +
           (new Date().toLocaleDateString(Qt.locale(), 'yyyy')) +
-          ' Belledonne Communications'
+          ' Coral Telecom Ltd.'
 
         width: parent.width
 

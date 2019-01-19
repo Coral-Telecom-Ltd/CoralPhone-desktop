@@ -1,0 +1,14 @@
+# Target labels
+ TARGET_linphone_package
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/TARGET_linphone_package
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/TARGET_linphone_package.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/TARGET_linphone_package-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/6a51d991d710b7c85e0cc239aaac6880/TARGET_linphone_package-build.rule

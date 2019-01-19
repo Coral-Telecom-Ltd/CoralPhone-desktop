@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-force_build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\40976f192517cb1c2ffba9f35c75cd28\EP_linphone-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\461a8ba054db055c81fdb0de8a163e6d\EP_linphone-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\9a0352600236e06bbf09bdfb34dc9ae3\EP_linphone.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_linphone" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D15FB63-C293-3AB6-B1F6-280DA2C15842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

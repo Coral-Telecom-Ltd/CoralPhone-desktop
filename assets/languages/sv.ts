@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>ANVÄND ETT %1-KONTO</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>ANVÄND ETT SIP-KONTO</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>Denna assistent hjälper dig att konfigurera och använda ditt %1-konto.</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>SKAPA ETT %1-KONTO</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@ Serverwebbadressen är inte konfigurerad.</translation>
     <message>
         <source>inviteTitle</source>
         <translation>BJUD IN DINA VÄNNER</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>Skapa eller hantera ditt %1-konto.</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>KONTO ASSISTENT</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>ASSISTENT</translation>
     </message>
     <message>
         <source>showTooltips</source>

@@ -71,7 +71,7 @@ class Colors : public QObject {
   ADD_COLOR(h, "#687680");
 
   // Primary color.
-  ADD_COLOR(i, "#FE5E00");
+  ADD_COLOR(i, "#FFC100");
 
   ADD_COLOR(j, "#4B5964");
 

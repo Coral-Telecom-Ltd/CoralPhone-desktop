@@ -1,0 +1,273 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_ortp'
+  No download step for 'EP_ortp'
+  No update step for 'EP_ortp'
+  No patch step for 'EP_ortp'
+  Performing configure step for 'EP_ortp'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_ortp/EP_ortp-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Looking for sys/uio.h
+  -- Looking for sys/uio.h - not found
+  -- Looking for sys/audio.h
+  -- Looking for sys/audio.h - not found
+  -- Looking for sys/shm.h
+  -- Looking for sys/shm.h - not found
+  -- Performing Test HAVE_STDATOMIC_H
+  -- Performing Test HAVE_STDATOMIC_H - Failed
+  -- Looking for arc4random
+  -- Looking for arc4random - not found
+  -- Looking for recvmsg
+  -- Looking for recvmsg - not found
+  -- Looking for sendmsg
+  -- Looking for sendmsg - not found
+  -- Check if the system is big endian
+  -- Searching 16 bit integer
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of unsigned short
+  -- Check size of unsigned short - done
+  -- Using unsigned short
+  -- Check if the system is big endian - little endian
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  Package file name is ortp-1.0.2
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ENABLE_UNIT_TESTS
+  
+  
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp
+  Forcing build for 'EP_ortp'
+  Performing build step for 'EP_ortp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:01:29.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\ortp.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "ortp.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\Release\".
+    Creating directory "ortp.dir\Release\ortp.tlog\".
+  InitializeBuildStatus:
+    Creating "ortp.dir\Release\ortp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/ortp/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D ELAYLOAD:Qwave.dll /D ORTP_EXPORTS /D HAVE_CONFIG_H /D "BCTBX_LOG_DOMAIN=\"ortp\"" /D WINDOWS_NATIVE /D "CMAKE_INTDIR=\"Release\"" /D ortp_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ortp.dir\Release\\" /Fd"ortp.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\avprofile.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\b64.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\congestiondetector.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\event.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\extremum.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\jitterctl.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\kalmanrls.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\logging.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\netsim.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\ortp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\payloadtype.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\port.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\posixtimer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtcp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtcp_fb.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtcp_xr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtcpparse.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtpparse.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtpprofile.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtpsession.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtpsession_inet.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtpsignaltable.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\rtptimer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\scheduler.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\sessionset.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\str_utils.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\telephonyevents.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\videobandwidthestimator.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\utils.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\ortp\src\dll_entry.c"
+    avprofile.c
+    b64.c
+    congestiondetector.c
+    event.c
+    extremum.c
+    jitterctl.c
+    kalmanrls.c
+    logging.c
+    netsim.c
+    ortp.c
+    payloadtype.c
+    port.c
+    posixtimer.c
+    rtcp.c
+    rtcp_fb.c
+    rtcp_xr.c
+    rtcpparse.c
+    rtpparse.c
+    rtpprofile.c
+    rtpsession.c
+    rtpsession_inet.c
+    rtpsignaltable.c
+    rtptimer.c
+    scheduler.c
+    sessionset.c
+    str_utils.c
+    telephonyevents.c
+    videobandwidthestimator.c
+    utils.c
+    dll_entry.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\Release\ortp.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ws2_32.lib delayimp.lib Winmm.lib Qwave.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/Release/ortp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/Release/ortp.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL ortp.dir\Release\avprofile.obj
+    ortp.dir\Release\b64.obj
+    ortp.dir\Release\congestiondetector.obj
+    ortp.dir\Release\event.obj
+    ortp.dir\Release\extremum.obj
+    ortp.dir\Release\jitterctl.obj
+    ortp.dir\Release\kalmanrls.obj
+    ortp.dir\Release\logging.obj
+    ortp.dir\Release\netsim.obj
+    ortp.dir\Release\ortp.obj
+    ortp.dir\Release\payloadtype.obj
+    ortp.dir\Release\port.obj
+    ortp.dir\Release\posixtimer.obj
+    ortp.dir\Release\rtcp.obj
+    ortp.dir\Release\rtcp_fb.obj
+    ortp.dir\Release\rtcp_xr.obj
+    ortp.dir\Release\rtcpparse.obj
+    ortp.dir\Release\rtpparse.obj
+    ortp.dir\Release\rtpprofile.obj
+    ortp.dir\Release\rtpsession.obj
+    ortp.dir\Release\rtpsession_inet.obj
+    ortp.dir\Release\rtpsignaltable.obj
+    ortp.dir\Release\rtptimer.obj
+    ortp.dir\Release\scheduler.obj
+    ortp.dir\Release\sessionset.obj
+    ortp.dir\Release\str_utils.obj
+    ortp.dir\Release\telephonyevents.obj
+    ortp.dir\Release\videobandwidthestimator.obj
+    ortp.dir\Release\utils.obj
+    ortp.dir\Release\dll_entry.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/Release/ortp.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/src/Release/ortp.exp
+    ortp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\Release\ortp.dll
+  FinalizeBuildStatus:
+    Deleting file "ortp.dir\Release\ortp.tlog\unsuccessfulbuild".
+    Touching "ortp.dir\Release\ortp.tlog\ortp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\ortp.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/ortp/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ortp/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:13.74
+  Performing install step for 'EP_ortp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:01:43.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\ortp.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "ortp.dir\Release\ortp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    ortp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\Release\ortp.dll
+  FinalizeBuildStatus:
+    Deleting file "ortp.dir\Release\ortp.tlog\unsuccessfulbuild".
+    Touching "ortp.dir\Release\ortp.tlog\ortp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\src\ortp.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/pkgconfig/ortp.pc
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/oRTP/cmake/ORTPTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/oRTP/cmake/ORTPTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/oRTP/cmake/ORTPConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/oRTP/cmake/ORTPConfigVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/doc/ortp-1.0.2/README.md
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/doc/ortp-1.0.2/ChangeLog
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/doc/ortp-1.0.2/COPYING
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/doc/ortp-1.0.2/AUTHORS
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/b64.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/event.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/logging.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/ortp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/payloadtype.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/port.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/rtcp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/rtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/rtpprofile.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/rtpsession.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/rtpsignaltable.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/sessionset.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/str_utils.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/telephonyevents.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/ortp/utils.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/ortp.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/ortp.dll
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ortp\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.43
+  Completed 'EP_ortp'

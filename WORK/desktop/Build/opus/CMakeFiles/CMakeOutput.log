@@ -1,0 +1,316 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:06.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\3.8.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/3.8.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2b724.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:07.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_2b724.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2b724.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2b724.dir\Debug\cmTC_2b724.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2b724.dir\Debug\cmTC_2b724.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b724.dir\Debug\\" /Fd"cmTC_2b724.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b724.dir\Debug\\" /Fd"cmTC_2b724.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_2b724.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_2b724.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_2b724.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2b724.dir\Debug\testCCompiler.obj
+  cmTC_2b724.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_2b724.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2b724.dir\Debug\cmTC_2b724.tlog\unsuccessfulbuild".
+  Touching "cmTC_2b724.dir\Debug\cmTC_2b724.tlog\cmTC_2b724.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_2b724.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1e58f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:09.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_1e58f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1e58f.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1e58f.dir\Debug\cmTC_1e58f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1e58f.dir\Debug\cmTC_1e58f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e58f.dir\Debug\\" /Fd"cmTC_1e58f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e58f.dir\Debug\\" /Fd"cmTC_1e58f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_1e58f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_1e58f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_1e58f.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_1e58f.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_1e58f.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_1e58f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1e58f.dir\Debug\cmTC_1e58f.tlog\unsuccessfulbuild".
+  Touching "cmTC_1e58f.dir\Debug\cmTC_1e58f.tlog\cmTC_1e58f.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_1e58f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE succeeded with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_030c3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:11.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_030c3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_030c3.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_030c3.dir\Debug\cmTC_030c3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_030c3.dir\Debug\cmTC_030c3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_030c3.dir\Debug\\" /Fd"cmTC_030c3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_030c3.dir\Debug\\" /Fd"cmTC_030c3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_030c3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_030c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_030c3.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_030c3.dir\Debug\src.obj
+  cmTC_030c3.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_030c3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_030c3.dir\Debug\cmTC_030c3.tlog\unsuccessfulbuild".
+  Touching "cmTC_030c3.dir\Debug\cmTC_030c3.tlog\cmTC_030c3.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_030c3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+Source file was:
+
+#include <xmmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128 mtest;
+	mtest = _mm_set1_ps((float)time(NULL));
+	mtest = _mm_mul_ps(mtest, mtest);
+	return _mm_cvtss_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE2 succeeded with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e66ae.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:13.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_e66ae.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e66ae.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e66ae.dir\Debug\cmTC_e66ae.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e66ae.dir\Debug\cmTC_e66ae.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e66ae.dir\Debug\\" /Fd"cmTC_e66ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e66ae.dir\Debug\\" /Fd"cmTC_e66ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_e66ae.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_e66ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_e66ae.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_e66ae.dir\Debug\src.obj
+  cmTC_e66ae.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_e66ae.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e66ae.dir\Debug\cmTC_e66ae.tlog\unsuccessfulbuild".
+  Touching "cmTC_e66ae.dir\Debug\cmTC_e66ae.tlog\cmTC_e66ae.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_e66ae.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+Source file was:
+
+#include <emmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128i mtest;
+	mtest = _mm_set1_epi32((int)time(NULL));
+	mtest = _mm_mul_epu32(mtest, mtest);
+	return _mm_cvtsi128_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE4_1 succeeded with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b9336.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:15.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_b9336.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b9336.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b9336.dir\Debug\cmTC_b9336.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b9336.dir\Debug\cmTC_b9336.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE4_1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9336.dir\Debug\\" /Fd"cmTC_b9336.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_SSE4_1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9336.dir\Debug\\" /Fd"cmTC_b9336.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_b9336.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_b9336.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_b9336.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_b9336.dir\Debug\src.obj
+  cmTC_b9336.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_b9336.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b9336.dir\Debug\cmTC_b9336.tlog\unsuccessfulbuild".
+  Touching "cmTC_b9336.dir\Debug\cmTC_b9336.tlog\cmTC_b9336.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_b9336.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+
+Source file was:
+
+#include <smmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128i mtest;
+	mtest = _mm_set1_epi32((int)time(NULL));
+	mtest = _mm_mul_epi32(mtest, mtest);
+	return _mm_cvtsi128_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_AVX succeeded with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_11b34.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:02:17.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_11b34.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_11b34.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_11b34.dir\Debug\cmTC_11b34.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_11b34.dir\Debug\cmTC_11b34.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_AVX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11b34.dir\Debug\\" /Fd"cmTC_11b34.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OPUS_X86_MAY_HAVE_AVX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11b34.dir\Debug\\" /Fd"cmTC_11b34.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+c:\users\coral\desktop\coralphone-desktop\work\desktop\build\opus\cmakefiles\cmaketmp\src.c(6): warning C4752: found Intel(R) Advanced Vector Extensions; consider using /arch:AVX [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_11b34.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_11b34.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_11b34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/opus/CMakeFiles/CMakeTmp/Debug/cmTC_11b34.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_11b34.dir\Debug\src.obj
+  cmTC_11b34.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\Debug\cmTC_11b34.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_11b34.dir\Debug\cmTC_11b34.tlog\unsuccessfulbuild".
+  Touching "cmTC_11b34.dir\Debug\cmTC_11b34.tlog\cmTC_11b34.lastbuildstate".
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_11b34.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_11b34.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\coral\desktop\coralphone-desktop\work\desktop\build\opus\cmakefiles\cmaketmp\src.c(6): warning C4752: found Intel(R) Advanced Vector Extensions; consider using /arch:AVX [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\opus\CMakeFiles\CMakeTmp\cmTC_11b34.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+Source file was:
+
+#include <immintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m256 mtest;
+	mtest = _mm256_set1_ps((float)time(NULL));
+	mtest = _mm256_addsub_ps(mtest, mtest);
+	return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+}

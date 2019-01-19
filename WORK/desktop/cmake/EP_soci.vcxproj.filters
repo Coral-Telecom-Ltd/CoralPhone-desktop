@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-force_build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\1f9c568f17bc4d5c394a3e6d9a21c2fc\EP_soci-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\461a8ba054db055c81fdb0de8a163e6d\EP_soci-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\9a0352600236e06bbf09bdfb34dc9ae3\EP_soci.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_soci" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D15FB63-C293-3AB6-B1F6-280DA2C15842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

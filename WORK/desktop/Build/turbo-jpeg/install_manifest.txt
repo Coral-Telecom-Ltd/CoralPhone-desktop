@@ -1,0 +1,2 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/turbojpeg-static.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/turbojpeg.h

@@ -1,0 +1,3 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/gsm.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/gsm.dll
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/gsm/gsm.h

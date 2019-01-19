@@ -1,0 +1,15 @@
+# Target labels
+ EP_mswebrtc
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_mswebrtc
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mswebrtc.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mswebrtc-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-force_build.rule

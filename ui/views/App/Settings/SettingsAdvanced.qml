@@ -41,7 +41,7 @@ TabContainer {
 
           TextField {
             readOnly: true
-            text: SettingsModel.logsUploadUrl
+            text: " "
 
             onEditingFinished: SettingsModel.logsUploadUrl = text
           }

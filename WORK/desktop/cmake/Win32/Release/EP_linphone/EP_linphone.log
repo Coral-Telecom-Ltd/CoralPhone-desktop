@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_linphone'
+  No download step for 'EP_linphone'
+  No update step for 'EP_linphone'
+  No patch step for 'EP_linphone'
+  Performing configure step for 'EP_linphone'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_linphone/EP_linphone-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Failed to find XercesC (missing:  XercesC_LIBRARY) (found version "3.1.1")
+  CMake Error at C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+    Could NOT find LibXsd (missing: LIBXSD_LIBRARIES)
+  Call Stack (most recent call first):
+    C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake:377 (_FPHSA_FAILURE_MESSAGE)
+    cmake/FindLibXsd.cmake:43 (find_package_handle_standard_args)
+    CMakeLists.txt:136 (find_package)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/linphone/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.

@@ -1,0 +1,986 @@
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_69e79.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:03:38.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_69e79.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_69e79.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_69e79.dir\Debug\cmTC_69e79.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_69e79.dir\Debug\cmTC_69e79.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69e79.dir\Debug\\" /Fd"cmTC_69e79.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69e79.dir\Debug\\" /Fd"cmTC_69e79.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_69e79.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_69e79.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_69e79.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_69e79.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+Determining if the include file langinfo.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bc710.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:03:44.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bc710.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bc710.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bc710.dir\Debug\cmTC_bc710.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bc710.dir\Debug\cmTC_bc710.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc710.dir\Debug\\" /Fd"cmTC_bc710.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc710.dir\Debug\\" /Fd"cmTC_bc710.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'langinfo.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bc710.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bc710.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bc710.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'langinfo.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bc710.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a07f1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:03:52.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a07f1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a07f1.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a07f1.dir\Debug\cmTC_a07f1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a07f1.dir\Debug\cmTC_a07f1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a07f1.dir\Debug\\" /Fd"cmTC_a07f1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a07f1.dir\Debug\\" /Fd"cmTC_a07f1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a07f1.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a07f1.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a07f1.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a07f1.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a8f15.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:03:53.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a8f15.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a8f15.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a8f15.dir\Debug\cmTC_a8f15.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a8f15.dir\Debug\cmTC_a8f15.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8f15.dir\Debug\\" /Fd"cmTC_a8f15.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8f15.dir\Debug\\" /Fd"cmTC_a8f15.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a8f15.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a8f15.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a8f15.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a8f15.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Determining if the include file nl_types.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5e089.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:03:54.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5e089.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5e089.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5e089.dir\Debug\cmTC_5e089.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5e089.dir\Debug\cmTC_5e089.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e089.dir\Debug\\" /Fd"cmTC_5e089.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e089.dir\Debug\\" /Fd"cmTC_5e089.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'nl_types.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5e089.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5e089.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5e089.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'nl_types.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5e089.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.65
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5688f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:02.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5688f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5688f.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5688f.dir\Debug\cmTC_5688f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5688f.dir\Debug\cmTC_5688f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5688f.dir\Debug\\" /Fd"cmTC_5688f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5688f.dir\Debug\\" /Fd"cmTC_5688f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5688f.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5688f.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5688f.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_5688f.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_08fc8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:03.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_08fc8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_08fc8.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_08fc8.dir\Debug\cmTC_08fc8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_08fc8.dir\Debug\cmTC_08fc8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08fc8.dir\Debug\\" /Fd"cmTC_08fc8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08fc8.dir\Debug\\" /Fd"cmTC_08fc8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_08fc8.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_08fc8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_08fc8.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_08fc8.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a1d68.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:04.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a1d68.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a1d68.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a1d68.dir\Debug\cmTC_a1d68.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a1d68.dir\Debug\cmTC_a1d68.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1d68.dir\Debug\\" /Fd"cmTC_a1d68.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1d68.dir\Debug\\" /Fd"cmTC_a1d68.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a1d68.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a1d68.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a1d68.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_a1d68.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8f841.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:05.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8f841.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8f841.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8f841.dir\Debug\cmTC_8f841.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8f841.dir\Debug\cmTC_8f841.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f841.dir\Debug\\" /Fd"cmTC_8f841.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f841.dir\Debug\\" /Fd"cmTC_8f841.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8f841.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8f841.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8f841.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8f841.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d43b4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:08.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_d43b4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d43b4.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d43b4.dir\Debug\cmTC_d43b4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d43b4.dir\Debug\cmTC_d43b4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d43b4.dir\Debug\\" /Fd"cmTC_d43b4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d43b4.dir\Debug\\" /Fd"cmTC_d43b4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_d43b4.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_d43b4.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_d43b4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_d43b4.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.65
+
+
+Determining if the include file CoreServices/CoreServices.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8dbd7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:13.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8dbd7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8dbd7.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8dbd7.dir\Debug\cmTC_8dbd7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8dbd7.dir\Debug\cmTC_8dbd7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dbd7.dir\Debug\\" /Fd"cmTC_8dbd7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dbd7.dir\Debug\\" /Fd"cmTC_8dbd7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'CoreServices/CoreServices.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8dbd7.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8dbd7.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8dbd7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'CoreServices/CoreServices.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_8dbd7.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2a4f9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:14.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_2a4f9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2a4f9.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2a4f9.dir\Debug\cmTC_2a4f9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2a4f9.dir\Debug\cmTC_2a4f9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a4f9.dir\Debug\\" /Fd"cmTC_2a4f9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a4f9.dir\Debug\\" /Fd"cmTC_2a4f9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_2a4f9.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_2a4f9.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_2a4f9.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_2a4f9.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Determining if the include file machine/endian.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc125.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:15.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_cc125.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cc125.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cc125.dir\Debug\cmTC_cc125.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cc125.dir\Debug\cmTC_cc125.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc125.dir\Debug\\" /Fd"cmTC_cc125.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc125.dir\Debug\\" /Fd"cmTC_cc125.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'machine/endian.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_cc125.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_cc125.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_cc125.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'machine/endian.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_cc125.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+Determining if the include file arpa/nameser_compat.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_faff5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:16.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_faff5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_faff5.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_faff5.dir\Debug\cmTC_faff5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_faff5.dir\Debug\cmTC_faff5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faff5.dir\Debug\\" /Fd"cmTC_faff5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faff5.dir\Debug\\" /Fd"cmTC_faff5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/nameser_compat.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_faff5.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_faff5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_faff5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/nameser_compat.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_faff5.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+Determining if the include file cpuid.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0dab3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:17.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_0dab3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0dab3.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0dab3.dir\Debug\cmTC_0dab3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0dab3.dir\Debug\cmTC_0dab3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0dab3.dir\Debug\\" /Fd"cmTC_0dab3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0dab3.dir\Debug\\" /Fd"cmTC_0dab3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_0dab3.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_0dab3.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_0dab3.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_0dab3.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_37d3e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:20.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_37d3e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_37d3e.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_37d3e.dir\Debug\cmTC_37d3e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_37d3e.dir\Debug\cmTC_37d3e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37d3e.dir\Debug\\" /Fd"cmTC_37d3e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37d3e.dir\Debug\\" /Fd"cmTC_37d3e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_37d3e.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_37d3e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_37d3e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_37d3e.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the function pathconf exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9c539.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:31.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9c539.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9c539.dir\Debug\cmTC_9c539.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9c539.dir\Debug\cmTC_9c539.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pathconf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c539.dir\Debug\\" /Fd"cmTC_9c539.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pathconf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c539.dir\Debug\\" /Fd"cmTC_9c539.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_9c539.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_9c539.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_9c539.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_9c539.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pathconf referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_9c539.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pathconf referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_9c539.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_9c539.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if the function realpath exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_46220.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:32.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_46220.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_46220.dir\Debug\cmTC_46220.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_46220.dir\Debug\cmTC_46220.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=realpath /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46220.dir\Debug\\" /Fd"cmTC_46220.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=realpath /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46220.dir\Debug\\" /Fd"cmTC_46220.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_46220.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_46220.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_46220.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_46220.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _realpath referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_46220.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _realpath referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_46220.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_46220.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1c937.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:34.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1c937.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1c937.dir\Debug\cmTC_1c937.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1c937.dir\Debug\cmTC_1c937.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c937.dir\Debug\\" /Fd"cmTC_1c937.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c937.dir\Debug\\" /Fd"cmTC_1c937.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_1c937.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_1c937.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_1c937.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_1c937.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getaddrinfo referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_1c937.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getaddrinfo referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_1c937.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_1c937.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+Determining if the function gethostbyaddr exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c080e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:36.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c080e.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c080e.dir\Debug\cmTC_c080e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c080e.dir\Debug\cmTC_c080e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c080e.dir\Debug\\" /Fd"cmTC_c080e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c080e.dir\Debug\\" /Fd"cmTC_c080e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_c080e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_c080e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_c080e.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_c080e.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyaddr referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_c080e.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyaddr referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_c080e.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_c080e.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_df2f2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:37.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_df2f2.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_df2f2.dir\Debug\cmTC_df2f2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_df2f2.dir\Debug\cmTC_df2f2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df2f2.dir\Debug\\" /Fd"cmTC_df2f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df2f2.dir\Debug\\" /Fd"cmTC_df2f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_df2f2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_df2f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_df2f2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_df2f2.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyname referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_df2f2.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyname referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_df2f2.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_df2f2.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_41367.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:38.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_41367.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_41367.dir\Debug\cmTC_41367.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_41367.dir\Debug\cmTC_41367.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41367.dir\Debug\\" /Fd"cmTC_41367.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41367.dir\Debug\\" /Fd"cmTC_41367.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_41367.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_41367.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_41367.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_41367.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _socket referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_41367.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _socket referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_41367.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_41367.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_80cef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:40.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_80cef.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_80cef.dir\Debug\cmTC_80cef.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_80cef.dir\Debug\cmTC_80cef.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80cef.dir\Debug\\" /Fd"cmTC_80cef.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80cef.dir\Debug\\" /Fd"cmTC_80cef.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_80cef.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_80cef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_80cef.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_80cef.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_80cef.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_80cef.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_80cef.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24c0c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:43.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_24c0c.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_24c0c.dir\Debug\cmTC_24c0c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_24c0c.dir\Debug\cmTC_24c0c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24c0c.dir\Debug\\" /Fd"cmTC_24c0c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24c0c.dir\Debug\\" /Fd"cmTC_24c0c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_24c0c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_24c0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_24c0c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_24c0c.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_24c0c.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_24c0c.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_24c0c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Determining if the function nl_langinfo exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bb9ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:04:48.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bb9ad.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bb9ad.dir\Debug\cmTC_bb9ad.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bb9ad.dir\Debug\cmTC_bb9ad.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=nl_langinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb9ad.dir\Debug\\" /Fd"cmTC_bb9ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=nl_langinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb9ad.dir\Debug\\" /Fd"cmTC_bb9ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_bb9ad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_bb9ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/xerces/CMakeFiles/CMakeTmp/Debug/cmTC_bb9ad.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_bb9ad.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _nl_langinfo referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_bb9ad.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _nl_langinfo referenced in function _main [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj]
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\Debug\cmTC_bb9ad.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\xerces\CMakeFiles\CMakeTmp\cmTC_bb9ad.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.10
+
+

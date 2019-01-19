@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A202B979-3950-3A02-968D-9D1A13DA35C2}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>EP_mswebrtc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\ExternalProject.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\LinphoneOptions.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\options-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop-common.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\GNUInstallDirs.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\targets\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\common.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CheckBuildTools.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphoneqt.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mbedtls.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bcunit.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\zlib.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ortp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\gsm.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\opus.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\speex.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bv16.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\turbo-jpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ffmpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\matroska2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\srtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bzrtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xml2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\sqlite3.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2plugins.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswebrtc.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswasapi.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belr.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\libxsd.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xerces.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\soci.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belcard.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\minizip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\Autotools\Autotools.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xerces\EP_xerces-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_libxsd\EP_libxsd-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_sqlite3\EP_sqlite3-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xml2\EP_xml2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_srtp\EP_srtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_matroska2\EP_matroska2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_vpx\EP_vpx-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ffmpeg\EP_ffmpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_turbo-jpeg\EP_turbo-jpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bv16\EP_bv16-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_speex\EP_speex-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_opus\EP_opus-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_gsm\EP_gsm-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_zlib\EP_zlib-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bcunit\EP_bcunit-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mbedtls\EP_mbedtls-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bctoolbox\EP_bctoolbox-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_minizip\EP_minizip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_soci\EP_soci-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belr\EP_belr-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bzrtp\EP_bzrtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ortp\EP_ortp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bellesip\EP_bellesip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belcard\EP_belcard-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2\EP_ms2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswasapi\EP_mswasapi-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2plugins\EP_ms2plugins-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphone\EP_linphone-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphoneqt\EP_linphoneqt-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\additional_steps.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\application_info.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\TARGET_linphone_package\TARGET_linphone_package-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\ExternalProject.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\LinphoneOptions.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\options-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop-common.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\GNUInstallDirs.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\targets\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\common.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CheckBuildTools.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphoneqt.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mbedtls.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bcunit.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\zlib.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ortp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\gsm.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\opus.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\speex.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bv16.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\turbo-jpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ffmpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\matroska2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\srtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bzrtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xml2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\sqlite3.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2plugins.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswebrtc.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswasapi.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belr.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\libxsd.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xerces.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\soci.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belcard.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\minizip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\Autotools\Autotools.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xerces\EP_xerces-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_libxsd\EP_libxsd-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_sqlite3\EP_sqlite3-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xml2\EP_xml2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_srtp\EP_srtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_matroska2\EP_matroska2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_vpx\EP_vpx-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ffmpeg\EP_ffmpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_turbo-jpeg\EP_turbo-jpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bv16\EP_bv16-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_speex\EP_speex-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_opus\EP_opus-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_gsm\EP_gsm-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_zlib\EP_zlib-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bcunit\EP_bcunit-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mbedtls\EP_mbedtls-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bctoolbox\EP_bctoolbox-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_minizip\EP_minizip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_soci\EP_soci-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belr\EP_belr-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bzrtp\EP_bzrtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ortp\EP_ortp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bellesip\EP_bellesip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belcard\EP_belcard-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2\EP_ms2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswasapi\EP_mswasapi-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2plugins\EP_ms2plugins-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphone\EP_linphone-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphoneqt\EP_linphoneqt-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\additional_steps.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\application_info.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\TARGET_linphone_package\TARGET_linphone_package-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\ExternalProject.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\LinphoneOptions.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\options-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop-common.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\GNUInstallDirs.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\targets\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\common.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CheckBuildTools.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphoneqt.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mbedtls.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bcunit.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\zlib.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ortp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\gsm.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\opus.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\speex.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bv16.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\turbo-jpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ffmpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\matroska2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\srtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bzrtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xml2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\sqlite3.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2plugins.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswebrtc.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswasapi.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belr.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\libxsd.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xerces.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\soci.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belcard.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\minizip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\Autotools\Autotools.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xerces\EP_xerces-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_libxsd\EP_libxsd-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_sqlite3\EP_sqlite3-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xml2\EP_xml2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_srtp\EP_srtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_matroska2\EP_matroska2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_vpx\EP_vpx-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ffmpeg\EP_ffmpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_turbo-jpeg\EP_turbo-jpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bv16\EP_bv16-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_speex\EP_speex-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_opus\EP_opus-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_gsm\EP_gsm-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_zlib\EP_zlib-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bcunit\EP_bcunit-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mbedtls\EP_mbedtls-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bctoolbox\EP_bctoolbox-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_minizip\EP_minizip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_soci\EP_soci-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belr\EP_belr-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bzrtp\EP_bzrtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ortp\EP_ortp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bellesip\EP_bellesip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belcard\EP_belcard-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2\EP_ms2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswasapi\EP_mswasapi-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2plugins\EP_ms2plugins-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphone\EP_linphone-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphoneqt\EP_linphoneqt-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\additional_steps.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\application_info.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\TARGET_linphone_package\TARGET_linphone_package-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder -BC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake --check-stamp-file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\ExternalProject.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\LinphoneOptions.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\options-desktop.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\configs\config-desktop-common.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\GNUInstallDirs.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\targets\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\CMakeLists.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\common.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\CheckBuildTools.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphoneqt.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\linphone.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mbedtls.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bcunit.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bellesip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\zlib.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ortp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\gsm.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\opus.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\speex.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bv16.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\turbo-jpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ffmpeg.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\matroska2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\srtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\bzrtp.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xml2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\sqlite3.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\ms2plugins.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswebrtc.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\mswasapi.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\ms2.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belr.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\libxsd.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\xerces.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\soci.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\belcard.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\options\bctoolbox.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\minizip.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\Autotools\Autotools.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xerces\EP_xerces-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_libxsd\EP_libxsd-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_sqlite3\EP_sqlite3-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_xml2\EP_xml2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_srtp\EP_srtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_matroska2\EP_matroska2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\builders\vpx\windows_install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_vpx\EP_vpx-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_configure.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_build.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\mingw_install.bat.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\configure.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\build.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\cmake\install.sh.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ffmpeg\EP_ffmpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_turbo-jpeg\EP_turbo-jpeg-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bv16\EP_bv16-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_speex\EP_speex-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_opus\EP_opus-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_gsm\EP_gsm-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_zlib\EP_zlib-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bcunit\EP_bcunit-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mbedtls\EP_mbedtls-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bctoolbox\EP_bctoolbox-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_minizip\EP_minizip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_soci\EP_soci-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belr\EP_belr-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bzrtp\EP_bzrtp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ortp\EP_ortp-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_bellesip\EP_bellesip-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_belcard\EP_belcard-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2\EP_ms2-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswasapi\EP_mswasapi-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_ms2plugins\EP_ms2plugins-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphone\EP_linphone-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_linphoneqt\EP_linphoneqt-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\additional_steps.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\application_info.cmake;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\cmake_builder\linphone_package\windows\winshortcut.vbs.in;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\TARGET_linphone_package\TARGET_linphone_package-cfgcmd.txt.in;C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Install/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Download/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Install/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Download/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Install/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Download/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Install/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Download/EP_mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No download step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-download.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No download step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-download.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No download step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-download.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No download step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-download.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-update.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-update.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-update.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-update.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-patch.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-patch.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-patch.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-patch.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DENABLE_ISAC=OFF -DENABLE_ILBC=OFF -DENABLE_VAD=OFF -DENABLE_AEC=ON -DENABLE_AECM=OFF -DENABLE_SHARED=YES -DENABLE_STATIC=NO -CC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc/EP_mswebrtc-cache-Debug.cmake "-GVisual Studio 14 2015" C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-configure.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_ms2\$(Configuration)\EP_ms2-done;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DENABLE_ISAC=OFF -DENABLE_ILBC=OFF -DENABLE_VAD=OFF -DENABLE_AEC=ON -DENABLE_AECM=OFF -DENABLE_SHARED=YES -DENABLE_STATIC=NO -CC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc/EP_mswebrtc-cache-Release.cmake "-GVisual Studio 14 2015" C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-configure.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_ms2\$(Configuration)\EP_ms2-done;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DENABLE_ISAC=OFF -DENABLE_ILBC=OFF -DENABLE_VAD=OFF -DENABLE_AEC=ON -DENABLE_AECM=OFF -DENABLE_SHARED=YES -DENABLE_STATIC=NO -CC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc/EP_mswebrtc-cache-MinSizeRel.cmake "-GVisual Studio 14 2015" C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-configure.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_ms2\$(Configuration)\EP_ms2-done;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DENABLE_ISAC=OFF -DENABLE_ILBC=OFF -DENABLE_VAD=OFF -DENABLE_AEC=ON -DENABLE_AECM=OFF -DENABLE_SHARED=YES -DENABLE_STATIC=NO -CC:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_mswebrtc/EP_mswebrtc-cache-RelWithDebInfo.cmake "-GVisual Studio 14 2015" C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-configure.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_ms2\$(Configuration)\EP_ms2-done;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\tmp\EP_mswebrtc\EP_mswebrtc-cfgcmd.txt;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-force_build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Forcing build for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-force_build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Forcing build for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-force_build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Forcing build for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-force_build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Forcing build for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-force_build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-build.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\996b2369c450d82baebb52b8a3a204f0\EP_mswebrtc-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing install step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-install.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing install step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-install.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing install step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-install.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing install step for 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\mswebrtc
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/996b2369c450d82baebb52b8a3a204f0/EP_mswebrtc-install.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\461a8ba054db055c81fdb0de8a163e6d\EP_mswebrtc-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)/EP_mswebrtc-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mswebrtc-complete.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)/EP_mswebrtc-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mswebrtc-complete.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)/EP_mswebrtc-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mswebrtc-complete.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'EP_mswebrtc'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/$(Configuration)/EP_mswebrtc-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//Stamp/EP_mswebrtc/$(Configuration)/EP_mswebrtc-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_mswebrtc-complete.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-mkdir;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-download;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-update;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-patch;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-configure;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-build;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-install;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Stamp\EP_mswebrtc\$(Configuration)\EP_mswebrtc-force_build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\9a0352600236e06bbf09bdfb34dc9ae3\EP_mswebrtc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mswebrtc.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_mswebrtc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mswebrtc.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_mswebrtc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mswebrtc.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_mswebrtc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_mswebrtc.rule;C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\$(Configuration)\EP_mswebrtc-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_mswebrtc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_mswebrtc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\ZERO_CHECK.vcxproj">
+      <Project>{CC5B2E3F-7D12-3351-AE15-32EF690EAC27}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\EP_ms2.vcxproj">
+      <Project>{426BFC33-5F74-3030-97DD-0BA4C80D59A8}</Project>
+      <Name>EP_ms2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

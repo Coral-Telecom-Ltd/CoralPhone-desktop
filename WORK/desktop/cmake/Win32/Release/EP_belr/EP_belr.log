@@ -1,0 +1,322 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_belr'
+  No download step for 'EP_belr'
+  No update step for 'EP_belr'
+  No patch step for 'EP_belr'
+  Performing configure step for 'EP_belr'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_belr/EP_belr-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is belr-0.1.3
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr
+  Forcing build for 'EP_belr'
+  Performing build step for 'EP_belr'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:02:58.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\belr.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belr.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\Release\".
+    Creating directory "belr.dir\Release\belr.tlog\".
+  InitializeBuildStatus:
+    Creating "belr.dir\Release\belr.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BELR_EXPORTS /D "BCTBX_LOG_DOMAIN=\"belr\"" /D "CMAKE_INTDIR=\"Release\"" /D belr_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belr.dir\Release\\" /Fd"belr.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src\abnf.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src\belr.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src\grammarbuilder.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src\parser.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src\binarystream.cpp"
+    abnf.cpp
+    belr.cpp
+    grammarbuilder.cpp
+    parser.cpp
+    binarystream.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\Release\belr.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/Release/belr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/Release/belr.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL belr.dir\Release\abnf.obj
+    belr.dir\Release\belr.obj
+    belr.dir\Release\grammarbuilder.obj
+    belr.dir\Release\parser.obj
+    belr.dir\Release\binarystream.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/Release/belr.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/src/Release/belr.exp
+    belr.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\Release\belr.dll
+  FinalizeBuildStatus:
+    Deleting file "belr.dir\Release\belr.tlog\unsuccessfulbuild".
+    Touching "belr.dir\Release\belr.tlog\belr.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\belr.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-compiler.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belr-compiler.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\".
+    Creating directory "belr-compiler.dir\Release\belr-compiler.tlog\".
+  InitializeBuildStatus:
+    Creating "belr-compiler.dir\Release\belr-compiler.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BELR_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belr-compiler.dir\Release\\" /Fd"belr-compiler.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\tools\belr-compiler.cc"
+    belr-compiler.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-compiler.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belr.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-compiler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-compiler.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belr-compiler.dir\Release\belr-compiler.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-compiler.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-compiler.exp
+    belr-compiler.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-compiler.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-compiler.dir\Release\belr-compiler.tlog\unsuccessfulbuild".
+    Touching "belr-compiler.dir\Release\belr-compiler.tlog\belr-compiler.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-compiler.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-demo.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belr-demo.dir\Release\".
+    Creating directory "belr-demo.dir\Release\belr-demo.tlog\".
+  InitializeBuildStatus:
+    Creating "belr-demo.dir\Release\belr-demo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BELR_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belr-demo.dir\Release\\" /Fd"belr-demo.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\tools\belr-demo.cc"
+    belr-demo.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-demo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belr.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-demo.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belr-demo.dir\Release\belr-demo.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-demo.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-demo.exp
+    belr-demo.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-demo.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-demo.dir\Release\belr-demo.tlog\unsuccessfulbuild".
+    Touching "belr-demo.dir\Release\belr-demo.tlog\belr-demo.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-demo.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-parse.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belr-parse.dir\Release\".
+    Creating directory "belr-parse.dir\Release\belr-parse.tlog\".
+  InitializeBuildStatus:
+    Creating "belr-parse.dir\Release\belr-parse.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BELR_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belr-parse.dir\Release\\" /Fd"belr-parse.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\tools\belr-parse.cc"
+    belr-parse.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-parse.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belr.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-parse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-parse.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belr-parse.dir\Release\belr-parse.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-parse.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tools/Release/belr-parse.exp
+    belr-parse.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-parse.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-parse.dir\Release\belr-parse.tlog\unsuccessfulbuild".
+    Touching "belr-parse.dir\Release\belr-parse.tlog\belr-parse.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-parse.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\belr_tester.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belr_tester.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\Release\".
+    Creating directory "belr_tester.dir\Release\belr_tester.tlog\".
+  InitializeBuildStatus:
+    Creating "belr_tester.dir\Release\belr_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BELR_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belr_tester.dir\Release\\" /Fd"belr_tester.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\tester\belr-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belr\tester\grammar-tester.cpp"
+    belr-tester.cpp
+    grammar-tester.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\Release\belr_tester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belr.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox-tester.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/Release/belr_tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/Release/belr_tester.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belr_tester.dir\Release\belr-tester.obj"
+    "belr_tester.dir\Release\grammar-tester.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/Release/belr_tester.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/tester/Release/belr_tester.exp
+    belr_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\Release\belr_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belr_tester.dir\Release\belr_tester.tlog\unsuccessfulbuild".
+    Touching "belr_tester.dir\Release\belr_tester.tlog\belr_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\belr_tester.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belr/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belr/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:21.70
+  Performing install step for 'EP_belr'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:03:20.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\belr.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belr.dir\Release\belr.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belr.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\Release\belr.dll
+  FinalizeBuildStatus:
+    Deleting file "belr.dir\Release\belr.tlog\unsuccessfulbuild".
+    Touching "belr.dir\Release\belr.tlog\belr.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\src\belr.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-compiler.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belr-compiler.dir\Release\belr-compiler.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belr-compiler.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-compiler.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-compiler.dir\Release\belr-compiler.tlog\unsuccessfulbuild".
+    Touching "belr-compiler.dir\Release\belr-compiler.tlog\belr-compiler.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-compiler.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-demo.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belr-demo.dir\Release\belr-demo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belr-demo.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-demo.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-demo.dir\Release\belr-demo.tlog\unsuccessfulbuild".
+    Touching "belr-demo.dir\Release\belr-demo.tlog\belr-demo.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-demo.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-parse.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belr-parse.dir\Release\belr-parse.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belr-parse.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\Release\belr-parse.exe
+  FinalizeBuildStatus:
+    Deleting file "belr-parse.dir\Release\belr-parse.tlog\unsuccessfulbuild".
+    Touching "belr-parse.dir\Release\belr-parse.tlog\belr-parse.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tools\belr-parse.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\belr_tester.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belr_tester.dir\Release\belr_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belr_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\Release\belr_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belr_tester.dir\Release\belr_tester.tlog\unsuccessfulbuild".
+    Touching "belr_tester.dir\Release\belr_tester.tlog\belr_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\tester\belr_tester.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belr/cmake/BelrTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belr/cmake/BelrTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belr/cmake/BelrConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belr/abnf.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belr/belr.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belr/grammarbuilder.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belr/parser.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/belr.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belr.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belr_tester.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr-tester/res/basicgrammar.txt
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr-tester/res/vcardgrammar.txt
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr-tester/res/sipgrammar.txt
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr-tester/res/response.txt
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr-tester/res/register.txt
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr/grammars/belr-grammar-example.blr
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belr-parse.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belr-compiler.exe
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belr\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.61
+  Completed 'EP_belr'

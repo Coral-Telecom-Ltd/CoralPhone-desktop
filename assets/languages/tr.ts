@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>%1 HESABI KULLAN</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>SIP HESABI KULLAN</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>Bu yardımcı, %1 hesabınızı yapıldırmanız ve kullanmanız için size yardım edecek.</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>%1 HESABI OLUŞTUR</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@ Sunucu url&apos;si yapılandırılmadı.</translation>
     <message>
         <source>inviteTitle</source>
         <translation>ARKADAŞLARINIZI DAVET EDİN</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>%1 hesabı oluştur veya yönet.</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>HESAP YARDIMCISI</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>YARDIMCI</translation>
     </message>
     <message>
         <source>showTooltips</source>

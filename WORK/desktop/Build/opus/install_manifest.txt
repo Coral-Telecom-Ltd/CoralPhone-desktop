@@ -1,0 +1,7 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/opus.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/opus.dll
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/opus/opus.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/opus/opus_custom.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/opus/opus_defines.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/opus/opus_multistream.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/opus/opus_types.h

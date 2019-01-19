@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-force_build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\2a2991f1b7e8d1ae1d646f122992c7cf\EP_minizip-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\461a8ba054db055c81fdb0de8a163e6d\EP_minizip-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\9a0352600236e06bbf09bdfb34dc9ae3\EP_minizip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_minizip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D15FB63-C293-3AB6-B1F6-280DA2C15842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

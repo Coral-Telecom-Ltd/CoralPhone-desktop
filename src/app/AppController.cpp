@@ -60,7 +60,7 @@ AppController::AppController (int &argc, char *argv[]) {
   // Do not use APPLICATION_NAME here.
   // The EXECUTABLE_NAME will be used in qt standard paths. It's our goal.
   QCoreApplication::setApplicationName(EXECUTABLE_NAME);
-  QCoreApplication::setApplicationVersion(LINPHONE_QT_GIT_VERSION);
+  QCoreApplication::setApplicationVersion("CoralPhone-1.1");
 
   mApp = new App(argc, argv);
   QQuickStyle::setStyle("Default");

@@ -1,0 +1,5 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/zlib/CMakeFiles/zlibstatic.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/zlib/CMakeFiles/RUN_TESTS.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/zlib/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/zlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/zlib/CMakeFiles/ZERO_CHECK.dir

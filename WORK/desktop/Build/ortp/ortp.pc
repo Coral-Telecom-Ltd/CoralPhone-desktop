@@ -1,0 +1,10 @@
+# This is a comment
+prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop
+exec_prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin
+includedir=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access.
+Version: 1.0.2
+Libs: -LC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib -lortp 
+Cflags: -IC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include 

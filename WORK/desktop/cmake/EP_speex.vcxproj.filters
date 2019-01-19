@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\cmake-builder\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-force_build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\f715cd25398d90732d3c87418f4bbac9\EP_speex-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\461a8ba054db055c81fdb0de8a163e6d\EP_speex-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\9a0352600236e06bbf09bdfb34dc9ae3\EP_speex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\cmake\CMakeFiles\EP_speex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D15FB63-C293-3AB6-B1F6-280DA2C15842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

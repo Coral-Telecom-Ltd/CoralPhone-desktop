@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>%1アカウントを使用する</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>SIPアカウントを使用する</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>このアシスタントはあなたの%1アカウントの設定を助けます。</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>%1アカウントを作成する</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@
     <message>
         <source>inviteTitle</source>
         <translation>あなたの友人を招待する</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>%1アカウントを作成/管理する</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>アカウントアシスタント</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>アシスタント</translation>
     </message>
     <message>
         <source>showTooltips</source>

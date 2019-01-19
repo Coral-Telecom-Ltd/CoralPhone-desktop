@@ -1,0 +1,4 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/sqlite3.lib
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/sqlite3.dll
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/sqlite3.h
+C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/sqlite3ext.h

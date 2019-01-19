@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DENABLE_SHARED=NO;-DENABLE_STATIC=YES;-C<TMP_DIR>/EP_zlib-cache-$<CONFIG>.cmake;-GVisual Studio 14 2015;<SOURCE_DIR><SOURCE_SUBDIR>'

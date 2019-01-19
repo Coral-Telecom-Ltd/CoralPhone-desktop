@@ -1,0 +1,4 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/gsm/CMakeFiles/gsm.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/gsm/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/gsm/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/gsm/CMakeFiles/ZERO_CHECK.dir

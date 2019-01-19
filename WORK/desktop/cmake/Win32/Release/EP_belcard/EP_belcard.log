@@ -1,0 +1,375 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_belcard'
+  No download step for 'EP_belcard'
+  No update step for 'EP_belcard'
+  No patch step for 'EP_belcard'
+  Performing configure step for 'EP_belcard'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_belcard/EP_belcard-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is belcard-1.0.2
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard
+  Forcing build for 'EP_belcard'
+  Performing build step for 'EP_belcard'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:08:19.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\belcard.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belcard.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\Release\".
+    Creating directory "belcard.dir\Release\belcard.tlog\".
+  InitializeBuildStatus:
+    Creating "belcard.dir\Release\belcard.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELCARD_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D belcard_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belcard.dir\Release\\" /Fd"belcard.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_addressing.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_communication.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_explanatory.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_geographical.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_organizational.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_parser.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_rfc6474.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_utils.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_calendar.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_general.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_identification.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_params.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_property.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\belcard_security.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src\vcard_grammar.cpp"
+    belcard_addressing.cpp
+    belcard_communication.cpp
+    belcard_explanatory.cpp
+    belcard_geographical.cpp
+    belcard_organizational.cpp
+    belcard_parser.cpp
+    belcard_rfc6474.cpp
+    belcard_utils.cpp
+    belcard_calendar.cpp
+    belcard.cpp
+    belcard_general.cpp
+    belcard_identification.cpp
+    belcard_params.cpp
+    belcard_property.cpp
+    belcard_security.cpp
+    vcard_grammar.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\Release\belcard.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\belr.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/Release/belcard.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/Release/belcard.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL belcard.dir\Release\belcard_addressing.obj
+    belcard.dir\Release\belcard_communication.obj
+    belcard.dir\Release\belcard_explanatory.obj
+    belcard.dir\Release\belcard_geographical.obj
+    belcard.dir\Release\belcard_organizational.obj
+    belcard.dir\Release\belcard_parser.obj
+    belcard.dir\Release\belcard_rfc6474.obj
+    belcard.dir\Release\belcard_utils.obj
+    belcard.dir\Release\belcard_calendar.obj
+    belcard.dir\Release\belcard.obj
+    belcard.dir\Release\belcard_general.obj
+    belcard.dir\Release\belcard_identification.obj
+    belcard.dir\Release\belcard_params.obj
+    belcard.dir\Release\belcard_property.obj
+    belcard.dir\Release\belcard_security.obj
+    belcard.dir\Release\vcard_grammar.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/Release/belcard.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/src/Release/belcard.exp
+    belcard.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\Release\belcard.dll
+  FinalizeBuildStatus:
+    Deleting file "belcard.dir\Release\belcard.tlog\unsuccessfulbuild".
+    Touching "belcard.dir\Release\belcard.tlog\belcard.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\belcard.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-folder.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belcard-folder.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\".
+    Creating directory "belcard-folder.dir\Release\belcard-folder.tlog\".
+  InitializeBuildStatus:
+    Creating "belcard-folder.dir\Release\belcard-folder.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELCARD_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belcard-folder.dir\Release\\" /Fd"belcard-folder.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tools\belcard-folder.cpp"
+    belcard-folder.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-folder.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belcard.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\belr.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-folder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-folder.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belcard-folder.dir\Release\belcard-folder.obj"
+    belcard-folder.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-folder.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-folder.dir\Release\belcard-folder.tlog\unsuccessfulbuild".
+    Touching "belcard-folder.dir\Release\belcard-folder.tlog\belcard-folder.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-folder.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-parser.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belcard-parser.dir\Release\".
+    Creating directory "belcard-parser.dir\Release\belcard-parser.tlog\".
+  InitializeBuildStatus:
+    Creating "belcard-parser.dir\Release\belcard-parser.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELCARD_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belcard-parser.dir\Release\\" /Fd"belcard-parser.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tools\belcard-parser.cpp"
+    belcard-parser.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-parser.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belcard.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\belr.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-parser.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belcard-parser.dir\Release\belcard-parser.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-parser.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-parser.exp
+    belcard-parser.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-parser.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-parser.dir\Release\belcard-parser.tlog\unsuccessfulbuild".
+    Touching "belcard-parser.dir\Release\belcard-parser.tlog\belcard-parser.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-parser.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-unfolder.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belcard-unfolder.dir\Release\".
+    Creating directory "belcard-unfolder.dir\Release\belcard-unfolder.tlog\".
+  InitializeBuildStatus:
+    Creating "belcard-unfolder.dir\Release\belcard-unfolder.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/tools/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELCARD_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belcard-unfolder.dir\Release\\" /Fd"belcard-unfolder.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tools\belcard-unfolder.cpp"
+    belcard-unfolder.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-unfolder.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belcard.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\belr.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-unfolder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tools/Release/belcard-unfolder.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belcard-unfolder.dir\Release\belcard-unfolder.obj"
+    belcard-unfolder.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-unfolder.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-unfolder.dir\Release\belcard-unfolder.tlog\unsuccessfulbuild".
+    Touching "belcard-unfolder.dir\Release\belcard-unfolder.tlog\belcard-unfolder.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-unfolder.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\belcard_tester.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "belcard_tester.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\Release\".
+    Creating directory "belcard_tester.dir\Release\belcard_tester.tlog\".
+  InitializeBuildStatus:
+    Creating "belcard_tester.dir\Release\belcard_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D BELCARD_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"belcard_tester.dir\Release\\" /Fd"belcard_tester.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-addressing-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-calendar-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-communication-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-explanatory-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-general-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-geographical-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-identification-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-organizational-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-rfc6474-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-security-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-tester.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\belcard\tester\belcard-vcard-tester.cpp"
+    belcard-addressing-tester.cpp
+    belcard-calendar-tester.cpp
+    belcard-communication-tester.cpp
+    belcard-explanatory-tester.cpp
+    belcard-general-tester.cpp
+    belcard-geographical-tester.cpp
+    belcard-identification-tester.cpp
+    belcard-organizational-tester.cpp
+    belcard-rfc6474-tester.cpp
+    belcard-security-tester.cpp
+    belcard-tester.cpp
+    belcard-vcard-tester.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\Release\belcard_tester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\belcard.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox-tester.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/Release/belcard_tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/Release/belcard_tester.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "belcard_tester.dir\Release\belcard-addressing-tester.obj"
+    "belcard_tester.dir\Release\belcard-calendar-tester.obj"
+    "belcard_tester.dir\Release\belcard-communication-tester.obj"
+    "belcard_tester.dir\Release\belcard-explanatory-tester.obj"
+    "belcard_tester.dir\Release\belcard-general-tester.obj"
+    "belcard_tester.dir\Release\belcard-geographical-tester.obj"
+    "belcard_tester.dir\Release\belcard-identification-tester.obj"
+    "belcard_tester.dir\Release\belcard-organizational-tester.obj"
+    "belcard_tester.dir\Release\belcard-rfc6474-tester.obj"
+    "belcard_tester.dir\Release\belcard-security-tester.obj"
+    "belcard_tester.dir\Release\belcard-tester.obj"
+    "belcard_tester.dir\Release\belcard-vcard-tester.obj"
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/Release/belcard_tester.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/tester/Release/belcard_tester.exp
+    belcard_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\Release\belcard_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard_tester.dir\Release\belcard_tester.tlog\unsuccessfulbuild".
+    Touching "belcard_tester.dir\Release\belcard_tester.tlog\belcard_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\belcard_tester.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/belcard/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/belcard/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:01:02.97
+  Performing install step for 'EP_belcard'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:09:22.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\belcard.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belcard.dir\Release\belcard.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belcard.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\Release\belcard.dll
+  FinalizeBuildStatus:
+    Deleting file "belcard.dir\Release\belcard.tlog\unsuccessfulbuild".
+    Touching "belcard.dir\Release\belcard.tlog\belcard.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\src\belcard.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-folder.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belcard-folder.dir\Release\belcard-folder.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belcard-folder.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-folder.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-folder.dir\Release\belcard-folder.tlog\unsuccessfulbuild".
+    Touching "belcard-folder.dir\Release\belcard-folder.tlog\belcard-folder.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-folder.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-parser.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belcard-parser.dir\Release\belcard-parser.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belcard-parser.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-parser.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-parser.dir\Release\belcard-parser.tlog\unsuccessfulbuild".
+    Touching "belcard-parser.dir\Release\belcard-parser.tlog\belcard-parser.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-parser.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-unfolder.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belcard-unfolder.dir\Release\belcard-unfolder.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belcard-unfolder.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\Release\belcard-unfolder.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard-unfolder.dir\Release\belcard-unfolder.tlog\unsuccessfulbuild".
+    Touching "belcard-unfolder.dir\Release\belcard-unfolder.tlog\belcard-unfolder.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tools\belcard-unfolder.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\belcard_tester.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "belcard_tester.dir\Release\belcard_tester.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    belcard_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\Release\belcard_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "belcard_tester.dir\Release\belcard_tester.tlog\unsuccessfulbuild".
+    Touching "belcard_tester.dir\Release\belcard_tester.tlog\belcard_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\tester\belcard_tester.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belcard/cmake/BelcardTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belcard/cmake/BelcardTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Belcard/cmake/BelcardConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_addressing.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_communication.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_general.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_geographical.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_identification.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_params.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_property.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_security.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_calendar.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_explanatory.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_generic.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_organizational.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_parser.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_rfc6474.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/belcard_utils.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/belcard/vcard_grammar.hpp
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/belcard.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belcard.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belr/grammars/vcard_grammar
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belcard_tester.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belcard_tester/vcards/foldtest.vcf
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belcard_tester/vcards/unfoldtest.vcf
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belcard_tester/vcards/vcard.vcf
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/belcard_tester/vcards/vcards.vcf
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belcard-folder.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belcard-unfolder.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/belcard-parser.exe
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\belcard\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.90
+  Completed 'EP_belcard'

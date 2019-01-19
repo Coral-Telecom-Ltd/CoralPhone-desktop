@@ -1,0 +1,15 @@
+# Target labels
+ EP_sqlite3
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_sqlite3
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_sqlite3.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_sqlite3-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/48a6c5270fc6aa7522f8c0e279aa59cb/EP_sqlite3-force_build.rule

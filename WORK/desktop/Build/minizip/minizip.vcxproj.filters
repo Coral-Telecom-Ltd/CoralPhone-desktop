@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_compat.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_buf.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_mem.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_posix.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_split.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_zip.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os_win32.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_win32.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_crypt.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_zlib.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_bzip.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_lzma.c">
+      <Filter>Minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\blocksort.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\bzlib.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\compress.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\crctable.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\decompress.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\huffman.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\randtable.c">
+      <Filter>BZip2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\check.c">
+      <Filter>LZMA\Check</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_fast.c">
+      <Filter>LZMA\Check</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_table.c">
+      <Filter>LZMA\Check</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\alone_decoder.c">
+      <Filter>LZMA\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\alone_encoder.c">
+      <Filter>LZMA\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\common.c">
+      <Filter>LZMA\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\filter_encoder.c">
+      <Filter>LZMA\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_decoder.c">
+      <Filter>LZMA\LZ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder.c">
+      <Filter>LZMA\LZ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder_mf.c">
+      <Filter>LZMA\LZ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\fastpos_table.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_decoder.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_optimum_fast.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_optimum_normal.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_presets.c">
+      <Filter>LZMA\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\price_table.c">
+      <Filter>LZMA\RangeCoder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_compat.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_buf.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_mem.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_posix.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_split.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_zip.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os_win32.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_win32.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_crypt.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_zlib.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_bzip.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_lzma.h">
+      <Filter>Minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\bzlib.h">
+      <Filter>BZip2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\bzlib_private.h">
+      <Filter>BZip2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\fastpos.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\config.h">
+      <Filter>LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\base.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\check.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\container.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\filter.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\lzma12.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\version.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api\lzma\vli.h">
+      <Filter>LZMA\API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\check.h">
+      <Filter>LZMA\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_table_be.h">
+      <Filter>LZMA\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_table_le.h">
+      <Filter>LZMA\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc_macros.h">
+      <Filter>LZMA\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\alone_decoder.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\common.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\filter_encoder.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\index.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\memcmplen.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\sysdefs.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\tuklib_common.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\tuklib_config.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\tuklib_integer.h">
+      <Filter>LZMA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_decoder.h">
+      <Filter>LZMA\LZ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder.h">
+      <Filter>LZMA\LZ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder_hash.h">
+      <Filter>LZMA\LZ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder_hash_table.h">
+      <Filter>LZMA\LZ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma2_encoder.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_common.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_decoder.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_private.h">
+      <Filter>LZMA\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\price.h">
+      <Filter>LZMA\RangeCoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\range_common.h">
+      <Filter>LZMA\RangeCoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\range_decoder.h">
+      <Filter>LZMA\RangeCoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\range_encoder.h">
+      <Filter>LZMA\RangeCoder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BZip2">
+      <UniqueIdentifier>{1F08A643-ADE8-3B1F-B231-A9DA8C50C56C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA">
+      <UniqueIdentifier>{FD44AE20-A99A-3BBC-A3B2-2F0C2B729F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minizip">
+      <UniqueIdentifier>{A0FE6472-1782-3CFB-A9EE-0F8AE884FE7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\API">
+      <UniqueIdentifier>{23ACDF9E-0A70-3637-8200-3B52ABB799E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\Check">
+      <UniqueIdentifier>{D5CB82A9-09F1-368D-A120-0782386EC40D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\Common">
+      <UniqueIdentifier>{4F5A28A4-605A-37D0-8352-BDC439068287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\LZ">
+      <UniqueIdentifier>{C5FF8F0D-8F9E-36E5-8596-3C3409452098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\LZMA">
+      <UniqueIdentifier>{53CD2F1A-6845-3948-82EC-B2F2820D2953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\RangeCoder">
+      <UniqueIdentifier>{797D3419-076C-3030-8B61-89EA8AF9A0C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

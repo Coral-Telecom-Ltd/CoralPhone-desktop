@@ -1,0 +1,16 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/soci_core.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/core/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/sqlite3/CMakeFiles/soci_sqlite3.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/sqlite3/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/src/backends/sqlite3/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/build/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/soci/build/CMakeFiles/INSTALL.dir

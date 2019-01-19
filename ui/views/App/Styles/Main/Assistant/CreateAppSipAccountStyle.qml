@@ -8,8 +8,8 @@ QtObject {
     property int spacing: 10
 
     property QtObject button: QtObject {
-      property int height: 40
-      property int width: 258
+      property int height: 0
+      property int width: 0
     }
   }
 }

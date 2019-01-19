@@ -1,0 +1,253 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_bzrtp'
+  No download step for 'EP_bzrtp'
+  No update step for 'EP_bzrtp'
+  No patch step for 'EP_bzrtp'
+  Performing configure step for 'EP_bzrtp'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_bzrtp/EP_bzrtp-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for sqrt in m
+  -- Looking for sqrt in m - not found
+  -- Found Sqlite3: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found XML2: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/libxml2  
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is bzrtp-1.0.6
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp
+  Forcing build for 'EP_bzrtp'
+  Performing build step for 'EP_bzrtp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:59:40.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/test/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bzrtp.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\Release\".
+    Creating directory "bzrtp.dir\Release\bzrtp.tlog\".
+  InitializeBuildStatus:
+    Creating "bzrtp.dir\Release\bzrtp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bzrtp/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D BZRTP_EXPORTS /D HAVE_CONFIG_H /D ZIDCACHE_ENABLED /D HAVE_LIBXML2 /D SUPPORT_EXPORTEDKEY_V010000 /D "BCTBX_LOG_DOMAIN=\"bzrtp\"" /D "CMAKE_INTDIR=\"Release\"" /D bzrtp_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"bzrtp.dir\Release\\" /Fd"bzrtp.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\cryptoUtils.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\packetParser.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\pgpwords.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\stateMachine.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\zidCache.c"
+    bzrtp.c
+    cryptoUtils.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\cryptoUtils.c(160): warning C4333: '>>': right shift by too large amount, data loss [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\cryptoUtils.c(166): warning C4244: 'function': conversion from 'const uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(296): warning C4267: 'function': conversion from 'size_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(633): warning C4267: 'function': conversion from 'size_t' to 'const uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(657): warning C4267: 'function': conversion from 'size_t' to 'const uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(815): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(838): warning C4244: 'function': conversion from 'uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(1206): warning C4244: 'function': conversion from 'uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+    packetParser.c
+    pgpwords.c
+    stateMachine.c
+    zidCache.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\stateMachine.c(1757): warning C4267: '+=': conversion from 'size_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\Release\bzrtp.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\sqlite3.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\xml2.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/Release/bzrtp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/Release/bzrtp.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL bzrtp.dir\Release\bzrtp.obj
+    bzrtp.dir\Release\cryptoUtils.obj
+    bzrtp.dir\Release\packetParser.obj
+    bzrtp.dir\Release\pgpwords.obj
+    bzrtp.dir\Release\stateMachine.obj
+    bzrtp.dir\Release\zidCache.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/Release/bzrtp.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/src/Release/bzrtp.exp
+    bzrtp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\Release\bzrtp.dll
+  FinalizeBuildStatus:
+    Deleting file "bzrtp.dir\Release\bzrtp.tlog\unsuccessfulbuild".
+    Touching "bzrtp.dir\Release\bzrtp.tlog\bzrtp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "bzrtpTest.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\Release\".
+    Creating directory "bzrtpTest.dir\Release\bzrtpTest.tlog\".
+  InitializeBuildStatus:
+    Creating "bzrtpTest.dir\Release\bzrtpTest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bzrtp/test/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/test/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\include\MSVC" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D HAVE_CONFIG_H /D ZIDCACHE_ENABLED /D HAVE_LIBXML2 /D SUPPORT_EXPORTEDKEY_V010000 /D "BCTBX_LOG_DOMAIN=\"bzrtp\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"bzrtpTest.dir\Release\\" /Fd"bzrtpTest.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpCryptoTest.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpParserTest.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpConfigsTest.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpZidCacheTest.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpTest.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\testUtils.c"
+    bzrtpCryptoTest.c
+    bzrtpParserTest.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpParserTest.c(1894): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpParserTest.c(1895): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+    bzrtpConfigsTest.c
+    bzrtpZidCacheTest.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpConfigsTest.c(1643): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+    bzrtpTest.c
+    testUtils.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\Release\bzrtpTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\bzrtp.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox-tester.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\sqlite3.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\xml2.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/test/Release/bzrtpTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/test/Release/bzrtpTest.lib" /MACHINE:X86 /SAFESEH   /machine:X86 bzrtpTest.dir\Release\bzrtpCryptoTest.obj
+    bzrtpTest.dir\Release\bzrtpParserTest.obj
+    bzrtpTest.dir\Release\bzrtpConfigsTest.obj
+    bzrtpTest.dir\Release\bzrtpZidCacheTest.obj
+    bzrtpTest.dir\Release\bzrtpTest.obj
+    bzrtpTest.dir\Release\testUtils.obj
+    bzrtpTest.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\Release\bzrtpTest.exe
+  FinalizeBuildStatus:
+    Deleting file "bzrtpTest.dir\Release\bzrtpTest.tlog\unsuccessfulbuild".
+    Touching "bzrtpTest.dir\Release\bzrtpTest.tlog\bzrtpTest.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/bzrtp/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/bzrtp/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\cryptoUtils.c(160): warning C4333: '>>': right shift by too large amount, data loss [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\cryptoUtils.c(166): warning C4244: 'function': conversion from 'const uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(296): warning C4267: 'function': conversion from 'size_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(633): warning C4267: 'function': conversion from 'size_t' to 'const uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(657): warning C4267: 'function': conversion from 'size_t' to 'const uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(815): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(838): warning C4244: 'function': conversion from 'uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\bzrtp.c(1206): warning C4244: 'function': conversion from 'uint16_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\src\stateMachine.c(1757): warning C4267: '+=': conversion from 'size_t' to 'uint8_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj]
+  
+  
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj" (default target) (4) ->
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpParserTest.c(1894): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpParserTest.c(1895): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\bzrtp\test\bzrtpConfigsTest.c(1643): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'test_function_t' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj]
+  
+      12 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:08.25
+  Performing install step for 'EP_bzrtp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 10:59:48.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bzrtp.dir\Release\bzrtp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bzrtp.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\Release\bzrtp.dll
+  FinalizeBuildStatus:
+    Deleting file "bzrtp.dir\Release\bzrtp.tlog\unsuccessfulbuild".
+    Touching "bzrtp.dir\Release\bzrtp.tlog\bzrtp.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\src\bzrtp.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "bzrtpTest.dir\Release\bzrtpTest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    bzrtpTest.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\Release\bzrtpTest.exe
+  FinalizeBuildStatus:
+    Deleting file "bzrtpTest.dir\Release\bzrtpTest.tlog\unsuccessfulbuild".
+    Touching "bzrtpTest.dir\Release\bzrtpTest.tlog\bzrtpTest.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\test\bzrtpTest.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPTargets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPTargets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPConfig.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/bzrtp/cmake/BZRTPConfigVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/bzrtp/bzrtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/bzrtp.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/bzrtp.dll
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\bzrtp\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.68
+  Completed 'EP_bzrtp'

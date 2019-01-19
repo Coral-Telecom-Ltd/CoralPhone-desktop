@@ -1,0 +1,13 @@
+# This is a comment
+prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop
+exec_prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin
+includedir=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include
+
+Name: belle-sip 
+Description: A c based implementation of the SIP (RFC 3261)  telephony protocol 
+Requires: bctoolbox
+Requires.private:  z 
+Version: 1.6.3
+Libs: -LC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib -lbellesip
+Libs.private:  -L -lbctoolbox
+Cflags: -IC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include 

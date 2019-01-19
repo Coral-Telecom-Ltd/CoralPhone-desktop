@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DENABLE_STATIC=YES;-DENABLE_SHARED=NO;-C<TMP_DIR>/EP_turbo-jpeg-cache-$<CONFIG>.cmake;-GVisual Studio 14 2015;<SOURCE_DIR><SOURCE_SUBDIR>'

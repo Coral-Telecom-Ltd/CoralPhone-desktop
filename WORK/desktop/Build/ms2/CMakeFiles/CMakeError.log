@@ -1,0 +1,397 @@
+Determining if the include file sys/shm.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7e4c9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:09:51.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_7e4c9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7e4c9.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7e4c9.dir\Debug\cmTC_7e4c9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7e4c9.dir\Debug\cmTC_7e4c9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e4c9.dir\Debug\\" /Fd"cmTC_7e4c9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e4c9.dir\Debug\\" /Fd"cmTC_7e4c9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/shm.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_7e4c9.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_7e4c9.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_7e4c9.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/shm.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_7e4c9.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a80ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:09:52.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a80ad.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a80ad.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a80ad.dir\Debug\cmTC_a80ad.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a80ad.dir\Debug\cmTC_a80ad.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a80ad.dir\Debug\\" /Fd"cmTC_a80ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a80ad.dir\Debug\\" /Fd"cmTC_a80ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a80ad.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a80ad.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a80ad.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a80ad.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the function dlopen exists in the dl failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_72fec.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:09:53.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_72fec.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_72fec.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_72fec.dir\Debug\cmTC_72fec.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_72fec.dir\Debug\cmTC_72fec.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72fec.dir\Debug\\" /Fd"cmTC_72fec.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72fec.dir\Debug\\" /Fd"cmTC_72fec.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\cmTC_72fec.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib dl.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/Debug/cmTC_72fec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/Debug/cmTC_72fec.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_72fec.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_72fec.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_72fec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_72fec.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_72fec.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b0d44.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:10:01.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_b0d44.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b0d44.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b0d44.dir\Debug\cmTC_b0d44.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b0d44.dir\Debug\cmTC_b0d44.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0d44.dir\Debug\\" /Fd"cmTC_b0d44.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0d44.dir\Debug\\" /Fd"cmTC_b0d44.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_b0d44.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_b0d44.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_b0d44.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_b0d44.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+Determining if the avcodec_encode_video2 exist failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_09d9b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:10:04.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_09d9b.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_09d9b.dir\Debug\cmTC_09d9b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_09d9b.dir\Debug\cmTC_09d9b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d9b.dir\Debug\\" /Fd"cmTC_09d9b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d9b.dir\Debug\\" /Fd"cmTC_09d9b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'avcodec_encode_video2': undeclared identifier [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'avcodec_encode_video2': undeclared identifier [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_09d9b.vcxproj]
+
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.70
+
+File C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libavcodec/avcodec.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef avcodec_encode_video2
+  return ((int*)(&avcodec_encode_video2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the av_frame_alloc exist failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a946d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:10:05.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a946d.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a946d.dir\Debug\cmTC_a946d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a946d.dir\Debug\cmTC_a946d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a946d.dir\Debug\\" /Fd"cmTC_a946d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a946d.dir\Debug\\" /Fd"cmTC_a946d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_a946d.vcxproj]
+
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.53
+
+File C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libavutil/avutil.h>
+#include <libavutil/frame.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef av_frame_alloc
+  return ((int*)(&av_frame_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the av_frame_free exist failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8763a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:10:06.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8763a.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8763a.dir\Debug\cmTC_8763a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8763a.dir\Debug\cmTC_8763a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8763a.dir\Debug\\" /Fd"cmTC_8763a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8763a.dir\Debug\\" /Fd"cmTC_8763a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_8763a.vcxproj]
+
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.53
+
+File C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libavutil/avutil.h>
+#include <libavutil/frame.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef av_frame_free
+  return ((int*)(&av_frame_free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the av_frame_unref exist failed with the following output:
+Change Dir: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bc8a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 19-01-2019 11:10:07.
+Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bc8a3.dir\Debug\".
+  Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bc8a3.dir\Debug\cmTC_bc8a3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bc8a3.dir\Debug\cmTC_bc8a3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc8a3.dir\Debug\\" /Fd"cmTC_bc8a3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D inline=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc8a3.dir\Debug\\" /Fd"cmTC_bc8a3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(171): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+  c:\users\coral\desktop\coralphone-desktop\output\desktop\include\libavutil\common.h(230): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+
+
+"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'libavutil/frame.h': No such file or directory [C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\CMakeFiles\CMakeTmp\cmTC_bc8a3.vcxproj]
+
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.56
+
+File C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libavutil/avutil.h>
+#include <libavutil/frame.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef av_frame_unref
+  return ((int*)(&av_frame_unref))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

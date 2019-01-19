@@ -1,0 +1,710 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_ms2'
+  No download step for 'EP_ms2'
+  No update step for 'EP_ms2'
+  No patch step for 'EP_ms2'
+  Performing configure step for 'EP_ms2'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_ms2/EP_ms2-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for sys/shm.h
+  -- Looking for sys/shm.h - not found
+  -- Looking for alloca.h
+  -- Looking for alloca.h - not found
+  -- Looking for dlopen in dl
+  -- Looking for dlopen in dl - not found
+  -- Check if the system is big endian
+  -- Searching 16 bit integer
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of unsigned short
+  -- Check size of unsigned short - done
+  -- Using unsigned short
+  -- Check if the system is big endian - little endian
+  -- Found SRTP: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found GSM: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found bv16: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found Opus: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found Speex: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found SpeexDsp: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Could NOT find PulseAudio (missing:  PULSEAUDIO_INCLUDE_DIRS PULSEAUDIO_LIBRARIES HAVE_PULSE_PULSEAUDIO_H HAVE_PA_MAINLOOP_NEW) 
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Looking for avcodec_get_context_defaults3
+  -- Looking for avcodec_get_context_defaults3 - found
+  -- Looking for avcodec_open2
+  -- Looking for avcodec_open2 - found
+  -- Looking for avcodec_encode_video2
+  -- Looking for avcodec_encode_video2 - not found
+  -- Looking for av_frame_alloc
+  -- Looking for av_frame_alloc - not found
+  -- Looking for av_frame_free
+  -- Looking for av_frame_free - not found
+  -- Looking for av_frame_unref
+  -- Looking for av_frame_unref - not found
+  -- Found FFMpeg: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found QTANGLE: C:/Qt/5.9.1/msvc2015/include;C:/Qt/5.9.1/msvc2015/include/QtANGLE  
+  -- Could NOT find Theora (missing:  THEORA_INCLUDE_DIRS THEORA_LIBRARIES HAVE_THEORA_THEORA_H) 
+  CMake Warning at CMakeLists.txt:295 (message):
+    Could not find theora library, mediastreamer2 will be compiled without
+    theora support.
+  
+  
+  -- Found VPX: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found TurboJpeg: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include  
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.20.1.windows.1") 
+  -- Found PythonInterp: C:/Python27/python.exe (found version "2.7.10") 
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found suitable version "2.20.1.windows.1", minimum required is "1.7.10") 
+  -- Package file name is mediastreamer-2.16.1
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2
+  Forcing build for 'EP_ms2'
+  Performing build step for 'EP_ms2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:10:10.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/include/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/voip/h26x/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/tester/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-basedescs-header.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ms2-basedescs-header\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\Release\".
+    Creating directory "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\ms2-basedescs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-basedescs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-git-version.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ms2-git-version\".
+    Creating directory "Win32\Release\ms2-git-version\ms2-git-version.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-git-version\ms2-git-version.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-git-version\ms2-git-version.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-git-version\ms2-git-version.tlog\ms2-git-version.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-git-version.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-voipdescs-header.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ms2-voipdescs-header\".
+    Creating directory "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\ms2-voipdescs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-voipdescs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-fs-header.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ms2-yuv2rgb-fs-header\".
+    Creating directory "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\ms2-yuv2rgb-fs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-fs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-vs-header.vcxproj" (8) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ms2-yuv2rgb-vs-header\".
+    Creating directory "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\ms2-yuv2rgb-vs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-vs-header.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "mediastreamer.dir\Release\".
+    Creating directory "mediastreamer.dir\Release\mediastreamer.tlog\".
+  InitializeBuildStatus:
+    Creating "mediastreamer.dir\Release\mediastreamer.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D VIDEO_ENABLED /D HAVE_CONFIG_H /D _TRUE_TIME /D MS2_EXPORTS /D MS2_INTERNAL /D MS2_FILTERS /D "BCTBX_LOG_DOMAIN=\"mediastreamer\"" /D HAVE_DIRECTSHOW /D inline=__inline /D "CMAKE_INTDIR=\"Release\"" /D mediastreamer_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mediastreamer.dir\Release\\" /Fd"mediastreamer.dir\Release\vc140.pdb" /Gd /TC /wd4142 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\eventqueue.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mscommon.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msfactory.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msfilter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msqueue.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mssndcard.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msticker.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msvideopresets.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mswebcam.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\mtu.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\base\msasync.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\itc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\join.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\tee.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\void.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\alaw.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\audiomixer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\chanadapt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\devices.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\dtmfgen.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\equalizer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\flowcontrol.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\g711.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\genericplc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msgenericplc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\l16.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msfileplayer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msfilerec.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\asyncrw.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msg722.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msvaddtx.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msvolume.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\tonedetector.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\ulaw.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\dtls_srtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\ms_srtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\crypto\zrtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\msrtp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\audiodiff.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\dsptools.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\g722_decode.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\g722_encode.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fft.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\kiss_fftr.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\pcap_sender.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\stream_regulator.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\audioconference.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\audiostream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bandwidthcontroller.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bitratecontrol.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\bitratedriver.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\ice.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\mediastream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msiframerequestslimiter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msmediaplayer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvoip.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\qosanalyzer.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\qualityindicator.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\rfc4103_source.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\rfc4103_sink.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\otherfilters\msudp.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\rfc4103_textstream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\ringstream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\stun.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\gsm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\bv16.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msopus.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msresample.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\msspeex.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters\speexec.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\bits_rw.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\extdisplay.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\mire.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\nowebcam.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\pixconv.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\sizeconv.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\layouts.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvideo_neon.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\msvideo.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\video_preset_high_fps.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\videostarter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\videostream.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\turbojpegnowebcam.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\drawdib-display.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\ffmpeg-priv.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\videodec.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\videoenc.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\turbojpegwriter.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\opengl_functions.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\opengles_display.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\shader_util.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\generic_opengl_display.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\vp8.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\vp8rtpfmt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\mkv_reader.c"
+    eventqueue.c
+    mscommon.c
+    msfactory.c
+    msfilter.c
+    msqueue.c
+    mssndcard.c
+    msticker.c
+    msvideopresets.c
+    mswebcam.c
+    mtu.c
+    msasync.c
+    itc.c
+    join.c
+    tee.c
+    void.c
+    alaw.c
+    audiomixer.c
+    chanadapt.c
+    devices.c
+    dtmfgen.c
+    equalizer.c
+    flowcontrol.c
+    g711.c
+    genericplc.c
+    msgenericplc.c
+    l16.c
+    msfileplayer.c
+    msfilerec.c
+    asyncrw.c
+    msg722.c
+    msvaddtx.c
+    msvolume.c
+    tonedetector.c
+    ulaw.c
+    dtls_srtp.c
+    ms_srtp.c
+    zrtp.c
+    msrtp.c
+    audiodiff.c
+    dsptools.c
+    g722_decode.c
+    g722_encode.c
+    kiss_fft.c
+    kiss_fftr.c
+    pcap_sender.c
+    stream_regulator.c
+    audioconference.c
+    audiostream.c
+    bandwidthcontroller.c
+    bitratecontrol.c
+    bitratedriver.c
+    ice.c
+    mediastream.c
+    msiframerequestslimiter.c
+    msmediaplayer.c
+    msvoip.c
+    qosanalyzer.c
+    qualityindicator.c
+    rfc4103_source.c
+    rfc4103_sink.c
+    msudp.c
+    rfc4103_textstream.c
+    ringstream.c
+    stun.c
+    gsm.c
+    bv16.c
+    msopus.c
+    msresample.c
+    msspeex.c
+    speexec.c
+    bits_rw.c
+    extdisplay.c
+    mire.c
+    nowebcam.c
+    pixconv.c
+    sizeconv.c
+    layouts.c
+    msvideo_neon.c
+    msvideo.c
+    video_preset_high_fps.c
+    videostarter.c
+    videostream.c
+    turbojpegnowebcam.c
+    drawdib-display.c
+    ffmpeg-priv.c
+    videodec.c
+    videoenc.c
+    turbojpegwriter.c
+    opengl_functions.c
+    opengles_display.c
+    shader_util.c
+    generic_opengl_display.c
+    vp8.c
+    vp8rtpfmt.c
+    mkv_reader.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D VIDEO_ENABLED /D HAVE_CONFIG_H /D _TRUE_TIME /D MS2_EXPORTS /D MS2_INTERNAL /D MS2_FILTERS /D "BCTBX_LOG_DOMAIN=\"mediastreamer\"" /D HAVE_DIRECTSHOW /D inline=__inline /D "CMAKE_INTDIR=\"Release\"" /D mediastreamer_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mediastreamer.dir\Release\\" /Fd"mediastreamer.dir\Release\vc140.pdb" /Gd /TP /wd4142 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\filter-wrapper\decoding-filter-wrapper.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils\filter-wrapper\encoding-filter-wrapper.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\msdscap.cc" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\h264dec.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\videofilters\mkv.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-encoder-filter.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-decoder-filter.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h26x-utils.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-nal-packer.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-nal-unpacker.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h264-utils.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-nal-packer.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-nal-unpacker.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\h265-utils.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\nal-packer.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\nal-unpacker.cpp" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip\h26x\rfc3984.cpp"
+    decoding-filter-wrapper.cpp
+    encoding-filter-wrapper.cpp
+    msdscap.cc
+    h264dec.cpp
+    mkv.cpp
+    h26x-encoder-filter.cpp
+    h26x-decoder-filter.cpp
+    h26x-utils.cpp
+    h264-nal-packer.cpp
+    h264-nal-unpacker.cpp
+    h264-utils.cpp
+    h265-nal-packer.cpp
+    h265-nal-unpacker.cpp
+    h265-utils.cpp
+    nal-packer.cpp
+    nal-unpacker.cpp
+    rfc3984.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\Release\mediastreamer.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\ortp.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\gcc.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\mingwex.lib" ole32.lib oleaut32.lib uuid.lib Winmm.lib Ws2_32.lib gdi32.lib strmiids.lib user32.lib vfw32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bzrtp.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\srtp2.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\gsm.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\opus.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\speex.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\speexdsp.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bv16.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\avcodec.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\avutil.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\swscale.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\Win32\vpxmd.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bcmatroska2.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\turbojpeg-static.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/Release/mediastreamer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/Release/mediastreamer.lib" /MACHINE:X86 /SAFESEH:NO   /machine:X86 /DLL mediastreamer.dir\Release\eventqueue.obj
+    mediastreamer.dir\Release\mscommon.obj
+    mediastreamer.dir\Release\msfactory.obj
+    mediastreamer.dir\Release\msfilter.obj
+    mediastreamer.dir\Release\msqueue.obj
+    mediastreamer.dir\Release\mssndcard.obj
+    mediastreamer.dir\Release\msticker.obj
+    mediastreamer.dir\Release\msvideopresets.obj
+    mediastreamer.dir\Release\mswebcam.obj
+    mediastreamer.dir\Release\mtu.obj
+    mediastreamer.dir\Release\msasync.obj
+    mediastreamer.dir\Release\itc.obj
+    mediastreamer.dir\Release\join.obj
+    mediastreamer.dir\Release\tee.obj
+    mediastreamer.dir\Release\void.obj
+    mediastreamer.dir\Release\alaw.obj
+    mediastreamer.dir\Release\audiomixer.obj
+    mediastreamer.dir\Release\chanadapt.obj
+    mediastreamer.dir\Release\devices.obj
+    mediastreamer.dir\Release\dtmfgen.obj
+    mediastreamer.dir\Release\equalizer.obj
+    mediastreamer.dir\Release\flowcontrol.obj
+    mediastreamer.dir\Release\g711.obj
+    mediastreamer.dir\Release\genericplc.obj
+    mediastreamer.dir\Release\msgenericplc.obj
+    mediastreamer.dir\Release\l16.obj
+    mediastreamer.dir\Release\msfileplayer.obj
+    mediastreamer.dir\Release\msfilerec.obj
+    mediastreamer.dir\Release\asyncrw.obj
+    mediastreamer.dir\Release\msg722.obj
+    mediastreamer.dir\Release\msvaddtx.obj
+    mediastreamer.dir\Release\msvolume.obj
+    mediastreamer.dir\Release\tonedetector.obj
+    mediastreamer.dir\Release\ulaw.obj
+    mediastreamer.dir\Release\dtls_srtp.obj
+    mediastreamer.dir\Release\ms_srtp.obj
+    mediastreamer.dir\Release\zrtp.obj
+    mediastreamer.dir\Release\msrtp.obj
+    mediastreamer.dir\Release\audiodiff.obj
+    mediastreamer.dir\Release\dsptools.obj
+    mediastreamer.dir\Release\g722_decode.obj
+    mediastreamer.dir\Release\g722_encode.obj
+    mediastreamer.dir\Release\kiss_fft.obj
+    mediastreamer.dir\Release\kiss_fftr.obj
+    mediastreamer.dir\Release\pcap_sender.obj
+    mediastreamer.dir\Release\stream_regulator.obj
+    mediastreamer.dir\Release\audioconference.obj
+    mediastreamer.dir\Release\audiostream.obj
+    mediastreamer.dir\Release\bandwidthcontroller.obj
+    mediastreamer.dir\Release\bitratecontrol.obj
+    mediastreamer.dir\Release\bitratedriver.obj
+    mediastreamer.dir\Release\ice.obj
+    mediastreamer.dir\Release\mediastream.obj
+    mediastreamer.dir\Release\msiframerequestslimiter.obj
+    mediastreamer.dir\Release\msmediaplayer.obj
+    mediastreamer.dir\Release\msvoip.obj
+    mediastreamer.dir\Release\qosanalyzer.obj
+    mediastreamer.dir\Release\qualityindicator.obj
+    mediastreamer.dir\Release\rfc4103_source.obj
+    mediastreamer.dir\Release\rfc4103_sink.obj
+    mediastreamer.dir\Release\msudp.obj
+    mediastreamer.dir\Release\rfc4103_textstream.obj
+    mediastreamer.dir\Release\ringstream.obj
+    mediastreamer.dir\Release\stun.obj
+    mediastreamer.dir\Release\gsm.obj
+    mediastreamer.dir\Release\bv16.obj
+    mediastreamer.dir\Release\msopus.obj
+    mediastreamer.dir\Release\msresample.obj
+    mediastreamer.dir\Release\msspeex.obj
+    mediastreamer.dir\Release\speexec.obj
+    mediastreamer.dir\Release\bits_rw.obj
+    mediastreamer.dir\Release\extdisplay.obj
+    mediastreamer.dir\Release\mire.obj
+    mediastreamer.dir\Release\nowebcam.obj
+    mediastreamer.dir\Release\pixconv.obj
+    mediastreamer.dir\Release\sizeconv.obj
+    mediastreamer.dir\Release\layouts.obj
+    mediastreamer.dir\Release\msvideo_neon.obj
+    mediastreamer.dir\Release\msvideo.obj
+    mediastreamer.dir\Release\video_preset_high_fps.obj
+    mediastreamer.dir\Release\videostarter.obj
+    mediastreamer.dir\Release\videostream.obj
+    mediastreamer.dir\Release\turbojpegnowebcam.obj
+    "mediastreamer.dir\Release\drawdib-display.obj"
+    "mediastreamer.dir\Release\ffmpeg-priv.obj"
+    mediastreamer.dir\Release\videodec.obj
+    mediastreamer.dir\Release\videoenc.obj
+    mediastreamer.dir\Release\turbojpegwriter.obj
+    mediastreamer.dir\Release\opengl_functions.obj
+    mediastreamer.dir\Release\opengles_display.obj
+    mediastreamer.dir\Release\shader_util.obj
+    mediastreamer.dir\Release\generic_opengl_display.obj
+    mediastreamer.dir\Release\vp8.obj
+    mediastreamer.dir\Release\vp8rtpfmt.obj
+    mediastreamer.dir\Release\mkv_reader.obj
+    "mediastreamer.dir\Release\decoding-filter-wrapper.obj"
+    "mediastreamer.dir\Release\encoding-filter-wrapper.obj"
+    mediastreamer.dir\Release\msdscap.obj
+    mediastreamer.dir\Release\h264dec.obj
+    mediastreamer.dir\Release\mkv.obj
+    "mediastreamer.dir\Release\h26x-encoder-filter.obj"
+    "mediastreamer.dir\Release\h26x-decoder-filter.obj"
+    "mediastreamer.dir\Release\h26x-utils.obj"
+    "mediastreamer.dir\Release\h264-nal-packer.obj"
+    "mediastreamer.dir\Release\h264-nal-unpacker.obj"
+    "mediastreamer.dir\Release\h264-utils.obj"
+    "mediastreamer.dir\Release\h265-nal-packer.obj"
+    "mediastreamer.dir\Release\h265-nal-unpacker.obj"
+    "mediastreamer.dir\Release\h265-utils.obj"
+    "mediastreamer.dir\Release\nal-packer.obj"
+    "mediastreamer.dir\Release\nal-unpacker.obj"
+    mediastreamer.dir\Release\rfc3984.obj
+    vpxmd.lib(vpx_src_vpx_image.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/Release/mediastreamer.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/src/Release/mediastreamer.exp
+    Generating code
+    Finished generating code
+    mediastreamer.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\Release\mediastreamer.dll
+  FinalizeBuildStatus:
+    Deleting file "mediastreamer.dir\Release\mediastreamer.tlog\unsuccessfulbuild".
+    Touching "mediastreamer.dir\Release\mediastreamer.tlog\mediastreamer.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\mediastreamer2_tester.vcxproj" (9) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "mediastreamer2_tester.dir\Release\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\Release\".
+    Creating directory "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\".
+  InitializeBuildStatus:
+    Creating "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/tester/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/tester/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D VIDEO_ENABLED /D HAVE_CONFIG_H /D "BCTBX_LOG_DOMAIN=\"mediastreamer\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mediastreamer2_tester.dir\Release\\" /Fd"mediastreamer2_tester.dir\Release\vc140.pdb" /Gd /TC /wd4142 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_adaptive_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_audio_stream_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_basic_audio_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_framework_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_neon_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_player_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_sound_card_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_tester_private.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_text_stream_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_jitterbuffer_tester.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_video_stream_tester.c"
+    mediastreamer2_adaptive_tester.c
+    mediastreamer2_audio_stream_tester.c
+    mediastreamer2_basic_audio_tester.c
+    mediastreamer2_framework_tester.c
+    mediastreamer2_neon_tester.c
+    mediastreamer2_player_tester.c
+    mediastreamer2_sound_card_tester.c
+    mediastreamer2_tester.c
+    mediastreamer2_tester_private.c
+    mediastreamer2_text_stream_tester.c
+    mediastreamer2_jitterbuffer_tester.c
+    mediastreamer2_video_stream_tester.c
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\audiofilters" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\utils" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\src\voip" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include\libxml2" /IC:\Qt\5.9.1\msvc2015\include /IC:\Qt\5.9.1\msvc2015\include\QtANGLE /nologo /W3 /WX /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D VIDEO_ENABLED /D HAVE_CONFIG_H /D "BCTBX_LOG_DOMAIN=\"mediastreamer\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mediastreamer2_tester.dir\Release\\" /Fd"mediastreamer2_tester.dir\Release\vc140.pdb" /Gd /TP /wd4142 /wd4996 /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\linphone-sdk\mediastreamer2\tester\mediastreamer2_h26x_tools_tester.cpp"
+    mediastreamer2_h26x_tools_tester.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\Release\mediastreamer2_tester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Release\mediastreamer.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox-tester.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\bctoolbox.lib" "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\ortp.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/tester/Release/mediastreamer2_tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/tester/Release/mediastreamer2_tester.lib" /MACHINE:X86 /SAFESEH:NO   /machine:X86 mediastreamer2_tester.dir\Release\mediastreamer2_adaptive_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_audio_stream_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_basic_audio_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_framework_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_neon_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_player_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_sound_card_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_tester_private.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_text_stream_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_jitterbuffer_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_video_stream_tester.obj
+    mediastreamer2_tester.dir\Release\mediastreamer2_h26x_tools_tester.obj
+    mediastreamer2_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\Release\mediastreamer2_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\unsuccessfulbuild".
+    Touching "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\mediastreamer2_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\mediastreamer2_tester.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/ms2/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:52.90
+  Performing install step for 'EP_ms2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:11:03.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-basedescs-header.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-basedescs-header\ms2-base.E50DDA23.tlog\ms2-basedescs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-basedescs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-git-version.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-git-version\ms2-git-version.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+    fatal: not a git repository: C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/mediastreamer2/../../.git/modules/linphone-sdk/modules/mediastreamer2
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-git-version\ms2-git-version.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-git-version\ms2-git-version.tlog\ms2-git-version.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-git-version.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-voipdescs-header.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-voipdescs-header\ms2-voip.034F6058.tlog\ms2-voipdescs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-voipdescs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-fs-header.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-yuv2rgb-fs-header\ms2-yuv2.711415F9.tlog\ms2-yuv2rgb-fs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-fs-header.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (4) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-vs-header.vcxproj" (9) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ms2-yuv2rgb-vs-header\ms2-yuv2.40CAEF22.tlog\ms2-yuv2rgb-vs-header.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\ms2-yuv2rgb-vs-header.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "mediastreamer.dir\Release\mediastreamer.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mediastreamer.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\Release\mediastreamer.dll
+  FinalizeBuildStatus:
+    Deleting file "mediastreamer.dir\Release\mediastreamer.tlog\unsuccessfulbuild".
+    Touching "mediastreamer.dir\Release\mediastreamer.tlog\mediastreamer.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\src\mediastreamer.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\mediastreamer2_tester.vcxproj" (10) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mediastreamer2_tester.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\Release\mediastreamer2_tester.exe
+  FinalizeBuildStatus:
+    Deleting file "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\unsuccessfulbuild".
+    Touching "mediastreamer2_tester.dir\Release\mediastr.AE6B3D80.tlog\mediastreamer2_tester.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\tester\mediastreamer2_tester.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Mediastreamer2/cmake/Mediastreamer2Targets.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Mediastreamer2/cmake/Mediastreamer2Targets-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Mediastreamer2/cmake/Mediastreamer2Config.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/Mediastreamer2/cmake/Mediastreamer2ConfigVersion.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/allfilters.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/bitratecontrol.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/bits_rw.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/devices.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/dsptools.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/dtls_srtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/dtmfgen.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/flowcontrol.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/formats.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/ice.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mediastream.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/ms_srtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msaudiomixer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mschanadapter.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mscodecutils.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mscommon.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msconference.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msequalizer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mseventqueue.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msextdisplay.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msfactory.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msfileplayer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msfilerec.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msfilter.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msgenericplc.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msinterfaces.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msitc.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msjava.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msjpegwriter.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msogl.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msogl_functions.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msqrcodereader.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msmediaplayer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msqueue.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msrtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mssndcard.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mstee.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msticker.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mstonedetector.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msutils.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msv4l.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msvaddtx.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msvideo.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msvideoout.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msvideopresets.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msvolume.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mswebcam.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/qualityindicator.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/rfc3984.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/stun.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/upnp_igd.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/x11_helper.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/zrtp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msrtt4103.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msasync.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/msudp.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mediastreamer2/mspcapfileplayer.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/mediastreamer.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/mediastreamer.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/./share/images/nowebcamCIF.jpg
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/mediastreamer2_tester.exe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/arpeggio_8000_mono.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/bird_44100_stereo.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/chimes_48000_stereo.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello8000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello8000-1s.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello16000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello16000-1s.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello_opus.mka
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/hello_pcmu.mka
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/laserrocket_16000_mono.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/nylon_48000_mono.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/owl_44100_mono.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/piano_8000_stereo.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/punch_16000_stereo.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/sintel_trailer_opus_h264.mkv
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/sintel_trailer_opus_vp8.mkv
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/sintel_trailer_pcmu_h264.mkv
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/test_silence_voice_48000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/test_silence_voice_44100.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/test_silence_voice_32000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/test_silence_voice_16000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/sounds/test_silence_voice_8000.wav
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/video-160-120-0f20c60.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/audio-80-75-0c60.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/audio-80-75-0f35c95f120.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/video-160-0-0a5f30.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/video-160-90-0a5c30.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/pcmu_8k_no_jitter.pcap
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/rtp-60late-500total.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/firstvalid.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/opus-edge-congestion20_60_40.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/h264_one_nalu_per_frame.pcap
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/h264_one_nalu_per_frame_with_corrupted_idr.pcap
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/poor_jitter_quality_22_filter.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/rtp-120late-1000total.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/rtp-240late-2000total.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/h264_missing_pps_in_second_i_frame.pcap
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/rtp-534late-24loss-7000total.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/secondvalid.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/opus-poor-quality.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/scenarios/poor_jitter_quality_22.pcapng
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/raw/h265-iframe
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/share/mediastreamer2_tester/raw/h265-parameter-sets-frame
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\ms2\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:05.54
+  Completed 'EP_ms2'

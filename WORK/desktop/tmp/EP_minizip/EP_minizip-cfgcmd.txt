@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DUSE_AES=NO;-DENABLE_SHARED=YES;-DENABLE_STATIC=NO;-C<TMP_DIR>/EP_minizip-cache-$<CONFIG>.cmake;-GVisual Studio 14 2015;<SOURCE_DIR><SOURCE_SUBDIR>'

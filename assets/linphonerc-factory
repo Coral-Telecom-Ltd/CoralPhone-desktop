@@ -1,6 +1,6 @@
 [misc]
-version_check_url_root=https://linphone.org/releases
-log_collection_upload_server_url=https://www.linphone.org:444/lft.php
+version_check_url_root=http://www.coraltele.com/
+log_collection_upload_server_url= 
 
 [sound]
 ec_filter=MSWebRTCAEC

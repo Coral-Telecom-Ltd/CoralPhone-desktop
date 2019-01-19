@@ -1,0 +1,15 @@
+# libspeexdsp pkg-config source file
+
+prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop
+exec_prefix=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin
+libdir=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib
+includedir=C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include
+
+Name: speexdsp
+Description: Speexdsp is a speech processing library that goes along with the Speex codec
+Version: 1.2rc1
+Requires: 
+Conflicts:
+Libs: -LC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib -lspeexdsp
+Libs.private: -lm
+Cflags: -IC:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include

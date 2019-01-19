@@ -1,0 +1,39 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'TARGET_linphone_package'
+  No download step for 'TARGET_linphone_package'
+  No update step for 'TARGET_linphone_package'
+  No patch step for 'TARGET_linphone_package'
+  Performing configure step for 'TARGET_linphone_package'
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  CMake Error at CMakeLists.txt:28 (find_package):
+    By not providing "FindLinphone.cmake" in CMAKE_MODULE_PATH this project has
+    asked CMake to find a package configuration file provided by "Linphone",
+    but CMake did not find one.
+  
+    Could not find a package configuration file provided by "Linphone" with any
+    of the following names:
+  
+      LinphoneConfig.cmake
+      linphone-config.cmake
+  
+    Add the installation prefix of "Linphone" to CMAKE_PREFIX_PATH or set
+    "Linphone_DIR" to a directory containing one of the above files.  If
+    "Linphone" provides a separate development package or SDK, be sure it has
+    been installed.
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/linphone_package/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.

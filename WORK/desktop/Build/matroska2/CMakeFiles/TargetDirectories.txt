@@ -1,0 +1,15 @@
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/corec/corec/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/corec/corec/CMakeFiles/corec-objects.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/corec/corec/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libebml2/CMakeFiles/ebml2-objects.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libebml2/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libebml2/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/bcmatroska2-static.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/libmatroska2/CMakeFiles/INSTALL.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/build/CMakeFiles/PACKAGE.dir
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/matroska2/build/CMakeFiles/INSTALL.dir

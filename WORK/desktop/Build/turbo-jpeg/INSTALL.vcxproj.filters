@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\turbo-jpeg\CMakeFiles\d8ee572abe3c93d4ff0c09dc5ee27b60\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{437DFE3F-C7BA-3092-BFEF-054070BB24C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

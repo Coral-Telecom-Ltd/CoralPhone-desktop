@@ -1,0 +1,312 @@
+﻿  Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'EP_minizip'
+  No download step for 'EP_minizip'
+  No update step for 'EP_minizip'
+  No patch step for 'EP_minizip'
+  Performing configure step for 'EP_minizip'
+  loading initial cache file C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop//tmp/EP_minizip/EP_minizip-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Found ZLIB: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/zlib.lib (found version "1.2.8") 
+  -- Looking for z_get_crc_table
+  -- Looking for z_get_crc_table - not found
+  -- Package file name is MINIZIP-2.2.7
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ENABLE_SHARED
+      ENABLE_STATIC
+  
+  
+  -- Build files have been written to: C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip
+  Forcing build for 'EP_minizip'
+  Performing build step for 'EP_minizip'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:09:31.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ZERO_CHECK\".
+    Creating directory "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\Release\".
+    Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\minizip.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "minizip.dir\Release\minizip.tlog\".
+  InitializeBuildStatus:
+    Creating "minizip.dir\Release\minizip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/submodules/externals/minizip/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\include" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\api" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma" /I"C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _ALLOW_KEYWORD_MACROS /D _CRT_SECURE_NO_DEPRECATE /D HAVE_CRYPT /D HAVE_ZLIB /D HAVE_BZIP2 /D BZ_NO_STDIO /D HAVE_LZMA /D HAVE_CONFIG_H /D LZMA_API_STATIC /D "CMAKE_INTDIR=\"Release\"" /D minizip_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"minizip.dir\Release\\" /Fd"minizip.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_compat.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_buf.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_mem.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_posix.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_split.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_zip.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_os_win32.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_win32.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_crypt.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_zlib.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_bzip.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\src\mz_strm_lzma.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\blocksort.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\bzlib.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\compress.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\crctable.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\decompress.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\huffman.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\bzip2\randtable.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\check.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_fast.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\check\crc32_table.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\alone_decoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\alone_encoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\common.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\common\filter_encoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_decoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lz\lz_encoder_mf.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\fastpos_table.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_decoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_optimum_fast.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_optimum_normal.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\lzma\lzma_encoder_presets.c" "C:\Users\Coral\Desktop\CoralPhone-desktop\submodules\externals\minizip\lib\liblzma\rangecoder\price_table.c"
+    mz_os.c
+    mz_compat.c
+    mz_strm.c
+    mz_strm_buf.c
+    mz_strm_mem.c
+    mz_strm_posix.c
+    mz_strm_split.c
+    mz_zip.c
+    mz_os_win32.c
+    mz_strm_win32.c
+    mz_strm_crypt.c
+    mz_strm_zlib.c
+    mz_strm_bzip.c
+    mz_strm_lzma.c
+    blocksort.c
+    bzlib.c
+    compress.c
+    crctable.c
+    decompress.c
+    huffman.c
+    randtable.c
+    check.c
+    crc32_fast.c
+    crc32_table.c
+    alone_decoder.c
+    alone_encoder.c
+    common.c
+    filter_encoder.c
+    lz_decoder.c
+    lz_encoder.c
+    lz_encoder_mf.c
+    fastpos_table.c
+    lzma_decoder.c
+    lzma_encoder.c
+    lzma_encoder_optimum_fast.c
+    lzma_encoder_optimum_normal.c
+    lzma_encoder_presets.c
+    price_table.c
+  PreLinkEvent:
+    Description: Auto build dll exports
+    setlocal
+    cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip
+    if %errorlevel% neq 0 goto :cmEnd
+    "C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/minizip.dir/Release//exportall.def C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/minizip.dir/Release//objects.txt
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\Release\minizip.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\zlib.lib" /DEF:"minizip.dir\Release\exportall.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL minizip.dir\Release\mz_os.obj
+    minizip.dir\Release\mz_compat.obj
+    minizip.dir\Release\mz_strm.obj
+    minizip.dir\Release\mz_strm_buf.obj
+    minizip.dir\Release\mz_strm_mem.obj
+    minizip.dir\Release\mz_strm_posix.obj
+    minizip.dir\Release\mz_strm_split.obj
+    minizip.dir\Release\mz_zip.obj
+    minizip.dir\Release\mz_os_win32.obj
+    minizip.dir\Release\mz_strm_win32.obj
+    minizip.dir\Release\mz_strm_crypt.obj
+    minizip.dir\Release\mz_strm_zlib.obj
+    minizip.dir\Release\mz_strm_bzip.obj
+    minizip.dir\Release\mz_strm_lzma.obj
+    minizip.dir\Release\blocksort.obj
+    minizip.dir\Release\bzlib.obj
+    minizip.dir\Release\compress.obj
+    minizip.dir\Release\crctable.obj
+    minizip.dir\Release\decompress.obj
+    minizip.dir\Release\huffman.obj
+    minizip.dir\Release\randtable.obj
+    minizip.dir\Release\check.obj
+    minizip.dir\Release\crc32_fast.obj
+    minizip.dir\Release\crc32_table.obj
+    minizip.dir\Release\alone_decoder.obj
+    minizip.dir\Release\alone_encoder.obj
+    minizip.dir\Release\common.obj
+    minizip.dir\Release\filter_encoder.obj
+    minizip.dir\Release\lz_decoder.obj
+    minizip.dir\Release\lz_encoder.obj
+    minizip.dir\Release\lz_encoder_mf.obj
+    minizip.dir\Release\fastpos_table.obj
+    minizip.dir\Release\lzma_decoder.obj
+    minizip.dir\Release\lzma_encoder.obj
+    minizip.dir\Release\lzma_encoder_optimum_fast.obj
+    minizip.dir\Release\lzma_encoder_optimum_normal.obj
+    minizip.dir\Release\lzma_encoder_presets.obj
+    minizip.dir\Release\price_table.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.exp
+    minizip.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\Release\minizip.dll
+  FinalizeBuildStatus:
+    Deleting file "minizip.dir\Release\minizip.tlog\unsuccessfulbuild".
+    Touching "minizip.dir\Release\minizip.tlog\minizip.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\minizip.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\ALL_BUILD\".
+    Creating directory "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Users/Coral/Desktop/CoralPhone-desktop/submodules/externals/minizip/CMakeLists.txt
+    CMake does not need to re-run because C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:07.42
+  Performing install step for 'EP_minizip'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 19-01-2019 11:09:39.
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\install.vcxproj" on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\install.vcxproj" (1) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (3) is building "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\minizip.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "minizip.dir\Release\minizip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  PreLinkEvent:
+    Description: Auto build dll exports
+    setlocal
+    cd C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip
+    if %errorlevel% neq 0 goto :cmEnd
+    "C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/minizip.dir/Release//exportall.def C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/minizip.dir/Release//objects.txt
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\Release\minizip.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Coral\Desktop\CoralPhone-desktop\OUTPUT\desktop\lib\zlib.lib" /DEF:"minizip.dir\Release\exportall.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /DLL minizip.dir\Release\mz_os.obj
+    minizip.dir\Release\mz_compat.obj
+    minizip.dir\Release\mz_strm.obj
+    minizip.dir\Release\mz_strm_buf.obj
+    minizip.dir\Release\mz_strm_mem.obj
+    minizip.dir\Release\mz_strm_posix.obj
+    minizip.dir\Release\mz_strm_split.obj
+    minizip.dir\Release\mz_zip.obj
+    minizip.dir\Release\mz_os_win32.obj
+    minizip.dir\Release\mz_strm_win32.obj
+    minizip.dir\Release\mz_strm_crypt.obj
+    minizip.dir\Release\mz_strm_zlib.obj
+    minizip.dir\Release\mz_strm_bzip.obj
+    minizip.dir\Release\mz_strm_lzma.obj
+    minizip.dir\Release\blocksort.obj
+    minizip.dir\Release\bzlib.obj
+    minizip.dir\Release\compress.obj
+    minizip.dir\Release\crctable.obj
+    minizip.dir\Release\decompress.obj
+    minizip.dir\Release\huffman.obj
+    minizip.dir\Release\randtable.obj
+    minizip.dir\Release\check.obj
+    minizip.dir\Release\crc32_fast.obj
+    minizip.dir\Release\crc32_table.obj
+    minizip.dir\Release\alone_decoder.obj
+    minizip.dir\Release\alone_encoder.obj
+    minizip.dir\Release\common.obj
+    minizip.dir\Release\filter_encoder.obj
+    minizip.dir\Release\lz_decoder.obj
+    minizip.dir\Release\lz_encoder.obj
+    minizip.dir\Release\lz_encoder_mf.obj
+    minizip.dir\Release\fastpos_table.obj
+    minizip.dir\Release\lzma_decoder.obj
+    minizip.dir\Release\lzma_encoder.obj
+    minizip.dir\Release\lzma_encoder_optimum_fast.obj
+    minizip.dir\Release\lzma_encoder_optimum_normal.obj
+    minizip.dir\Release\lzma_encoder_presets.obj
+    minizip.dir\Release\price_table.obj
+       Creating library C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.lib and object C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/Build/minizip/Release/minizip.exp
+    minizip.vcxproj -> C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\Release\minizip.dll
+  FinalizeBuildStatus:
+    Deleting file "minizip.dir\Release\minizip.tlog\unsuccessfulbuild".
+    Touching "minizip.dir\Release\minizip.tlog\minizip.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\minizip.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "Win32\Release\INSTALL\".
+    Creating directory "Win32\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/minizip.lib
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/bin/minizip.dll
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/cmake/minizip/MINIZIP.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/cmake/minizip/MINIZIP-release.cmake
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_os.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_compat.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_buf.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_mem.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_posix.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_split.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_zip.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_os_win32.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_win32.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_crypt.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_zlib.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_bzip.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/include/mz_strm_lzma.h
+    -- Installing: C:/Users/Coral/Desktop/CoralPhone-desktop/OUTPUT/desktop/lib/pkgconfig/minizip.pc
+  FinalizeBuildStatus:
+    Deleting file "Win32\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "Win32\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Users\Coral\Desktop\CoralPhone-desktop\WORK\desktop\Build\minizip\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.57
+  Completed 'EP_minizip'

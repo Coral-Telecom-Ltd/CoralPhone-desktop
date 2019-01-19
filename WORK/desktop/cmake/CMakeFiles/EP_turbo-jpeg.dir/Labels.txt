@@ -1,0 +1,15 @@
+# Target labels
+ EP_turbo-jpeg
+# Source files and their labels
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/EP_turbo-jpeg
+C:/Users/Coral/Desktop/CoralPhone-desktop/linphone-sdk/cmake-builder/CMakeLists.txt
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/9a0352600236e06bbf09bdfb34dc9ae3/EP_turbo-jpeg.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/461a8ba054db055c81fdb0de8a163e6d/EP_turbo-jpeg-complete.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-install.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-mkdir.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-download.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-update.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-patch.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-configure.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-build.rule
+C:/Users/Coral/Desktop/CoralPhone-desktop/WORK/desktop/cmake/CMakeFiles/ca112841263118c035e4fecbdf2b8f95/EP_turbo-jpeg-force_build.rule

@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>ИСПОЛЬЗОВАТЬ АККАУНТ %1</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>ИСПОЛЬЗОВАТЬ SIP АККАУНТ</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>Этот ассистент поможет вам настроить и использовать ваш аккаунт %1.</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>СОЗДАТЬ АККАУНТ %1</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@
     <message>
         <source>inviteTitle</source>
         <translation>ПРИГЛАСИТЕ ДРУЗЕЙ</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>Создание и управление аккаунтом %1.</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>АССИСТЕНТ АККАУНТА</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>АССИСТЕНТ</translation>
     </message>
     <message>
         <source>showTooltips</source>

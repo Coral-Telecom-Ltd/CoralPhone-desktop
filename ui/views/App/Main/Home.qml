@@ -55,14 +55,14 @@ Rectangle {
         $title: qsTr('inviteTitle')
       }
 
-      ListElement {
-        $component: 'button'
-        $componentText: qsTr('assistantButton')
-        $description: qsTr('accountAssistantDescription')
-        $icon: 'home_account_assistant'
-        $title: qsTr('accountAssistantTitle')
-        $view: 'Assistant'
-      }
+//      ListElement {
+//        $component: 'button'
+//        $componentText: qsTr('assistantButton')
+//        $description: qsTr('accountAssistantDescription')
+//        $icon: 'home_account_assistant'
+//        $title: qsTr('accountAssistantTitle')
+//        $view: 'Assistant'
+//      }
     }
 
     delegate: CardBlock {

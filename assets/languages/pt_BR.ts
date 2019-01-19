@@ -103,10 +103,6 @@
 <context>
     <name>AssistantHome</name>
     <message>
-        <source>useAppSipAccount</source>
-        <translation>USE UMA CONTA %1</translation>
-    </message>
-    <message>
         <source>useOtherSipAccount</source>
         <translation>USE UMA CONTA SIP</translation>
     </message>
@@ -121,10 +117,6 @@
     <message>
         <source>homeDescription</source>
         <translation>Este assistente ajudará você a configurar e usar sua conta do %1.</translation>
-    </message>
-    <message>
-        <source>createAppSipAccount</source>
-        <translation>CRIAR UMA CONTA %1</translation>
     </message>
 </context>
 <context>
@@ -833,18 +825,6 @@ URL do servidor não configurado.</translation>
     <message>
         <source>inviteTitle</source>
         <translation>CONVIDE SEUS AMIGOS</translation>
-    </message>
-    <message>
-        <source>accountAssistantDescription</source>
-        <translation>Crie ou gerencie sua conta do %1.</translation>
-    </message>
-    <message>
-        <source>accountAssistantTitle</source>
-        <translation>ASSISTENTE DE CONTA</translation>
-    </message>
-    <message>
-        <source>assistantButton</source>
-        <translation>ASSISTENTE</translation>
     </message>
     <message>
         <source>showTooltips</source>
